@@ -1,0 +1,10 @@
+#!/bin/sh
+# Leave a bootable system on A and other software on B, C, and D.
+rm -f disks/drive[a-d].dsk
+ln disks/library/imsai-cpm13.dsk disks/drivea.dsk
+ln disks/library/dazzler.dsk disks/driveb.dsk
+ln disks/library/vbasic.dsk disks/drivec.dsk
+ln disks/library/xybasic.dsk disks/drived.dsk
+
+BOOTENV=`sed '/^#/d;s/#.*$//;' conf/boot.conf | xargs`
+exec env $BOOTENV ./imsaisim -R "$@"

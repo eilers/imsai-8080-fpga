@@ -10,6 +10,7 @@ RUN if [ -f /etc/apt/sources.list.d/ubuntu.sources ]; then \
       build-essential \
       ca-certificates \
       git \
+      python3 \
       libglu1-mesa-dev \
       libjpeg-dev \
       libx11-dev \
@@ -25,10 +26,16 @@ WORKDIR /src/z80pack/imsaisim
 RUN rm -f conf && ln -s conf_2d conf
 
 COPY autorun.patch /tmp/autorun.patch
-RUN patch -p1 -d /src/z80pack < /tmp/autorun.patch
+COPY add-tape-handler.py /tmp/add-tape-handler.py
+RUN patch -p1 -d /src/z80pack < /tmp/autorun.patch \
+ && python3 /tmp/add-tape-handler.py
 
 WORKDIR /src/z80pack/imsaisim/srcsim
 RUN make -j"$(nproc)"
+
+WORKDIR /src/z80pack
+COPY collect-software.sh /tmp/collect-software.sh
+RUN chmod +x /tmp/collect-software.sh && /tmp/collect-software.sh
 
 FROM ubuntu:24.04
 
@@ -63,9 +70,10 @@ RUN if [ -f /etc/apt/sources.list.d/ubuntu.sources ]; then \
 COPY --from=build /src/z80pack/imsaisim /opt/z80pack/imsaisim
 COPY --from=build /src/z80pack/webfrontend/www/imsai /opt/z80pack/webfrontend/www/imsai
 COPY --from=build /src/z80pack/imsaisim/disks /opt/z80pack/disk-library
+COPY shelf /opt/z80pack/imsaisim/shelf
 
 COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh \
+RUN chmod +x /entrypoint.sh /opt/z80pack/imsaisim/shelf \
  && chmod a+rwx /opt/z80pack/imsaisim/disks \
  && sed -i 's/^fp_fps.*/fp_fps 15/' /opt/z80pack/imsaisim/conf/system.conf
 
