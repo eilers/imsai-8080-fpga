@@ -1,0 +1,19 @@
+--- a/imsaisim/srcsim/simctl.c
++++ b/imsaisim/srcsim/simctl.c
+@@ -145,6 +145,15 @@ void mon(void)
+ 	if (R_flag)
+ 		PC = 0x0000;
+ #endif
+ 
++#ifdef FRONTPANEL
++	/* Docker has no mouse on the panel until a browser connects.
++	   Power and run here so the IMSAI boots as soon as the container starts. */
++	if (F_flag && getenv("IMSAI_AUTORUN") && getenv("IMSAI_AUTORUN")[0] == '1') {
++		power_clicked(FP_SW_UP, 0);
++		run_clicked(FP_SW_UP, 0);
++	}
++#endif
++
+ #ifdef FRONTPANEL
+ 	if (F_flag) {
+ 		/* operate machine from front panel */

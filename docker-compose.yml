@@ -1,0 +1,20 @@
+services:
+  imsai:
+    build: .
+    image: imsai-8080
+    container_name: imsai-8080
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:6080:6080"
+    tty: true
+    stdin_open: true
+    shm_size: 256mb
+    restart: unless-stopped
+    environment:
+      IMSAI_BOOT: imsai-cpm13
+      IMSAI_AUTORUN: "1"
+    volumes:
+      - imsai-disks:/opt/z80pack/imsaisim/disks
+
+volumes:
+  imsai-disks:
