@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "S100-Backplane") (type "Legacy") (uri "${KIPRJMOD}/S100-Backplane.lib") (options "") (descr ""))
+)

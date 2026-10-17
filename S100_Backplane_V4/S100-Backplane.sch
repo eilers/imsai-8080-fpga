@@ -1,33 +1,5 @@
 EESchema Schematic File Version 2  date 2/9/2013 9:07:37 PM
-LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:contrib
-LIBS:valves
-LIBS:N8VEM-KiCAD
-LIBS:o_analog
+LIBS:S100-Backplane
 LIBS:S100-Backplane-cache
 EELAYER 25  0
 EELAYER END
