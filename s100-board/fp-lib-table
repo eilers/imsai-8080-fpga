@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mals-library-pcb")(type "KiCad")(uri "${KIPRJMOD}/mals-library-pcb.pretty")(options "")(descr "S-100 card edge connector and ejector"))
+)

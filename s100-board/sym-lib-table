@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "s100-template-cache") (type "Legacy") (uri "${KIPRJMOD}/s100-template-cache.lib") (options "") (descr "Symbols for the S-100 template"))
+	(lib (name "s100-template-rescue") (type "Legacy") (uri "${KIPRJMOD}/s100-template-rescue.lib") (options "") (descr ""))
+)
