@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "kicad": {
+      "command": "/opt/homebrew/bin/uvx",
+      "args": ["kicad-mcp-pro"],
+      "env": {
+        "KICAD_MCP_PROJECT_DIR": "/Users/stefan/Developer/imsai/s100-board",
+        "KICAD_MCP_PROFILE": "default",
+        "KICAD_MCP_OPERATING_MODE": "readonly",
+        "KICAD_MCP_KICAD_CLI": "/opt/homebrew/bin/kicad-cli"
+      }
+    }
+  }
+}

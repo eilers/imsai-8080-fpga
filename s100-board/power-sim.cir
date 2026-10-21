@@ -1,0 +1,33 @@
+* Average models for the on-card regulators.
+* Resistors, capacitors, and inductors use the simulator's built-in devices.
+* This file supplies the parts that have no built-in device.
+*
+* The regulator model holds the feedback pin at 0.596 V.
+* Input current follows an ideal buck: load current times switch voltage
+* over input voltage. It does not switch at 400 kHz, and it is not the
+* Texas Instruments transistor model.
+
+.subckt polyfuse A B
+* Cold resistance of a 2.5 A hold polyfuse. The schematic value 2.5A is the hold current.
+Rhold A B 0.03
+.ends
+
+.subckt bead A B
+* Direct-current resistance, then about 955 nH.
+* 955 nH is about 600 ohm at 100 MHz, which is the schematic value.
+Rdc A mid 0.02
+Lhf mid B 955n
+.ends
+
+.subckt TPS54302 PGND SW VIN FB EN BOOT
+* Enable turns on near 1.25 V. The external divider reaches that near 7 V.
+* At a direct-current solution the feedback pin sits on the 0.596 V reference.
+* The switch pin stays between 0 V and the input pin. This is not a 400 kHz switching model.
+Berr PGND CTRL I={(0.5 + atan((V(EN,PGND)-1.25)*200)/pi) * (0.596-V(FB,PGND))}
+Rctrl CTRL PGND 1Meg
+Bsw INT PGND V={MAX(V(VIN,PGND),0) * (0.5 + atan(V(CTRL,PGND))/pi)}
+Vsense INT SW DC 0
+* Ideal buck: input current is the switch current times V(SW)/V(VIN).
+Bvin VIN PGND I={I(Vsense) * V(SW,PGND) / MAX(V(VIN,PGND), 0.1)}
+Rboot BOOT SW 100Meg
+.ends
