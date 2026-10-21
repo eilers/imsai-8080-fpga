@@ -1129,7 +1129,7 @@
     "top_level_sheets": [
       {
         "filename": "s100-template.kicad_sch",
-        "name": "s100-template",
+        "name": "s100- Power Delivery",
         "uuid": "0bcf097f-e9dd-4041-8820-e1a815acf624"
       }
     ],
@@ -1139,7 +1139,7 @@
   "sheets": [
     [
       "0bcf097f-e9dd-4041-8820-e1a815acf624",
-      "s100-template"
+      "s100- Power Delivery"
     ]
   ],
   "text_variables": {},
