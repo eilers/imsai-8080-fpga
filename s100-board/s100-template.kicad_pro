@@ -1133,13 +1133,21 @@
         "uuid": "0bcf097f-e9dd-4041-8820-e1a815acf624"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-3,#GND1-15,#PWR1-36,C1-13,F1,FB1,J1-4,L1-2,R1-8,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "0bcf097f-e9dd-4041-8820-e1a815acf624",
       "s100- Power Delivery"
+    ],
+    [
+      "b2d1c4d7-cad5-44a3-8613-241e176da4d9",
+      "FPGA"
+    ],
+    [
+      "ee30b60f-12df-439d-bb0a-e7baa278a1a8",
+      "Power Delivery"
     ]
   ],
   "text_variables": {},
