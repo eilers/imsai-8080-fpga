@@ -240,9 +240,9 @@ U15, U16, and U17 make the front-panel steering and the memory-write pulse. They
 
 ### The open-collector translators
 
-Twenty-nine 2N7000 transistors, Q1 to Q29, translate the shared open-collector lines. Each one is a small metal-can transistor in the TO-92 package, the through-hole stand-in for a surface-mount level-shift transistor. The gate is tied to 3.3 V. A low on the FPGA side pulls the bus side low, and a low on the bus side pulls the FPGA side low. The FPGA either pulls its side low or lets go; it never drives a high. The 10 kΩ resistor on the FPGA side is the bias for that transistor. The bus side has no resistor of its own, except R22 on ERROR* and R42 on POC*, as described in the backplane chapter.
+Twenty-nine TN0702 transistors, Q1 to Q29, translate the shared open-collector lines. The order code is TN0702N3-G, a small transistor in the TO-92 package. The gate is tied to 3.3 V. A low on the FPGA side pulls the bus side low, and a low on the bus side pulls the FPGA side low. The FPGA either pulls its side low or lets go; it never drives a high. The 10 kΩ resistor on the FPGA side is the bias for that transistor. The bus side has no resistor of its own, except R22 on ERROR* and R42 on POC*, as described in the backplane chapter.
 
-A 2N7000 is allowed to need up to 3.0 V between gate and source before it starts to conduct. With the gate at 3.3 V that leaves little margin. Buy devices that actually switch at 3.3 V, and check that the gate threshold is below about 2.5 V. A lot that only switches above 3 V will not pull the bus down reliably.
+This part is specified to start conducting by 1.0 V, and its on-resistance is guaranteed at 3 V of gate drive (2.5 Ω at most). With the gate at 3.3 V it is fully on, and the bus wire is pulled to a solid low. Fit it with the flat face toward you and the pins pointing down: source, gate, drain, from left to right. That matches the footprint on the board.
 
 MWRT and SSW DSB* pass through these transistors as inputs only. The FPGA listens to them and does not pull them.
 

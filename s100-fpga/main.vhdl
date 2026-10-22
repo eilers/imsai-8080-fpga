@@ -24,7 +24,7 @@
 --   CP-A cable -> F_D       74LVC245 enabled while SSW_DSB* is low
 --   F_D -> CP-A cable       74AHCT245, off while SSW_DSB* is low and until
 --                           the bus enable is on
--- The 29 open-collector lines use 2N7000 open-drain translators and need no
+-- The 29 open-collector lines use TN0702 open-drain translators and need no
 -- control line; the FPGA drives them with '0' or 'Z'. MWRT and SSW_DSB* are
 -- inputs only.
 --

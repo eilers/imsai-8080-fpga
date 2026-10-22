@@ -938,7 +938,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f5f4ba41-8c06-4401-a3e5-ecf5d303acdb")
+		(uuid "948f1454-7013-4318-a991-77eaf31f22be")
 	)
 	(text "The S-100 +8 V rail must stay above about 7.5 V, because a 7805 needs roughly 2 V of headroom."
 		(exclude_from_sim no)
@@ -949,7 +949,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "360f9097-8aa2-4b09-b75a-c2133bb32698")
+		(uuid "2ef77e25-2fd5-4052-badf-883fe2dace32")
 	)
 	(global_label "+8V"
 		(shape input)
@@ -961,7 +961,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5b826f00-2e7c-4dcc-aa72-e80e46ec351f")
+		(uuid "b8e46ea2-de04-4169-bc78-53e3c153b1fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.4 54.61 0)
 			(hide yes)
@@ -983,7 +983,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2da09c0-c689-4ec2-9e57-c6a97e8cced2")
+		(uuid "110be3dd-3023-4c3f-96e1-8813d2488608")
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
@@ -995,7 +995,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ae8bc3e0-2987-4759-9365-a7eb38d4eee0")
+		(uuid "1f17a3aa-da61-4740-9278-b50068263cea")
 		(property "Reference" "F1"
 			(at 38.18 48.61 0)
 			(show_name no)
@@ -1039,10 +1039,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bfb6731-64ec-4ef4-b104-d232f87aad8b")
+			(uuid "5fc41c28-7c50-493c-9971-2a0abea7fe15")
 		)
 		(pin "2"
-			(uuid "f9811258-62a7-4e4d-8dcc-c496039cdffe")
+			(uuid "77713392-c43f-4aeb-a4c5-65846ee5d63f")
 		)
 		(instances
 			(project "s100-template"
@@ -1061,7 +1061,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a71188ee-091a-454c-870f-c4d8d1fd959e")
+		(uuid "af9ca26b-192b-478b-9625-a86cecb5caa3")
 	)
 	(wire
 		(pts
@@ -1071,13 +1071,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fa53bdc9-dcef-46c5-bead-c96c2ddefce1")
+		(uuid "a65471dc-1958-4d1d-a5ae-573dcb702c0c")
 	)
 	(junction
 		(at 54.61 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02e2f460-c38b-41c0-8642-bf0db032767a")
+		(uuid "cb8c1483-503c-4102-844a-384c0562c90a")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -1089,7 +1089,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "64e1c1d0-3546-4c1b-8bf3-71ce2f5529a1")
+		(uuid "53eea06a-8e5a-4e52-b68d-ebd982d6b78c")
 		(property "Reference" "C1"
 			(at 49.61 63.85 0)
 			(show_name no)
@@ -1133,10 +1133,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2632f27b-c85e-4cfa-a24f-638c46933f97")
+			(uuid "845bf737-51d2-42b5-97df-d6bfe07dc25a")
 		)
 		(pin "2"
-			(uuid "5c203979-9500-4b65-aaea-e10b565c5280")
+			(uuid "9cd07def-1e51-4063-b314-a936b470a1a4")
 		)
 		(instances
 			(project "s100-template"
@@ -1155,7 +1155,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f4039400-898c-4311-9504-6e479281ce70")
+		(uuid "f56c8976-7c04-4ba1-80ca-2eb6a4b8172f")
 	)
 	(wire
 		(pts
@@ -1165,7 +1165,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8e8b7576-a494-48c4-8c10-f8ee43e30800")
+		(uuid "91bb1767-b13a-46f4-9b95-3870bc9d1993")
 	)
 	(global_label "0V"
 		(shape input)
@@ -1177,7 +1177,7 @@
 			)
 			(justify right)
 		)
-		(uuid "55ddb697-995c-4569-84d3-857922789e8a")
+		(uuid "7ffbfca6-1150-4085-8a80-5979889eab0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.61 78.74 0)
 			(hide yes)
@@ -1201,7 +1201,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6571327d-f92f-47a4-8c1b-7104d451e00a")
+		(uuid "929d3f2a-8794-433f-833d-9fb25db008e9")
 		(property "Reference" "C2"
 			(at 64.85 63.85 0)
 			(show_name no)
@@ -1245,10 +1245,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "34d35cfe-dbfe-46d7-bfb3-d04abda7a8de")
+			(uuid "c5eb9236-f26b-4dae-afe9-ae0505f50499")
 		)
 		(pin "2"
-			(uuid "fd8f24db-a40c-4141-83cb-9e5628437309")
+			(uuid "de9b874c-d3c7-4c56-b6cd-259987478d9c")
 		)
 		(instances
 			(project "s100-template"
@@ -1267,7 +1267,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "157739da-d458-4e86-8c68-25c4182157d5")
+		(uuid "a937d033-dc00-4d56-b15e-b3127b55eda7")
 	)
 	(wire
 		(pts
@@ -1277,13 +1277,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0e6b90d4-472b-43c3-858c-10ba0982368b")
+		(uuid "e7c9c306-4931-488f-8f06-c4d7fc27dea1")
 	)
 	(junction
 		(at 69.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db0c638e-7c6a-46e6-986f-aeda0101ccc7")
+		(uuid "f02c99e3-f6ca-4902-b0a2-9262bd1ca177")
 	)
 	(wire
 		(pts
@@ -1293,7 +1293,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f29876f2-97a6-49bf-88c1-76d0504a3e01")
+		(uuid "a94eb715-cee8-4537-8f75-72154fde238b")
 	)
 	(global_label "0V"
 		(shape input)
@@ -1305,7 +1305,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c6e43d4f-6a67-484c-8f8b-febf93920bd3")
+		(uuid "5cae8371-acf0-4293-a1f3-3cf303b76d72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 78.74 0)
 			(hide yes)
@@ -1329,7 +1329,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3ab26843-2bf4-46b2-b49e-ab2f2c0b6d03")
+		(uuid "275ffaf2-3b73-4ff7-9a0f-19d785d97884")
 		(property "Reference" "U1"
 			(at 95.33 48.61 0)
 			(show_name no)
@@ -1373,13 +1373,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3730759-f96f-4072-94c1-14de1e03cd34")
+			(uuid "1da82a1f-7491-4e53-aa2c-d007dc4da2c4")
 		)
 		(pin "2"
-			(uuid "280cc599-407a-4e8c-914d-53aa2297afe0")
+			(uuid "6bf95e90-3e09-4212-baa9-2887a9ef477b")
 		)
 		(pin "3"
-			(uuid "e6d45d69-a39c-48b5-99d8-0824d706884a")
+			(uuid "51091bad-1311-4eb4-8a2d-a0ed7b0a9f86")
 		)
 		(instances
 			(project "s100-template"
@@ -1398,7 +1398,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e99ad3af-6d4b-44ef-8c5e-65675aefedb8")
+		(uuid "501657bd-be85-429c-b77a-0ef39927fb58")
 	)
 	(wire
 		(pts
@@ -1408,13 +1408,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4b726ba3-e65e-4d15-965c-38527057acd0")
+		(uuid "8f427ff7-9855-4f7b-95c2-2f6f7b9e13b8")
 	)
 	(junction
 		(at 87.63 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50fa37f1-fe53-4778-becc-9a5701375c44")
+		(uuid "7cdb773b-24ee-491a-bbdc-3a33c21637f0")
 	)
 	(wire
 		(pts
@@ -1424,7 +1424,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "68ccc206-c274-4ab5-8846-da9446cf2d8a")
+		(uuid "980486c0-41f4-4e7f-bb7b-a5c2afb26e6b")
 	)
 	(global_label "0V"
 		(shape input)
@@ -1436,7 +1436,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f5920851-1a31-485c-b986-5719cdc79c79")
+		(uuid "540de692-b2ab-4601-9177-0f1f5356487a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.33 67.31 0)
 			(hide yes)
@@ -1458,13 +1458,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0f8e4afc-be02-4896-97af-4716d82a9841")
+		(uuid "c7c56cb5-59d2-487f-9fcb-07ed3e14da8f")
 	)
 	(junction
 		(at 119.38 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cd7f699-7ef0-4caa-b1b9-4d72597fa01f")
+		(uuid "e34859f9-fd15-483d-ae30-688775d2192e")
 	)
 	(global_label "+5V"
 		(shape input)
@@ -1476,7 +1476,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2629c239-2a01-4e75-ac2a-92f73a47b7ba")
+		(uuid "fd12d59c-972c-439a-afc0-b4a845a01b14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.62 54.61 0)
 			(hide yes)
@@ -1498,7 +1498,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "33b290ed-3a43-4b06-96b3-0e862047441e")
+		(uuid "5ef8710e-5929-4e04-b511-74ff155cd77f")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -1510,7 +1510,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d104c109-a049-4917-b034-cd431971d610")
+		(uuid "c0067727-b812-4243-9b51-6fe603afac61")
 		(property "Reference" "C3"
 			(at 114.38 68.93 0)
 			(show_name no)
@@ -1554,10 +1554,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f161b126-f4bf-43e4-b8a4-5b4c387435da")
+			(uuid "048a97f4-b5f8-49a5-ad7e-08b3facd15fb")
 		)
 		(pin "2"
-			(uuid "54ed0a6b-a1be-40a3-806f-1837cd20c6da")
+			(uuid "3f8793a2-b228-46e7-8cab-15a087f8e73d")
 		)
 		(instances
 			(project "s100-template"
@@ -1576,7 +1576,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "45cfeafa-f6fe-4161-9121-64c4c2e65801")
+		(uuid "fb595055-f647-4f34-8a02-4218056dbd4c")
 	)
 	(wire
 		(pts
@@ -1586,7 +1586,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9ccf61f0-aafc-49fb-a0f2-6565a5ac8163")
+		(uuid "bf12d677-07ae-4c51-9fde-e52b9ae5920d")
 	)
 	(global_label "0V"
 		(shape input)
@@ -1598,7 +1598,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4c17873f-b87e-4474-a594-047ccff1c3b3")
+		(uuid "ff59d557-e695-4480-9f1b-cef1298ba1fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.38 83.82 0)
 			(hide yes)
@@ -1622,7 +1622,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "053b843c-ab16-43a4-808f-2828a1ced323")
+		(uuid "ed86a8ba-efbb-4191-9187-10bc77438782")
 		(property "Reference" "C4"
 			(at 129.62 68.93 0)
 			(show_name no)
@@ -1666,10 +1666,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "38916d69-761b-45e0-b723-a798ce645132")
+			(uuid "87e343a4-683a-49de-b7f4-398cef3afc9d")
 		)
 		(pin "2"
-			(uuid "9745421b-0ac9-4d7c-87b7-a155e8c3ec82")
+			(uuid "9f8fa9f7-bcb2-4c43-8055-6ac41192cca7")
 		)
 		(instances
 			(project "s100-template"
@@ -1688,13 +1688,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "73b2335b-0a7f-4f0e-83e2-91fab8f356bd")
+		(uuid "8dfdde71-2112-41be-871d-cdc1d07c8548")
 	)
 	(junction
 		(at 134.62 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88b9d2c0-e720-4bd6-b4ec-6116fdfd107e")
+		(uuid "f35ad094-6472-4c99-bac0-c1c306a8dc3c")
 	)
 	(wire
 		(pts
@@ -1704,7 +1704,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "936863ba-1d54-4a73-8666-297166e86857")
+		(uuid "0149c705-5e59-4c1c-9355-79b3f7491e3f")
 	)
 	(global_label "0V"
 		(shape input)
@@ -1716,7 +1716,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7531c647-c31e-4248-9b42-16f04020cf03")
+		(uuid "7af98e0d-0360-47a3-85fb-09229470e744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.62 83.82 0)
 			(hide yes)
@@ -1740,7 +1740,7 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8cb75bba-c749-4f23-b73c-13a133e3f9c6")
+		(uuid "663bc9d9-0c98-48c8-a0db-2164fd95a0d5")
 		(property "Reference" "#FLG01"
 			(at 20.4 63.85 0)
 			(show_name no)
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "944dacb8-f1d3-4614-92f8-e0048087274c")
+			(uuid "ede0d350-3a9c-4f6f-ada3-513418c6cc0b")
 		)
 		(instances
 			(project "s100-template"
@@ -1803,13 +1803,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c89152a0-c5ff-431e-a826-992833e2b76d")
+		(uuid "5155511b-d9ba-4d73-8478-0d5a84ceff05")
 	)
 	(junction
 		(at 25.4 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d68fc13-730c-46f8-beca-a2764be1c226")
+		(uuid "a00e1e9a-f08d-4857-ab57-c67e2f9d0167")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -1821,7 +1821,7 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9777658d-3447-4a16-945a-793005a9985d")
+		(uuid "4854e6dd-860b-4005-b426-83561ca73ea3")
 		(property "Reference" "#FLG02"
 			(at 49.61 42.26 0)
 			(show_name no)
@@ -1865,7 +1865,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377bd1a8-d57e-4a8e-be6f-fb78d2350a64")
+			(uuid "7eac9276-ffc9-4dc4-9efe-43943b8c72cc")
 		)
 		(instances
 			(project "s100-template"
@@ -1884,7 +1884,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d98e55aa-1c5c-4f18-bd42-2db886d83e6f")
+		(uuid "a75f3e48-0e4a-4503-b6ec-b19361e1cba7")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM1117T-3.3")
@@ -1896,7 +1896,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6dd6a046-7fb6-46fa-ab4b-10613b36d4ca")
+		(uuid "0fc2fcd6-1e3d-4d41-afcb-e06b15932513")
 		(property "Reference" "U2"
 			(at 170.26 48.61 0)
 			(show_name no)
@@ -1940,13 +1940,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3098ad5-0a21-443e-b86b-29e52d81f46b")
+			(uuid "51085039-94d2-4000-89b9-e660c2f33e8e")
 		)
 		(pin "2"
-			(uuid "b4c7ed88-37eb-4e40-a530-19ce800fecbd")
+			(uuid "15d2db02-0e84-4642-a868-43462e0ab3f6")
 		)
 		(pin "3"
-			(uuid "81388358-231c-4660-9773-3275be37c3a4")
+			(uuid "9de15e58-c9d9-4003-94d5-1034a1541799")
 		)
 		(instances
 			(project "s100-template"
@@ -1965,7 +1965,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "38a4c825-7c02-48b1-a2c1-e8290adf4589")
+		(uuid "a79accf6-02e3-4a0c-bff0-6776c0d8fe00")
 	)
 	(wire
 		(pts
@@ -1975,7 +1975,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a44cfba1-8a04-4f2d-8a6a-95b345ceb30d")
+		(uuid "28fcdb31-6696-4ef7-ab9b-fb375f474f70")
 	)
 	(wire
 		(pts
@@ -1985,7 +1985,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "68db5f7f-8e7e-4f8e-8f5c-c87173a9c091")
+		(uuid "4f742c82-4b5c-4120-a0a3-0793db723299")
 	)
 	(global_label "0V"
 		(shape input)
@@ -1997,7 +1997,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a27fd901-1c80-451d-be87-d8f0214cbecd")
+		(uuid "46e0d55c-5b93-4802-a4ef-37e49c14e0d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.26 67.31 0)
 			(hide yes)
@@ -2019,13 +2019,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "54b8908d-2832-44bb-a0dd-e62eb017ff35")
+		(uuid "a8b0b2f2-ace3-4b6d-bba1-8c94094488ad")
 	)
 	(junction
 		(at 194.31 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9aab697-ba18-4d46-9db8-940c333ac802")
+		(uuid "9a6be0a0-32f0-4ffa-b63a-3dfbf0d165dc")
 	)
 	(global_label "+3.3V"
 		(shape input)
@@ -2037,7 +2037,7 @@
 			)
 			(justify left)
 		)
-		(uuid "19419435-f382-42ab-8fca-4ea67776d591")
+		(uuid "ce0b6c31-7972-46a4-a9ba-14efe1c254e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.36 54.61 0)
 			(hide yes)
@@ -2059,7 +2059,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d942493b-bc29-41af-ac2b-ba5868f75f22")
+		(uuid "60b132eb-b973-44c2-8813-42703b780982")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -2071,7 +2071,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b144f0e7-bbab-42ed-a33b-4774cfdca7e2")
+		(uuid "cb23df91-0c36-465c-be37-006d2a0575cc")
 		(property "Reference" "C5"
 			(at 189.31 68.93 0)
 			(show_name no)
@@ -2115,10 +2115,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "834865bd-d2e5-4deb-81da-fb9595bf35eb")
+			(uuid "0208d0d2-2b36-40c8-ae7d-b86697d3f76f")
 		)
 		(pin "2"
-			(uuid "77cc3f56-f84a-4ea8-adda-29f3bb12302c")
+			(uuid "b9660326-457f-4a74-8962-9b8eda43607f")
 		)
 		(instances
 			(project "s100-template"
@@ -2137,7 +2137,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "473309b2-3b45-4063-bd84-73f193b99bd8")
+		(uuid "be6cd677-8fba-43cc-a0a6-5b8b64a90cb1")
 	)
 	(wire
 		(pts
@@ -2147,7 +2147,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cdf1dedf-e9bb-48cb-9df5-d2794da84f6f")
+		(uuid "774a6ef0-34d9-4bcd-9a81-2c557a98f8ef")
 	)
 	(global_label "0V"
 		(shape input)
@@ -2159,7 +2159,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e7012e9d-51a8-4f72-ada9-b7cb005909f5")
+		(uuid "112a93d6-baca-4e43-b2ca-dff92a94926e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.31 83.82 0)
 			(hide yes)
@@ -2183,7 +2183,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "55e8c1f7-7d0e-46cf-a179-1d5ce2763319")
+		(uuid "8a99b5e8-d780-4812-9f66-e487949fa318")
 		(property "Reference" "C6"
 			(at 204.55 68.93 0)
 			(show_name no)
@@ -2227,10 +2227,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8311128-6e5d-4859-9ed5-ba7560d95b7f")
+			(uuid "47a98e76-77fc-471d-bbff-7533c6d4f109")
 		)
 		(pin "2"
-			(uuid "42a3026c-2026-4960-bda2-ee38dae56ae6")
+			(uuid "090aef14-7553-4428-acb1-fb2ef71de0a0")
 		)
 		(instances
 			(project "s100-template"
@@ -2249,13 +2249,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "09b5797e-5469-45c2-a098-cee9b5006f79")
+		(uuid "a16203df-a8ec-4051-a2be-59d90d76ea1f")
 	)
 	(junction
 		(at 209.55 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a42b2df-17fd-423a-9aa3-78c435633f36")
+		(uuid "940677b1-8775-4ec3-8794-07415feb10ee")
 	)
 	(wire
 		(pts
@@ -2265,7 +2265,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "476db532-7943-4241-8f1e-d0869f3c36a8")
+		(uuid "0a078a20-173d-43b9-bc75-84b34d391883")
 	)
 	(global_label "0V"
 		(shape input)
@@ -2277,7 +2277,7 @@
 			)
 			(justify right)
 		)
-		(uuid "90ae6bd5-807e-400c-bf75-7ff456285cf7")
+		(uuid "0caee373-baef-415c-8424-0a3cc0722af8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.55 83.82 0)
 			(hide yes)
