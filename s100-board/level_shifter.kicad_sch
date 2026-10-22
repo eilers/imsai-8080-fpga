@@ -4264,7 +4264,7 @@
 		)
 		(uuid "020b3192-3561-40ed-bab1-eb2ad4c465ed")
 	)
-	(text "74AHCT245, supply 5 V: the FPGA side is the input (3.3 V is a valid high) and the S-100 side is the 5 V output. Direction is strapped A to B, pin 1 to 5 V. 74LVC245, supply 3.3 V: the S-100 side is the input (these inputs accept 5 V) and the FPGA side is the 3.3 V output. Direction is strapped B to A, pin 1 to 0 V. Pin 19, marked CE on the symbol, is the active-low output enable. LS_BUS_DIR and LS_DATA_DIR stay on the FPGA connector with pull-ups, and are not wired to a direction pin: reversing an AHCT245 would drive 5 V into the FPGA."
+	(text "74ACT245, supply 5 V: the FPGA side is the input (3.3 V is a valid high) and the S-100 side is the 5 V output. Direction is strapped A to B, pin 1 to 5 V. 74LVC245, supply 3.3 V: the S-100 side is the input (these inputs accept 5 V) and the FPGA side is the 3.3 V output. Direction is strapped B to A, pin 1 to 0 V. Pin 19, marked CE on the symbol, is the active-low output enable. LS_BUS_DIR and LS_DATA_DIR stay on the FPGA connector with pull-ups, and are not wired to a direction pin: reversing a 74ACT245 would drive 5 V into the FPGA."
 		(exclude_from_sim no)
 		(at 12 16 0)
 		(effects
@@ -4308,7 +4308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 52 87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 159 87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,7 +5940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 266 87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,7 +6756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 373 87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +7542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 480 87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8238,7 +8238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 52 175 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +8964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 159 175 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9780,7 +9780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHCT245"
+		(property "Value" "74ACT245"
 			(at 266 175 0)
 			(show_name no)
 			(do_not_autoplace no)

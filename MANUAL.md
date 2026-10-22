@@ -22,7 +22,7 @@ These names appear on the schematics, on the front panel, and in this manual. An
 | DO and DI          | Data Out and Data In. DO is the byte the processor sends. DI is the byte a memory or a peripheral sends back. They are two separate 8-bit groups on the S-100 connector. On this board they share one set of wires at the FPGA.                                          |
 | Open collector     | A shared wire that any card may pull down to 0 V, and that no card ever drives up. A resistor (here, the backplane terminator) lets it rise when everybody has let go. Interrupt requests and "ready" lines work this way, so several cards can share them.              |
 | Terminator         | The circuit on the backplane that holds idle signal wires at about 2.7 V through 270 ohm resistors, and that absorbs reflections when the machine runs fast.                                                                                                             |
-| Level shifter      | A chip that translates between the 5 V of the S-100 bus and the 3.3 V of the FPGA. Outbound signals use 74AHCT245 (5 V supply, dual in-line package). Inbound signals use 74LVC245 (3.3 V supply, same package). |
+| Level shifter      | A chip that translates between the 5 V of the S-100 bus and the 3.3 V of the FPGA. Outbound signals use 74ACT245 (5 V supply, dual in-line package, order code SN74ACT245N). Inbound signals use 74LVC245 (3.3 V supply, same package). |
 | T-state            | One tick of the processor clock. At 2 MHz a tick lasts 500 ns (half a millionth of a second). A memory read takes three ticks, plus extra ticks if a card asks the processor to wait.                                                                                    |
 | pSYNC, pDBIN, pWR* | The three timing strobes. pSYNC says "a new cycle is starting." pDBIN says "I am reading, please put a byte on DI." pWR* says "I am writing, the byte on DO is valid."                                                                                                   |
 | Status word        | Eight bits that say what kind of cycle this is: instruction fetch, memory read, memory write, input, output, interrupt acknowledge, or halt. The processor puts them on the data wires during pSYNC. The front panel latches them and lights the status lamps from them. |
@@ -209,20 +209,20 @@ Until the FPGA has finished loading its program, pull-up resistors hold the outp
 
 There is no through-hole version of a single chip that translates both ways between 5 V and 3.3 V, so each direction is its own chip. All of them are the ordinary 20-pin dual in-line package.
 
-A 74AHCT245 is powered from 5 V. A 3.3 V high from the FPGA is a valid high for it, and its outputs are 5 V, which is what the S-100 bus expects. Its direction pin is tied to 5 V, so it always drives from the FPGA side toward the bus. A 74LVC245 is powered from 3.3 V. Its inputs accept 5 V from the bus, and its outputs are 3.3 V, which is what the FPGA accepts. Its direction pin is tied to ground, so it always drives from the bus toward the FPGA.
+A 74ACT245 is powered from 5 V. A 3.3 V high from the FPGA is a valid high for it, and its outputs are 5 V, which is what the S-100 bus expects. Each pin is specified to sink 24 mA, and the ground pin is rated for 200 mA, so a byte of all zeros (about 70 mA through the backplane terminator) stays inside the rating. The part to order is SN74ACT245N. Its direction pin is tied to 5 V, so it always drives from the FPGA side toward the bus. A 74LVC245 is powered from 3.3 V. Its inputs accept 5 V from the bus, and its outputs are 3.3 V, which is what the FPGA accepts. Its direction pin is tied to ground, so it always drives from the bus toward the FPGA.
 
-The direction is strapped with a wire and cannot be turned around. Turning a 74AHCT245 around would drive 5 V into an FPGA pin. The two FPGA pins `LS_BUS_DIR` and `LS_DATA_DIR` are still on the connector, with pull-ups, so the pin plan does not change. They are not wired to a direction pin.
+The direction is strapped with a wire and cannot be turned around. Turning a 74ACT245 around would drive 5 V into an FPGA pin. The two FPGA pins `LS_BUS_DIR` and `LS_DATA_DIR` are still on the connector, with pull-ups, so the pin plan does not change. They are not wired to a direction pin.
 
 | Chip | Part      | What it carries                                      | Output enable                                      |
 |------|-----------|------------------------------------------------------|----------------------------------------------------|
-| U5   | 74AHCT245 | Address A0–A7, toward the bus                        | `LS_BUS_OE*`                                       |
-| U6   | 74AHCT245 | Address A8–A15, toward the bus                       | `LS_BUS_OE*`                                       |
-| U7   | 74AHCT245 | Address A16–A23, toward the bus                      | `LS_BUS_OE*`                                       |
-| U8   | 74AHCT245 | The seven status lines, toward the bus               | `LS_BUS_OE*`                                       |
-| U9   | 74AHCT245 | pSYNC, pSTVAL*, pDBIN, pWR*, toward the bus          | `LS_BUS_OE*`                                       |
-| U10  | 74AHCT245 | PHI, pHLDA, PWAIT, CLOCK, PINTE, toward the bus      | Tied on. Inputs pulled down.                       |
-| U11  | 74AHCT245 | Data out, DO0–DO7, toward the bus                    | `LS_DO_OE*`                                        |
-| U12  | 74AHCT245 | FPGA toward the front-panel cable                    | Off while the panel is active, and until the FPGA enables the bus |
+| U5   | 74ACT245 | Address A0–A7, toward the bus                        | `LS_BUS_OE*`                                       |
+| U6   | 74ACT245 | Address A8–A15, toward the bus                       | `LS_BUS_OE*`                                       |
+| U7   | 74ACT245 | Address A16–A23, toward the bus                      | `LS_BUS_OE*`                                       |
+| U8   | 74ACT245 | The seven status lines, toward the bus               | `LS_BUS_OE*`                                       |
+| U9   | 74ACT245 | pSYNC, pSTVAL*, pDBIN, pWR*, toward the bus          | `LS_BUS_OE*`                                       |
+| U10  | 74ACT245 | PHI, pHLDA, PWAIT, CLOCK, PINTE, toward the bus      | Tied on. Inputs pulled down.                       |
+| U11  | 74ACT245 | Data out, DO0–DO7, toward the bus                    | `LS_DO_OE*`                                        |
+| U12  | 74ACT245 | FPGA toward the front-panel cable                    | Off while the panel is active, and until the FPGA enables the bus |
 | U13  | 74LVC245  | Data in, DI0–DI7, toward the FPGA                    | Off while the panel is active                      |
 | U14  | 74LVC245  | Front-panel cable toward the FPGA                    | On while SSW DSB* is low                           |
 

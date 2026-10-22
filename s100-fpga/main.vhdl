@@ -12,17 +12,17 @@
 --   ls_<name>  control line of the level shifters (LS)
 --
 -- Level shifters are through-hole, and the direction is strapped on the board
--- (a 74AHCT245 reversed would drive 5 V into the FPGA). ls_bus_dir and
+-- (a 74ACT245 reversed would drive 5 V into the FPGA). ls_bus_dir and
 -- ls_data_dir are still driven so the pin plan stays stable; nothing on the
 -- board connects them.
---   address/status/strobes  74AHCT245, FPGA toward bus, enable ls_bus_oe_n
---   PHI, CLOCK, pHLDA,      74AHCT245, FPGA toward bus, always enabled
+--   address/status/strobes  74ACT245, FPGA toward bus, enable ls_bus_oe_n
+--   PHI, CLOCK, pHLDA,      74ACT245, FPGA toward bus, always enabled
 --     PWAIT, PINTE
---   DO0..7  <- F_D          74AHCT245, FPGA toward bus, enable ls_do_oe_n
+--   DO0..7  <- F_D          74ACT245, FPGA toward bus, enable ls_do_oe_n
 --   DI0..7  -> F_D          74LVC245,  bus toward FPGA, enable ls_di_oe_n
 --                           (disabled in hardware while SSW_DSB* is low)
 --   CP-A cable -> F_D       74LVC245 enabled while SSW_DSB* is low
---   F_D -> CP-A cable       74AHCT245, off while SSW_DSB* is low and until
+--   F_D -> CP-A cable       74ACT245, off while SSW_DSB* is low and until
 --                           the bus enable is on
 -- The 29 open-collector lines use TN0702 open-drain translators and need no
 -- control line; the FPGA drives them with '0' or 'Z'. MWRT and SSW_DSB* are
@@ -44,7 +44,7 @@ use work.s100_pkg.all;
 entity main is
   generic (
     -- Kept so a later board can wire the direction pins again. On this board
-    -- the 74AHCT245 and 74LVC245 direction pins are strapped, and ls_bus_dir
+    -- the 74ACT245 and 74LVC245 direction pins are strapped, and ls_bus_dir
     -- / ls_data_dir are not connected. '1' would mean "towards the FPGA" on
     -- the old dual-supply transceiver.
     LS_DIR_TO_FPGA : std_logic := '1';

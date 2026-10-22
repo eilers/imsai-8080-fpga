@@ -5915,7 +5915,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TE0725_BB_Snap-import-fps:BUCHSENLEISTE-2.54-25-2R"
+		(property "Footprint" "s100:PinSocket_2x25_TE_North"
 			(at 86.36 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +6188,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TE0725_BB_Snap-import-fps:BUCHSENLEISTE-2.54-25-2R"
+		(property "Footprint" "s100:PinSocket_2x25_TE_South"
 			(at 187.96 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6461,7 +6461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TE0725_BB_Snap-import-fps:TE_73x35mm_Snap"
+		(property "Footprint" "s100:TE0725_Snap"
 			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
