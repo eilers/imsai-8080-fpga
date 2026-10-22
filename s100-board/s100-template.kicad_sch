@@ -5966,6 +5966,52 @@
 		)
 	)
 	(sheet
+		(at 312.42 156.21)
+		(size 90.17 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55")
+		(property "Sheetname" "Level Shifter"
+			(at 312.42 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_shifter.kicad_sch"
+			(at 312.42 180.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 312.42 49.53)
 		(size 90.17 24.13)
 		(exclude_from_sim no)
@@ -6053,52 +6099,6 @@
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 312.42 156.21)
-		(size 90.17 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55")
-		(property "Sheetname" "Level Shifter"
-			(at 312.42 155.4984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "level_shifter.kicad_sch"
-			(at 312.42 180.9246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624"
-					(page "4")
 				)
 			)
 		)

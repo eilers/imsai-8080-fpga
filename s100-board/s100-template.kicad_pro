@@ -1148,6 +1148,10 @@
     [
       "ee30b60f-12df-439d-bb0a-e7baa278a1a8",
       "Power Delivery"
+    ],
+    [
+      "5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55",
+      "Level Shifter"
     ]
   ],
   "text_variables": {},
