@@ -22,7 +22,7 @@ These names appear on the schematics, on the front panel, and in this manual. An
 | DO and DI          | Data Out and Data In. DO is the byte the processor sends. DI is the byte a memory or a peripheral sends back. They are two separate 8-bit groups on the S-100 connector. On this board they share one set of wires at the FPGA.                                          |
 | Open collector     | A shared wire that any card may pull down to 0 V, and that no card ever drives up. A resistor (here, the backplane terminator) lets it rise when everybody has let go. Interrupt requests and "ready" lines work this way, so several cards can share them.              |
 | Terminator         | The circuit on the backplane that holds idle signal wires at about 2.7 V through 270 ohm resistors, and that absorbs reflections when the machine runs fast.                                                                                                             |
-| Level shifter      | A chip that translates between the 5 V of the S-100 bus and the 3.3 V of the FPGA. The parts used here are 74ALVC164245 transceivers.                                                                                                                                    |
+| Level shifter      | A chip that translates between the 5 V of the S-100 bus and the 3.3 V of the FPGA. Outbound signals use 74AHCT245 (5 V supply, dual in-line package). Inbound signals use 74LVC245 (3.3 V supply, same package). |
 | T-state            | One tick of the processor clock. At 2 MHz a tick lasts 500 ns (half a millionth of a second). A memory read takes three ticks, plus extra ticks if a card asks the processor to wait.                                                                                    |
 | pSYNC, pDBIN, pWR* | The three timing strobes. pSYNC says "a new cycle is starting." pDBIN says "I am reading, please put a byte on DI." pWR* says "I am writing, the byte on DO is valid."                                                                                                   |
 | Status word        | Eight bits that say what kind of cycle this is: instruction fetch, memory read, memory write, input, output, interrupt acknowledge, or halt. The processor puts them on the data wires during pSYNC. The front panel latches them and lights the status lamps from them. |
@@ -31,7 +31,7 @@ These names appear on the schematics, on the front panel, and in this manual. An
 | SSW DSB*           | Sense-switch disable, pin 53. The front panel pulls it low while it is forcing a byte onto the processor's own data wires (examine, deposit, single step).                                                                                                               |
 | POC*               | Power-on clear, pin 99. A long low pulse after power-up, and again after the front-panel RESET switch. Memory boards and peripherals reset from it.                                                                                                                      |
 | DMA, HOLD*, pHLDA  | Direct memory access. Another card pulls HOLD*low to borrow the bus. This board answers with pHLDA and lets go of the address and data wires until HOLD* is released.                                                                                                    |
-| JP1                | The solder jumper on this board that connects the on-board memory-write gate to the bus. Leave it open in an IMSAI.                                                                                                                                                      |
+| JP1                | A two-pin header on this board. A jumper on it connects the on-board memory-write gate to the bus. Leave the jumper off in an IMSAI.                                                                                                                                     |
 
 ## How the S-100 bus works in an IMSAI 8080
 
@@ -112,7 +112,7 @@ The IEEE-696 document, written years after the IMSAI, says that pins 20, 53, and
 | 70  | ground                      | PROT. The front panel itself ties this pin to ground.                                                                     |
 | 71  | reserved                    | RUN, a front-panel sense line.                                                                                            |
 
-This board follows the IMSAI column. Pins 20, 21, 69, 70, and 71 are labelled on the schematic and are not driven. Pin 53 is an input. Pin 68 is driven only if the solder jumper JP1 is closed, which it must not be in this machine.
+This board follows the IMSAI column. Pins 20, 21, 69, 70, and 71 are labelled on the schematic and are not driven. Pin 53 is an input. Pin 68 is driven only if a jumper is fitted on JP1, which it must not be in this machine.
 
 ## The front panel (CP-A)
 
@@ -180,7 +180,7 @@ With the jumpers open, those three pins sit at 2.7 V through 270 ohm, which is a
 
 ### What this means for the pull-ups on our board
 
-Because the terminator already holds the open-collector lines at 2.7 V, this board does not add its own pull-up to 5 V on those lines. Two lines are the exception, because the terminator does not cover them: pin 98 ERROR*has R33, 2.2 kΩ to 5 V, and pin 99 POC* has R53, 2.2 kΩ to 5 V.
+Because the terminator already holds the open-collector lines at 2.7 V, this board does not add its own pull-up to 5 V on those lines. Two lines are the exception, because the terminator does not cover them: pin 98 ERROR* has R22, 2.2 kΩ to 5 V, and pin 99 POC* has R42, 2.2 kΩ to 5 V.
 
 ## This board
 
@@ -195,7 +195,7 @@ The KiCad project is `s100-board/s100-template.kicad_sch`. It has four sheets.
 
 ### Power
 
-The S-100 +8 V rail is fused on this board (a 2.5 A polyfuse) and then fed to two TPS54302 switching regulators. One produces +5 V for the level shifters' bus side, the cable pull-ups, and the memory-write gate. The other produces +3.3 V for the FPGA side of the level shifters and for the Trenz module. The Trenz module must be ordered or jumpered for 3.3 V input/output. The ±16 V rails are not used by this card; they pass through the backplane to other cards.
+The S-100 +8 V rail is fused on this board (a Bourns MF-RHT300 polyfuse, which holds 3 A) and then fed to a 7805 regulator, U1, in a TO-220 package. That makes +5 V for the level shifters' bus side, the cable pull-ups, and the memory-write gate. A second regulator, U2, an LM1117T-3.3 in the same package, takes that 5 V and makes +3.3 V for the FPGA side of the level shifters and for the Trenz module. The Trenz module must be ordered or jumpered for 3.3 V input/output. Fit a small heatsink on U1: it drops about 3 V, and that difference turns into heat. The unregulated +8 V rail must stay above about 7.5 V, because a 7805 needs roughly 2 V of headroom. The ±16 V rails are not used by this card; they pass through the backplane to other cards.
 
 ### The Trenz module and the FPGA sockets
 
@@ -203,39 +203,46 @@ J3 (bank 34 of the FPGA) carries the address, the clocks, the strobes, the statu
 
 The module's own 100 MHz oscillator is the timebase everything else is divided down from. The green user light-emitting diode on the module is wired but the demo does not blink it.
 
-Until the FPGA has finished loading its program, pull-up resistors hold the level-shifter direction pins high and the output-enable pins high. High on a direction pin points the transceiver toward the FPGA. High on an enable pin (they are active low) switches the transceiver off. So during power-up the card does not drive the bus.
+Until the FPGA has finished loading its program, pull-up resistors hold the output-enable pins high. Those enables are active low, so a high switches the transceiver off. The one exception is U10, the clock chip, whose enable is tied on. Its inputs have resistors to ground, so PHI and CLOCK stay low until the FPGA starts driving them. During power-up the card therefore does not put an address or data on the bus, and the clocks sit low.
 
 ### Level shifters
 
-Five 74ALVC164245 transceivers do the 5 V to 3.3 V translation for the ordinary (push-pull) signals. Each chip has two groups of eight channels. The bus is always the "A" side, powered from 5 V. The FPGA is always the "B" side, powered from 3.3 V. A direction pin at a high level sends from A to B, that is, from the bus toward the FPGA. The direction pins are powered from the 5 V side and still recognise a 3.3 V high from the FPGA.
+There is no through-hole version of a single chip that translates both ways between 5 V and 3.3 V, so each direction is its own chip. All of them are the ordinary 20-pin dual in-line package.
 
-| Chip | First group                 | Second group                                                   |
-|------|-----------------------------|----------------------------------------------------------------|
-| U5   | Address A0–A7               | Address A8–A15                                                 |
-| U6   | Address A16–A23             | The seven status lines                                         |
-| U7   | pSYNC, pSTVAL*, pDBIN, pWR* | PHI, pHLDA, PWAIT, CLOCK, PINTE                                |
-| U8   | Data out, DO0–DO7           | Data in, DI0–DI7                                               |
-| U9   | The eight cable wires to J5 | Unused; the inputs are grounded and the group is held disabled |
+A 74AHCT245 is powered from 5 V. A 3.3 V high from the FPGA is a valid high for it, and its outputs are 5 V, which is what the S-100 bus expects. Its direction pin is tied to 5 V, so it always drives from the FPGA side toward the bus. A 74LVC245 is powered from 3.3 V. Its inputs accept 5 V from the bus, and its outputs are 3.3 V, which is what the FPGA accepts. Its direction pin is tied to ground, so it always drives from the bus toward the FPGA.
 
-U5, U6, and the strobe group of U7 share one direction pin, `LS_BUS_DIR`, and one enable pin, `LS_BUS_OE*`. In normal running they point toward the bus and they are enabled. They switch off together when another card borrows the bus (HOLD*/ pHLDA, or one of the disable lines ADSB*, CDSB*, SDSB*).
+The direction is strapped with a wire and cannot be turned around. Turning a 74AHCT245 around would drive 5 V into an FPGA pin. The two FPGA pins `LS_BUS_DIR` and `LS_DATA_DIR` are still on the connector, with pull-ups, so the pin plan does not change. They are not wired to a direction pin.
 
-The clock group of U7 is enabled all the time, including while the bus is borrowed. PHI, CLOCK, pHLDA, PWAIT, and PINTE have to keep running so the front panel and the borrowing card still have a clock and can see that the processor has let go.
+| Chip | Part      | What it carries                                      | Output enable                                      |
+|------|-----------|------------------------------------------------------|----------------------------------------------------|
+| U5   | 74AHCT245 | Address A0–A7, toward the bus                        | `LS_BUS_OE*`                                       |
+| U6   | 74AHCT245 | Address A8–A15, toward the bus                       | `LS_BUS_OE*`                                       |
+| U7   | 74AHCT245 | Address A16–A23, toward the bus                      | `LS_BUS_OE*`                                       |
+| U8   | 74AHCT245 | The seven status lines, toward the bus               | `LS_BUS_OE*`                                       |
+| U9   | 74AHCT245 | pSYNC, pSTVAL*, pDBIN, pWR*, toward the bus          | `LS_BUS_OE*`                                       |
+| U10  | 74AHCT245 | PHI, pHLDA, PWAIT, CLOCK, PINTE, toward the bus      | Tied on. Inputs pulled down.                       |
+| U11  | 74AHCT245 | Data out, DO0–DO7, toward the bus                    | `LS_DO_OE*`                                        |
+| U12  | 74AHCT245 | FPGA toward the front-panel cable                    | Off while the panel is active, and until the FPGA enables the bus |
+| U13  | 74LVC245  | Data in, DI0–DI7, toward the FPGA                    | Off while the panel is active                      |
+| U14  | 74LVC245  | Front-panel cable toward the FPGA                    | On while SSW DSB* is low                           |
 
-U8 is the data chip. Its data-out group points toward the bus. Its data-in group points toward the FPGA and is switched on only during a read. Both groups are wired, on the FPGA side, to the same eight pins. That is safe because the FPGA and the two groups are never switched on toward those pins at the same moment.
+U5 through U9 share one enable, `LS_BUS_OE*`. In normal running they are enabled. They switch off together when another card borrows the bus (HOLD* / pHLDA, or one of the disable lines ADSB*, CDSB*, SDSB*).
 
-U9 is the cable chip. It is enabled all the time. Its direction follows SSW DSB* in hardware, with no help from the FPGA: panel active, the cable drives the FPGA; panel idle, the FPGA side faces the cable and the pull-ups hold the cable high.
+U10 stays enabled while the bus is borrowed. PHI, CLOCK, pHLDA, PWAIT, and PINTE have to keep running so the front panel and the borrowing card still have a clock and can see that the processor has let go. The five inputs of U10 each have 10 kΩ to ground, so those lines rest at 0 V until the FPGA is configured and drives them.
 
-U10, U11, and U12 are the three small gates that make this happen without waiting for the FPGA.
+U11, U13, and the two cable chips are all wired, on the FPGA side, to the same eight pins. That is safe because only one of them drives those pins at a time. U11 points at the bus, so on the FPGA side it only listens. U13 listens to DI and drives the FPGA pins only during a read. U14 drives the FPGA pins only while the front panel is forcing a byte onto the cable.
 
-- U10 inverts the data direction, so the data-out group and the data-in group always point opposite ways.
-- U11 inverts SSW DSB*, and that inverted signal is the direction of U9.
-- U12 is an OR gate. It forces the data-in group off whenever SSW DSB* is low, even if the FPGA is asking to read. That is what stops the bus and the panel from fighting.
+U15, U16, and U17 make the front-panel steering and the memory-write pulse. They are ordinary 14-pin gates. Unused gates in the same package have their inputs tied to ground.
 
-U13 is a NOR gate. Its output is high only when pWR* is low and sOUT is low, which is exactly a memory write. Solder jumper **JP1** connects that output to MWRT. **Leave JP1 open.** In an IMSAI the CP-A drives MWRT, and two drivers on that wire would fight. Close JP1 only in a chassis that has no front panel and whose memory cards expect the processor card to create MWRT. U13 is a small gate (about 8 mA). That is enough for a short bus and light enough for this jumper's purpose; a chassis with many memory cards may want a stronger driver later.
+- U15 is a 74HCT04 inverter. One gate turns SSW DSB* into the opposite sense. A 3.3 V high is a valid high for this gate.
+- U16 is a 74HCT32, two OR gates. While the front panel pulls SSW DSB* low, one gate forces the DI chip off and the other forces the cable driver off, even if the FPGA is asking to read. The cable driver is also held off until the FPGA enables the bus, so it stays quiet during configuration.
+- U17 is a 74HCT02 NOR gate. Its output is high only when pWR* is low and sOUT is low, which is exactly a memory write. Header **JP1** connects that output to MWRT. **Leave the jumper off.** In an IMSAI the CP-A drives MWRT, and two drivers on that wire would fight. Fit the jumper only in a chassis that has no front panel and whose memory cards expect the processor card to create MWRT. U17 is a small gate (about 4 mA). That is enough for a short bus; a chassis with many memory cards may want a stronger driver later.
 
 ### The open-collector translators
 
-Twenty-nine BSS138 transistors, Q1 to Q29, translate the shared open-collector lines. Each one is a bidirectional level shifter: a low on the FPGA side pulls the bus side low, and a low on the bus side pulls the FPGA side low. The FPGA either pulls its side low or lets go; it never drives a high. The 10 kΩ resistor on the FPGA side is the bias for that transistor. The bus side has no resistor of its own, except R33 on ERROR*and R53 on POC*, as described in the backplane chapter.
+Twenty-nine 2N7000 transistors, Q1 to Q29, translate the shared open-collector lines. Each one is a small metal-can transistor in the TO-92 package, the through-hole stand-in for a surface-mount level-shift transistor. The gate is tied to 3.3 V. A low on the FPGA side pulls the bus side low, and a low on the bus side pulls the FPGA side low. The FPGA either pulls its side low or lets go; it never drives a high. The 10 kΩ resistor on the FPGA side is the bias for that transistor. The bus side has no resistor of its own, except R22 on ERROR* and R42 on POC*, as described in the backplane chapter.
+
+A 2N7000 is allowed to need up to 3.0 V between gate and source before it starts to conduct. With the gate at 3.3 V that leaves little margin. Buy devices that actually switch at 3.3 V, and check that the gate threshold is below about 2.5 V. A lot that only switches above 3 V will not pull the bus down reliably.
 
 MWRT and SSW DSB* pass through these transistors as inputs only. The FPGA listens to them and does not pull them.
 

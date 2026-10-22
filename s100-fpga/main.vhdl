@@ -11,15 +11,20 @@
 --              asterisk (active low) becomes the suffix _n
 --   ls_<name>  control line of the level shifters (LS)
 --
--- Level shifters (74ALVC164245 transceivers, A = 5 V bus, B = 3.3 V FPGA):
---   address/status/strobes  direction ls_bus_dir, enable ls_bus_oe_n
---   PHI, CLOCK, pHLDA,      direction ls_bus_dir, always enabled
+-- Level shifters are through-hole, and the direction is strapped on the board
+-- (a 74AHCT245 reversed would drive 5 V into the FPGA). ls_bus_dir and
+-- ls_data_dir are still driven so the pin plan stays stable; nothing on the
+-- board connects them.
+--   address/status/strobes  74AHCT245, FPGA toward bus, enable ls_bus_oe_n
+--   PHI, CLOCK, pHLDA,      74AHCT245, FPGA toward bus, always enabled
 --     PWAIT, PINTE
---   DO0..7  <-> F_D         direction = not ls_data_dir, enable ls_do_oe_n
---   DI0..7  <-> F_D         direction = ls_data_dir,     enable ls_di_oe_n
+--   DO0..7  <- F_D          74AHCT245, FPGA toward bus, enable ls_do_oe_n
+--   DI0..7  -> F_D          74LVC245,  bus toward FPGA, enable ls_di_oe_n
 --                           (disabled in hardware while SSW_DSB* is low)
---   CP-A cable <-> F_D      direction follows SSW_DSB* in hardware
--- The 29 open-collector lines use BSS138 open-drain translators and need no
+--   CP-A cable -> F_D       74LVC245 enabled while SSW_DSB* is low
+--   F_D -> CP-A cable       74AHCT245, off while SSW_DSB* is low and until
+--                           the bus enable is on
+-- The 29 open-collector lines use 2N7000 open-drain translators and need no
 -- control line; the FPGA drives them with '0' or 'Z'. MWRT and SSW_DSB* are
 -- inputs only.
 --
@@ -38,9 +43,10 @@ use work.s100_pkg.all;
 
 entity main is
   generic (
-    -- Level on a shifter DIR pin that makes it drive towards the FPGA.
-    -- 74ALVC164245 with A = 5 V bus side, B = 3.3 V FPGA side: DIR = '1'
-    -- means A -> B, so '1' is "towards the FPGA".
+    -- Kept so a later board can wire the direction pins again. On this board
+    -- the 74AHCT245 and 74LVC245 direction pins are strapped, and ls_bus_dir
+    -- / ls_data_dir are not connected. '1' would mean "towards the FPGA" on
+    -- the old dual-supply transceiver.
     LS_DIR_TO_FPGA : std_logic := '1';
     -- length of the POC* pulse after configuration / RESET* in clk cycles (20 ms)
     POC_CLKS       : positive  := 2_000_000
@@ -236,7 +242,9 @@ begin
   begin
     if rising_edge(clk) then
       if data_master /= bus_out.data_master then
-        -- orientation change: everything off, then flip the direction pins
+        -- orientation change: everything off, then update ls_data_dir.
+        -- This board straps the transceiver direction in hardware, so that
+        -- pin is unused; the enables above are what the board follows.
         if do_en = '1' or di_en = '1' or d_oe = '1' then
           do_en <= '0';
           di_en <= '0';
