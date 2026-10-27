@@ -5,7 +5,7 @@
 	(uuid "0bcf097f-e9dd-4041-8820-e1a815acf624")
 	(paper "A3")
 	(title_block
-		(title "S100 FPGA-Board - Power Delivery")
+		(title "S100 FPGA-Board - Edge Connector")
 		(date "2026-10-21")
 	)
 	(lib_symbols
