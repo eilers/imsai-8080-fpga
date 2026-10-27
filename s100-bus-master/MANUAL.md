@@ -346,11 +346,11 @@ Watch the bus with the front panel first. A logic analyser on pSYNC, PHI, pDBIN,
 
 | Path                              | Contents                                                                                  |
 |-----------------------------------|-------------------------------------------------------------------------------------------|
-| `s100-board/`                     | KiCad schematic of this card.                                                             |
-| `s100-fpga/main.vhdl`             | Pins and level-shifter control.                                                           |
-| `s100-fpga/s100_master.vhdl`      | Bus cycles, clocks, wait, hold, POC*.                                                     |
-| `s100-fpga/s100_application.vhdl` | The demo. This is the file a processor core replaces.                                     |
-| `s100-fpga/s100_pkg.vhdl`         | The names of the bus signals shared by those files.                                       |
-| `s100-fpga/te0725_s100.xdc`       | The FPGA pin assignment for the Trenz module.                                             |
+| `s100-bus-master/`                | KiCad schematic of this card.                                                             |
+| `s100-bus-master-fpga/main.vhdl`  | Pins and level-shifter control.                                                           |
+| `s100-bus-master-fpga/s100_master.vhdl`      | Bus cycles, clocks, wait, hold, POC*.                                                     |
+| `s100-bus-master-fpga/s100_application.vhdl` | The demo. This is the file a processor core replaces.                                     |
+| `s100-bus-master-fpga/s100_pkg.vhdl`         | The names of the bus signals shared by those files.                                       |
+| `s100-bus-master-fpga/te0725_s100.xdc`       | The FPGA pin assignment for the Trenz module.                                             |
 | `S100_Backplane_V4/`              | KiCad design and manual of the N8VEM backplane.                                           |
 | `simulator/`                      | A software IMSAI that runs on a PC. It is not this board and it does not test the wiring. |
