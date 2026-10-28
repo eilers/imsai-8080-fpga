@@ -30366,4 +30366,152 @@
 			)
 		)
 	)
+		(symbol
+		(lib_id "Device:C")
+		(at 430.53 581.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "419076c3-b74c-4668-9f4e-bd3261db346b")
+		(property "Reference" "C32"
+			(at 432.53 579.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 432.53 583.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 430.53 581.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 581.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 581.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d5a9a0-aca0-41ac-9942-16a83170bcbb")
+		)
+		(pin "2"
+			(uuid "98f20961-d0a1-4283-8f6b-4c9e0d8961cf")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 430.53 577.85) (xy 430.53 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe84276-5e9e-4349-989a-6c84b0701c8b")
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 430.53 575.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1c56409-df18-464e-90e6-7c9a21b1403e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 430.53 575.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 430.53 585.47) (xy 430.53 588.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c32e6e4-a7a9-4c1b-81f2-464faed5a87a")
+	)
+	(global_label "0V"
+		(shape input)
+		(at 430.53 588.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "497022eb-2bb4-4356-847e-5d6a9abfc883")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 430.53 588.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 )
