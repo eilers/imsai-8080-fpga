@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "52a9855a-f571-41e7-ae10-391c0841c4f7")
 	(paper "A4")
+	(title_block
+		(title "S100 Bus-Master (CPU) Board")
+		(rev "0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1435,7 +1439,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 134.62 54.61 0)
+		(at 134.62 54.61 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1445,7 +1449,7 @@
 		)
 		(uuid "fd12d59c-972c-439a-afc0-b4a845a01b14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 54.61 0)
+			(at 134.62 48.4085 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1503,7 +1507,7 @@
 			)
 		)
 		(property "Value" "LM1117T-3.3"
-			(at 180.26 60.61 0)
+			(at 182.626 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

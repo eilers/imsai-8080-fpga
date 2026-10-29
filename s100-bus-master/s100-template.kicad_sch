@@ -5,8 +5,9 @@
 	(uuid "0bcf097f-e9dd-4041-8820-e1a815acf624")
 	(paper "A3")
 	(title_block
-		(title "S100 FPGA-Board - Edge Connector")
+		(title "S100 Bus-Master (CPU) Board")
 		(date "2026-10-21")
+		(rev "0")
 	)
 	(lib_symbols
 		(symbol "s100-template-rescue:CONN_1"
