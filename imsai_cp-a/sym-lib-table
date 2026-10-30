@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "imsai_cp-a") (type "KiCad") (uri "${KIPRJMOD}/imsai_cp-a.kicad_sym") (options "") (descr "CP-A specific symbols: S-100 edge, 8212, IMSAI switches"))
+)

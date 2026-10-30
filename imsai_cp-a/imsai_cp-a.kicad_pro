@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "filename": "imsai_cp-a.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [
+    [
+      "69dcb53a-8c38-5ae2-b6e5-e13c58a697d9",
+      "Root"
+    ]
+  ],
+  "text_variables": {}
+}
