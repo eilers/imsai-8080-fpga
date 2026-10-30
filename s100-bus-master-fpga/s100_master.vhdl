@@ -24,8 +24,10 @@
 -- The IMSAI CP-A front panel stops the processor by taking XRDY low while
 -- pSYNC and the M1 status bit are active; the cycle then waits in TW with
 -- PWAIT high, which lights the WAIT lamp. EXAMINE/DEPOSIT force bytes onto
--- the processor data bus through the cable and SSW_DSB*; the hardware
--- switches the data transceivers, the core simply reads the forced byte.
+-- the processor data bus through the cable and SSW_DSB*. The level-shifter
+-- board turns the cable transceiver on, and main.vhdl releases the FPGA
+-- data pins while SSW_DSB* is low and for one clock after a synchronizer
+-- has seen it high again. The core then simply reads the forced byte.
 --
 -- Timing of the core interface: cyc_req, cyc_kind, cyc_m1, cyc_addr and
 -- cyc_wdata must be stable from the clock in which cyc_req is first seen

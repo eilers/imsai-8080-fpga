@@ -15,12 +15,22 @@ The Source of this version can be found on [GitHub](https://github.com/nullvalue
 
 See folder `./S100_Backplane_V4`
 
-## IMSAI Front Panel (CP-A)
+## S-100 Front Panel (CP-A)
 
 This was also taken from [s100Computers](https://www.s100computers.com/My%20System%20Pages/FP%20Board/FP%20Board.htm) and cleaned to work with KiCad V10.
-In order to get a working reference, I decided to order the full front panel from [parastream.com](https://www.parastream.com/imsai/boards/cp-a-r.aspx)
 
 See folder `./S100-front-panel`
+
+**Note:** This is not the design of the original CP-A provided by IMSAI in 1975. This one confirms the IEEE 696 and therefore works a bit different.
+
+## IMSAI Front Panel (CP-A)
+
+This is created from the original schmatics by IMSAI MPU-A REV.A 2/76.
+In order to get a working reference, I decided to order the full front panel from [parastream.com](https://www.parastream.com/imsai/boards/cp-a-r.aspx) that belongs to the design here.
+
+Important: This design is not fully IEEE 696 compatible without modifications as documented on the web page. Our Bus Master board is compatible to IMSAI and IEEE 696 if you select the correct FPGA core for it.
+
+See folder `./imsai_cp-a`
 
 ## Bus Master
 

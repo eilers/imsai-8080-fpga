@@ -60,7 +60,7 @@ The other pins are signals. They fall into a few jobs.
 
 **Strobes.** pSYNC (pin 76) rises at the start of a cycle and stays high for one tick. pDBIN (pin 78) rises when the processor wants to read. pWR*(pin 77) falls when the processor wants to write. MWRT (pin 68) is the memory-write pulse the front panel makes out of pWR*.
 
-**Status, one wire per flag.** sM1, sOUT, sINP, sMEMR, sHLTA, sINTA, and sWO*. These stay valid for the whole cycle. The stack flag has no pin of its own; it exists only as bit 2 of the status byte on the data wires during pSYNC. The front panel does not have to use the status pins: it can read the same information from the data wires during pSYNC, and that is what the CP-A does. Pin 98 is the ERROR* line. The backplane schematic happens to name that net SSTACK; this card treats the pin as ERROR* and does not connect it to the stack flag.
+**Status, one wire per flag.** sM1, sOUT, sINP, sMEMR, sHLTA, sINTA, and sWO*. These stay valid for the whole cycle. On the CP-A revision 4 schematic the status lamps are wired to these pins directly: pin 44 is sM1, 45 is sOUT, 46 is sINP, 47 is sMEMR, 48 is sHLTA, 96 is sINTA, and 97 is sWO*. The stack lamp is pin 98. This card drives every one of those pins except pin 98. Pin 98 is treated here as the later ERROR* input and is only pulled up, so the stack lamp on a CP-A does not follow the processor. The CP-A stop circuit does look at the data-out bus: it waits for pSYNC with data-out bit 5 high (the M1 bit of the status word) and then uses the clock on pin 24.
 
 **Ready, interrupt, and borrow-the-bus wires.** These are open-collector wires. XRDY (pin 3) and RDY (pin 72) hold the processor in a wait. INT*(pin 73) and NMI* (pin 12) ask for an interrupt. VI0*to VI7* (pins 4 to 11) carry the eight old-style vectored interrupt requests. HOLD*(pin 74) asks to borrow the bus, and pHLDA (pin 26) is the answer. TMA0* to TMA3* (pins 55, 56, 57, and 14) are priority lines used when several cards want the bus.
 
@@ -120,7 +120,7 @@ The switches and lamps are not wired straight to the S-100 bus. They go to the C
 
 ### The bus
 
-The CP-A watches pSYNC, the clock on pin 24, and the data-out wires. From those it latches the status lamps. It drives XRDY for RUN, STOP, and SINGLE STEP. It drives RESET* from the reset switch. It drives MWRT when a deposit has to be written. It reads PWAIT and PINTE to light those two lamps.
+The CP-A watches pSYNC and the clock on pin 24. Its status lamps are tied to the status pins listed above, and its data lamps follow the eight wires of the ribbon cable. It drives XRDY for RUN, STOP, and SINGLE STEP. It drives RESET* from the reset switch. It drives MWRT when a deposit has to be written. It reads PWAIT and PINTE to light those two lamps.
 
 STOP works like this. The panel waits until an instruction fetch is under way (pSYNC high and DO5 high) and then pulls XRDY low at the falling edge of the clock. The processor finishes tick T1, enters tick T2, sees XRDY low, and stays in wait ticks with PWAIT high. The address lamps freeze on the instruction that was about to run, and the data lamps show the byte on the data wires. RUN lets XRDY go high, and the processor continues. SINGLE STEP lets XRDY go high for one instruction and then pulls it low again.
 
@@ -128,9 +128,25 @@ STOP works like this. The panel waits until an instruction fetch is under way (p
 
 The second path is a 16-wire ribbon cable between the front panel and the processor card. On the original MPU-A this cable lands on the processor's own data pins, the pins that sit between the processor and the bus transceivers. The panel can put a byte on that cable and, at the same time, pull SSW DSB* low. The processor then reads the panel's byte instead of the byte from memory.
 
-The eight data wires of the cable are pulled up to 5 V by 1 kΩ resistors on the processor card. The panel pulls a wire low with an open-collector driver (a 7405) when that bit should be 0. The other eight wires of the cable are ground.
+The eight data wires of the cable are pulled up to 5 V by 1 kΩ resistors on the processor card. The panel pulls a wire low with an open-collector driver (a 7405) when that bit should be 0.
 
-On this board the cable plugs into **J5**. The socket is a 16-pin insulation-displacement header. The schematic assumes the same arrangement as a typical MPU-A cable: odd pins 1, 3, 5, 7, 9, 11, 13, 15 are D0 to D7, and even pins are ground. **Check this against the cable of your own machine before you order or fit the connector.** The pin order is marked on the schematic as something that still has to be confirmed.
+On the CP-A the cable socket is U2, a 16-pin dual-in-line socket, not an insulation-displacement plug. The schematic ties the pins in pairs: pin 1 with pin 16, pin 2 with pin 15, and so on down to pin 8 with pin 9. Pair 1 is data bit 0 and pair 8 is data bit 7. On the original processor card only pins 1 to 8 of that socket are connected. Pins 9 to 16 are open there, because they are already joined to the data bits on the CP-A. Grounding them would short the data bits to ground. The cable does not carry a separate ground. The return is the ground both cards already share through the backplane.
+
+J5 on this board is a different connector. It is a 16-pin insulation-displacement header with data on the odd pins and ground on the even pins:
+
+| J5 pin | Signal |
+|--------|--------|
+| 1      | D0     |
+| 3      | D1     |
+| 5      | D2     |
+| 7      | D3     |
+| 9      | D4     |
+| 11     | D5     |
+| 13     | D6     |
+| 15     | D7     |
+| even   | ground |
+
+The CP-A cable will not seat on J5, and a plain pin-number adapter would connect data bits to those grounds. The small board in `cpa-cable-adapter/` sits on J5 and gives the cable a 16-pin dual-in-line socket wired as on the original processor card: socket pins 1 to 8 go to J5 pins 1, 3, 5, 7, 9, 11, 13, and 15. Socket pins 9 to 16 are left open. Pin 1 of the cable must meet pin 1 of that socket. The stripe on a ribbon is not a reliable mark; one documented IMSAI cable has the stripe on the other edge.
 
 ### Examine and deposit, on a real processor
 
@@ -144,9 +160,9 @@ EXAMINE NEXT and DEPOSIT NEXT do the same thing one address further on, by makin
 
 This board reproduces the electrical half of that arrangement.
 
-- SSW DSB* low turns the DI transceiver off, so the S-100 data-in wires and the panel cannot both drive the FPGA.
-- The same signal turns the cable transceiver U9 around, so the cable drives the FPGA's data pins.
-- The data-out transceiver stays pointed at the bus and repeats those pins, so a deposited byte reaches DO and the memory cards.
+- SSW DSB* low turns the data-in transceiver off, so the S-100 data-in wires and the panel cannot both drive the FPGA.
+- The same signal turns the cable receiver on, so the cable drives the FPGA data pins. The FPGA itself lets go of those pins while SSW DSB* is low, and it waits one clock after a synchronizer has seen the signal high again before it drives them. That is what keeps the cable and the FPGA from fighting.
+- The data-out transceiver stays pointed at the bus and repeats those pins, so a deposited byte reaches the data-out wires and the memory cards.
 
 The demo program behind this wiring does not execute `C3` or NOP. What that means for the lamps is in the testing chapter.
 
@@ -330,12 +346,12 @@ Watch the bus with the front panel first. A logic analyser on pSYNC, PHI, pDBIN,
 
 ### After the demo looks right
 
- 1. Decide pin 25. The default program drives pSTVAL*: low during the second half of tick T1, high otherwise. An original IMSAI front panel was designed around Φ1 on that pin. If STOP, the status lamps, or EXAMINE misbehave while everything else in this chapter looks right, rebuild the FPGA program with the pin-25 option set to Φ1 and repeat the stop and status-lamp checks.
+ 1. Pin 25 can stay as pSTVAL*. The CP-A revision 4 stop circuit uses pin 24 and data-out bit 5, not pin 25. The pin-25 option in the FPGA program drives Φ1 instead, for a chassis whose front panel was built around that older clock. It is not required for this CP-A.
  2. Only when this list is green does it make sense to replace the demo with the 8085 and raise the clock. The board is laid out for up to 6 MHz. The backplane terminator is required at that speed. The 8085 program has to use the same request-and-acknowledge handshake as the demo: keep the request stable until the acknowledge, and present the next request within half a tick if cycles should run back to back.
 
 ## Before you order the board
 
-- Confirm the J5 pin order against your CP-A cable.
+- Fit the cable adapter in `cpa-cable-adapter/` between the CP-A ribbon and J5. Do not plug the dual-in-line cable straight onto J5, and do not ground adapter socket pins 9 to 16.
 - Order 10-pin, 9-resistor, 270 ohm networks for the backplane, not the 9-pin parts in its bill of materials.
 - Fit the terminator and set R1 to 2.7 V.
 - Leave this board's JP1 open, and leave the backplane's JP1, JP2, and JP3 open.
@@ -347,6 +363,7 @@ Watch the bus with the front panel first. A logic analyser on pSYNC, PHI, pDBIN,
 | Path                                         | Contents                                                                                  |
 |----------------------------------------------|-------------------------------------------------------------------------------------------|
 | `s100-bus-master/`                           | KiCad schematic of this card.                                                             |
+| `cpa-cable-adapter/`                         | Small board that plugs the CP-A data cable onto J5.                                      |
 | `s100-bus-master-fpga/main.vhdl`             | Pins and level-shifter control.                                                           |
 | `s100-bus-master-fpga/s100_master.vhdl`      | Bus cycles, clocks, wait, hold, POC*.                                                     |
 | `s100-bus-master-fpga/s100_application.vhdl` | The demo. This is the file a processor core replaces.                                     |

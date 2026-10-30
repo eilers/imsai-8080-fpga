@@ -24,6 +24,10 @@
 --   CP-A cable -> F_D       74LVC245 enabled while SSW_DSB* is low
 --   F_D -> CP-A cable       74ACT245, off while SSW_DSB* is low and until
 --                           the bus enable is on
+-- While SSW_DSB* is low the cable transceiver drives F_D in hardware, so the
+-- FPGA pin is forced high-Z immediately. A two-stage synchronizer then keeps
+-- it high-Z for one further clk after that synchronized signal goes high, so
+-- the cable driver has released before the FPGA drives again.
 -- The 29 open-collector lines use TN0702 open-drain translators and need no
 -- control line; the FPGA drives them with '0' or 'Z'. MWRT and SSW_DSB* are
 -- inputs only.
@@ -150,6 +154,14 @@ architecture rtl of main is
   signal di_en       : std_logic := '0';
   signal tgt_do, tgt_di : std_logic;
   signal d_r         : std_logic_vector(7 downto 0) := (others => '0');
+  -- synchronized SSW_DSB* (active low). Index 0 is the newest sample.
+  -- '1' means the panel has released the cable.
+  signal ssw_sync    : std_logic_vector(1 downto 0) := (others => '0');
+  -- FPGA must not drive f_d while the panel owns the cable, nor on the
+  -- first clock after the panel lets go. Starts blocked so configuration
+  -- does not drive into a panel that is already jamming.
+  signal ssw_block   : std_logic := '1';
+  signal fpga_drive  : std_logic;
 
   signal heartbeat : unsigned(26 downto 0) := (others => '0');
 
@@ -236,6 +248,18 @@ begin
   -- a transceiver pointing towards the FPGA is never enabled while the FPGA drives
   tgt_di <= bus_out.di_enable and not (bus_out.d_drive and bus_out.data_master);
   tgt_do <= bus_out.do_enable and not (bus_out.d_drive and not bus_out.data_master);
+  -- hardware enables the cable driver while SSW_DSB* is low, so this pin stays off
+  fpga_drive <= bus_out.d_drive and not ssw_block;
+
+  -- two flips synchronize the async pin; ssw_block then stays set for the
+  -- clock on which the synchronized pin is first seen high again
+  ssw_guard : process (clk)
+  begin
+    if rising_edge(clk) then
+      ssw_sync  <= ssw_sync(0) & to_x01(f_ssw_dsb_n);
+      ssw_block <= not ssw_sync(1);
+    end if;
+  end process;
 
   data_sequencer : process (clk)
     variable src_now, src_tgt : std_logic_vector(2 downto 0);  -- (fpga, di, do) drivers
@@ -254,14 +278,14 @@ begin
         end if;
       else
         src_now := d_oe & (di_en and data_master) & (do_en and not data_master);
-        src_tgt := bus_out.d_drive & (tgt_di and data_master) & (tgt_do and not data_master);
+        src_tgt := fpga_drive & (tgt_di and data_master) & (tgt_do and not data_master);
         if src_now /= "000" and src_now /= src_tgt then
           -- a driver is on that must go off: break before make
           d_oe  <= '0';
           di_en <= di_en and not data_master;
           do_en <= do_en and data_master;
         else
-          d_oe  <= bus_out.d_drive;
+          d_oe  <= fpga_drive;
           di_en <= tgt_di;
           do_en <= tgt_do;
         end if;
@@ -273,7 +297,10 @@ begin
   ls_do_oe_n  <= not do_en;
   ls_di_oe_n  <= not di_en;
 
-  f_d <= bus_out.d when d_oe = '1' else (others => 'Z');
+  -- SSW_DSB* low forces the pin off in the same cycle. ssw_block keeps it off
+  -- for one clock after the synchronized pin has gone high again.
+  f_d <= bus_out.d when d_oe = '1' and ssw_block = '0' and to_x01(f_ssw_dsb_n) = '1'
+         else (others => 'Z');
 
   data_capture : process (clk)
   begin
