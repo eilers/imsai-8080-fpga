@@ -1,0 +1,97 @@
+{
+  "connector_refs": [
+    "P1",
+    "J3",
+    "J4"
+  ],
+  "decoupling_pairs": [],
+  "critical_nets": [
+    "A0-A15",
+    "DO0-DO7",
+    "DI0-DI7",
+    "pDBIN",
+    "pWR*",
+    "sMEMR",
+    "RESET*",
+    "POC*",
+    "+8V",
+    "+5V",
+    "+3.3V"
+  ],
+  "power_tree_refs": [
+    "F1",
+    "U1",
+    "U2"
+  ],
+  "analog_refs": [],
+  "digital_refs": [
+    "U3-U9",
+    "U10",
+    "U11"
+  ],
+  "sensor_cluster_refs": [],
+  "required_sheets": [],
+  "optional_sheets": [],
+  "rf_keepout_regions": [],
+  "manufacturer": "",
+  "manufacturer_tier": "",
+  "functional_spacing_mm": 5.0,
+  "thermal_hotspots": [],
+  "critical_frequencies_mhz": [
+    2.0,
+    6.0,
+    100.0
+  ],
+  "power_rails": [
+    {
+      "name": "+8V",
+      "voltage_v": 8.0,
+      "current_max_a": 1.0,
+      "tolerance_pct": 5.0,
+      "source_ref": "",
+      "decoupling_strategy": ""
+    },
+    {
+      "name": "+5V",
+      "voltage_v": 5.0,
+      "current_max_a": 0.8,
+      "tolerance_pct": 5.0,
+      "source_ref": "",
+      "decoupling_strategy": ""
+    },
+    {
+      "name": "+3.3V",
+      "voltage_v": 3.3,
+      "current_max_a": 0.8,
+      "tolerance_pct": 5.0,
+      "source_ref": "",
+      "decoupling_strategy": ""
+    }
+  ],
+  "interfaces": [],
+  "mechanical": {
+    "outline_dxf_path": "",
+    "board_width_mm": null,
+    "board_height_mm": null,
+    "mount_holes": [],
+    "connector_placement": [],
+    "connector_mating": [],
+    "max_height_mm": null,
+    "enclosure_step_path": "",
+    "notes": ""
+  },
+  "compliance": [],
+  "cost": {
+    "unit_cost_usd_max": null,
+    "volume_units": 1,
+    "nre_budget_usd": null,
+    "prefer_jlcpcb_basic_parts": false
+  },
+  "thermal": {
+    "ambient_c": 25.0,
+    "max_component_c": 85.0,
+    "airflow": "natural",
+    "ambient_airflow_m_s": null,
+    "thermal_resistance_target_c_per_w": null
+  }
+}
