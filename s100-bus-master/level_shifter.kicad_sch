@@ -5600,7 +5600,6 @@
 			)
 			(embedded_fonts no)
 		)
-		
 	)
 	(text "Through-hole level shifters. There is no DIP version of the 74ALVC164245, so each direction is its own chip."
 		(exclude_from_sim no)
@@ -5924,7 +5923,6 @@
 		(at 146.05 483.87)
 		(uuid "476300c0-1123-4fd2-a612-b25e6f008cde")
 	)
-	
 	(no_connect
 		(at 497.84 83.82)
 		(uuid "52343f5c-abce-42be-bbcb-4ddc5443e6f0")
@@ -5967,6 +5965,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 361.95) (xy 280.67 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0018d90e-a8a2-4759-97cc-61be570bb9be")
+	)
+	(wire
+		(pts
 			(xy 283.21 76.2) (xy 290.83 76.2)
 		)
 		(stroke
@@ -5984,6 +5992,16 @@
 			(type default)
 		)
 		(uuid "00e0ed99-43d6-4c7f-8c19-722c0ea2e31d")
+	)
+	(wire
+		(pts
+			(xy 382.27 361.95) (xy 382.27 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014a239f-7b74-4248-8cb9-e5c5beb69edc")
 	)
 	(wire
 		(pts
@@ -6087,6 +6105,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 336.55) (xy 186.69 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0441c9e6-579b-4511-ab69-704baf3211a8")
+	)
+	(wire
+		(pts
+			(xy 379.73 361.95) (xy 379.73 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044c505d-baa3-4d99-ade7-2bdca74b2444")
+	)
+	(wire
+		(pts
 			(xy 485.14 58.42) (xy 485.14 53.34)
 		)
 		(stroke
@@ -6147,6 +6185,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 285.75) (xy 394.97 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09160790-7c04-4539-afc0-9cff096c874a")
+	)
+	(wire
+		(pts
 			(xy 283.21 167.64) (xy 290.83 167.64)
 		)
 		(stroke
@@ -6187,6 +6235,36 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 361.95) (xy 77.47 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aca33ed-97a5-4fe0-8767-1be299d1f03d")
+	)
+	(wire
+		(pts
+			(xy 77.47 300.99) (xy 77.47 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4c503c-e3ee-4882-bc99-7f3096caff03")
+	)
+	(wire
+		(pts
+			(xy 176.53 361.95) (xy 176.53 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8e4239-9975-452e-a6e9-09721065af9a")
+	)
+	(wire
+		(pts
 			(xy 344.17 346.71) (xy 379.73 346.71)
 		)
 		(stroke
@@ -6204,6 +6282,16 @@
 			(type default)
 		)
 		(uuid "0c32e6e4-a7a9-4c1b-81f2-464faed5a87a")
+	)
+	(wire
+		(pts
+			(xy 176.53 346.71) (xy 176.53 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4f794a-26f3-4793-8af0-44ddd784649e")
 	)
 	(wire
 		(pts
@@ -6227,6 +6315,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 285.75) (xy 179.07 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1da270-9347-4ab6-b164-3bf810ae4dfa")
+	)
+	(wire
+		(pts
+			(xy 382.27 300.99) (xy 382.27 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d55b6ff-45dd-41e7-953a-c9aa06c91cf9")
+	)
+	(wire
+		(pts
 			(xy 191.77 361.95) (xy 196.85 361.95)
 		)
 		(stroke
@@ -6234,6 +6342,16 @@
 			(type default)
 		)
 		(uuid "0d66709c-f640-4730-82ee-6f0ca4637745")
+	)
+	(wire
+		(pts
+			(xy 481.33 320.04) (xy 491.49 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7823bf-bc4c-447b-94ce-33c9965f6b8b")
 	)
 	(wire
 		(pts
@@ -6245,7 +6363,16 @@
 		)
 		(uuid "0de204ac-e0bf-484b-9953-6d90d3965054")
 	)
-	
+	(wire
+		(pts
+			(xy 176.53 316.23) (xy 176.53 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb9e170-10d4-4783-aabb-2a8d05e416a4")
+	)
 	(wire
 		(pts
 			(xy 353.06 530.86) (xy 347.98 530.86)
@@ -6288,6 +6415,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 290.83) (xy 186.69 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b144f4-de46-49f2-94c0-9b7c49af936e")
+	)
+	(wire
+		(pts
 			(xy 151.13 205.74) (xy 146.05 205.74)
 		)
 		(stroke
@@ -6305,6 +6442,16 @@
 			(type default)
 		)
 		(uuid "11eb53df-eff0-45d9-906d-850093f2c8db")
+	)
+	(wire
+		(pts
+			(xy 90.17 346.71) (xy 90.17 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f9d594-5d9e-4d51-a952-490d2c04b0d0")
 	)
 	(wire
 		(pts
@@ -6446,8 +6593,36 @@
 		)
 		(uuid "193a2cf8-4f1d-45aa-81cc-046309fbfb77")
 	)
-	
-	
+	(wire
+		(pts
+			(xy 483.87 347.98) (xy 483.87 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b38213a-6c09-4cf4-8a2f-80337a1e6dca")
+	)
+	(wire
+		(pts
+			(xy 379.73 306.07) (xy 389.89 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9ffd71-b606-4102-a13f-13c4b86e4748")
+	)
+	(wire
+		(pts
+			(xy 382.27 346.71) (xy 382.27 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc1eb4a-798a-4abd-81a1-fc220b221592")
+	)
 	(wire
 		(pts
 			(xy 29.21 285.75) (xy 74.93 285.75)
@@ -6500,6 +6675,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 316.23) (xy 179.07 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208d364d-2a69-4194-ab10-741831d9982c")
+	)
+	(wire
+		(pts
 			(xy 151.13 154.94) (xy 143.51 154.94)
 		)
 		(stroke
@@ -6540,6 +6725,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 316.23) (xy 293.37 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22202a29-ecac-4554-bb52-ca04ab226156")
+	)
+	(wire
+		(pts
+			(xy 191.77 341.63) (xy 186.69 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2233b8f6-c454-4a98-b88b-c1d3b91fa819")
+	)
+	(wire
+		(pts
 			(xy 191.77 331.47) (xy 196.85 331.47)
 		)
 		(stroke
@@ -6550,6 +6755,26 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 331.47) (xy 382.27 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2319ee16-e425-4cd4-8f18-6592c6dfd388")
+	)
+	(wire
+		(pts
+			(xy 496.57 295.91) (xy 491.49 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2326c298-dadd-405c-b7c2-65de99d70749")
+	)
+	(wire
+		(pts
 			(xy 191.77 285.75) (xy 196.85 285.75)
 		)
 		(stroke
@@ -6557,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "2331eeae-a93c-40df-899d-c22b2b39db8c")
+	)
+	(wire
+		(pts
+			(xy 280.67 331.47) (xy 280.67 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23768b92-6141-4951-8f6a-823fe60a7c20")
 	)
 	(wire
 		(pts
@@ -6720,6 +6955,26 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 361.95) (xy 394.97 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a72500-8625-4bfe-ac21-be00f91c9be9")
+	)
+	(wire
+		(pts
+			(xy 179.07 300.99) (xy 179.07 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a17feca-ae9c-4237-b4ce-d3556fbe04cf")
+	)
+	(wire
+		(pts
 			(xy 292.1 530.86) (xy 287.02 530.86)
 		)
 		(stroke
@@ -6820,6 +7075,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 346.71) (xy 74.93 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0f408b-7941-4776-991d-3810efd84041")
+	)
+	(wire
+		(pts
 			(xy 39.37 267.97) (xy 39.37 346.71)
 		)
 		(stroke
@@ -6867,6 +7132,36 @@
 			(type default)
 		)
 		(uuid "2fff14c2-ba99-4479-98e1-ebbd26013e95")
+	)
+	(wire
+		(pts
+			(xy 481.33 353.06) (xy 491.49 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3149f5d1-b342-4daf-9868-bbcdd61371f3")
+	)
+	(wire
+		(pts
+			(xy 496.57 326.39) (xy 491.49 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315652f3-4778-4c0b-9ecb-f7884cd417f1")
+	)
+	(wire
+		(pts
+			(xy 379.73 351.79) (xy 389.89 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3190be94-4546-4e61-9571-036b3220a73f")
 	)
 	(wire
 		(pts
@@ -6930,6 +7225,26 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 280.67) (xy 389.89 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b730c8-7382-443b-9d7f-61233191ffc1")
+	)
+	(wire
+		(pts
+			(xy 379.73 316.23) (xy 379.73 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e56cf2-d562-4051-ab6f-df5fefac9d5a")
+	)
+	(wire
+		(pts
 			(xy 116.84 205.74) (xy 121.92 205.74)
 		)
 		(stroke
@@ -6978,7 +7293,6 @@
 		)
 		(uuid "36d695c0-7336-4916-83d8-59404307e839")
 	)
-	
 	(wire
 		(pts
 			(xy 450.85 661.67) (xy 445.77 661.67)
@@ -7081,6 +7395,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 316.23) (xy 278.13 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b315de7-e4a8-45c8-bf02-6011688d267c")
+	)
+	(wire
+		(pts
 			(xy 176.53 76.2) (xy 184.15 76.2)
 		)
 		(stroke
@@ -7088,6 +7412,16 @@
 			(type default)
 		)
 		(uuid "3b6722cb-2080-4533-8143-95e841837d52")
+	)
+	(wire
+		(pts
+			(xy 481.33 300.99) (xy 481.33 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6c074f-933e-485e-85ad-2661f8295b0c")
 	)
 	(wire
 		(pts
@@ -7121,6 +7455,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 306.07) (xy 186.69 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9c391d-7a79-48a9-af9e-89cca436a5a9")
+	)
+	(wire
+		(pts
+			(xy 179.07 331.47) (xy 179.07 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cee0621-a6ff-4e8a-bbbe-157c08b4f21b")
+	)
+	(wire
+		(pts
 			(xy 458.47 669.29) (xy 463.55 669.29)
 		)
 		(stroke
@@ -7128,6 +7482,36 @@
 			(type default)
 		)
 		(uuid "3e213251-1c61-4388-b645-1e15f0753e90")
+	)
+	(wire
+		(pts
+			(xy 74.93 285.75) (xy 74.93 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f016b81-a736-493f-9a49-97fe12d831e0")
+	)
+	(wire
+		(pts
+			(xy 90.17 280.67) (xy 85.09 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7051c0-397e-41c8-ba3d-535d57e07e55")
+	)
+	(wire
+		(pts
+			(xy 90.17 331.47) (xy 90.17 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401402de-cb5c-432a-914b-dbd9108f4d03")
 	)
 	(wire
 		(pts
@@ -7201,6 +7585,26 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 336.55) (xy 389.89 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4242f617-9a7c-45ba-ad6c-a6e607126b47")
+	)
+	(wire
+		(pts
+			(xy 379.73 367.03) (xy 389.89 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e9639a-903f-4c85-9eae-08bf00a53406")
+	)
+	(wire
+		(pts
 			(xy 472.44 165.1) (xy 464.82 165.1)
 		)
 		(stroke
@@ -7218,6 +7622,36 @@
 			(type default)
 		)
 		(uuid "457dfe13-1510-4a28-94b8-9b45d35eb853")
+	)
+	(wire
+		(pts
+			(xy 77.47 285.75) (xy 77.47 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481d0a24-8c4b-4629-9492-0009d11160bc")
+	)
+	(wire
+		(pts
+			(xy 90.17 341.63) (xy 85.09 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483da486-e590-454f-b3f7-1cc7244fee3e")
+	)
+	(wire
+		(pts
+			(xy 496.57 309.88) (xy 491.49 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bb879c-f4b4-473d-b8aa-034634a3b1ec")
 	)
 	(wire
 		(pts
@@ -7251,6 +7685,26 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 347.98) (xy 496.57 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfe88e2-533a-4dc0-b1f2-0379d8e71aee")
+	)
+	(wire
+		(pts
+			(xy 176.53 300.99) (xy 176.53 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c011d9e-8d31-4ef7-a3e6-99aa50387ce3")
+	)
+	(wire
+		(pts
 			(xy 336.55 300.99) (xy 379.73 300.99)
 		)
 		(stroke
@@ -7258,6 +7712,16 @@
 			(type default)
 		)
 		(uuid "4c610cae-a7cd-4a24-8e7c-48eecdd6977d")
+	)
+	(wire
+		(pts
+			(xy 191.77 280.67) (xy 186.69 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbd19c4-d73c-4d90-adaa-30a1ff584710")
 	)
 	(wire
 		(pts
@@ -7271,6 +7735,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 346.71) (xy 293.37 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1cd105-8325-4871-8183-4bd14ffc2a3d")
+	)
+	(wire
+		(pts
+			(xy 74.93 306.07) (xy 85.09 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9d0992-ec42-49fb-94e4-75ccc58c108b")
+	)
+	(wire
+		(pts
 			(xy 283.21 78.74) (xy 290.83 78.74)
 		)
 		(stroke
@@ -7278,6 +7762,16 @@
 			(type default)
 		)
 		(uuid "4dedd8f0-aea5-4a3f-b423-a58555e1701d")
+	)
+	(wire
+		(pts
+			(xy 278.13 306.07) (xy 288.29 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e03b654-c273-4164-bd5a-c60e6c0f80eb")
 	)
 	(wire
 		(pts
@@ -7321,6 +7815,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 331.47) (xy 77.47 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edd34f7-4781-4907-9a22-38e2a3d2a77f")
+	)
+	(wire
+		(pts
 			(xy 292.1 525.78) (xy 287.02 525.78)
 		)
 		(stroke
@@ -7338,6 +7842,16 @@
 			(type default)
 		)
 		(uuid "4f7657bf-b89c-47de-adc0-19a775deaca2")
+	)
+	(wire
+		(pts
+			(xy 394.97 356.87) (xy 389.89 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdd8af9-0f2c-49fb-ab4b-cc3a0e0dbb73")
 	)
 	(wire
 		(pts
@@ -7411,6 +7925,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 331.47) (xy 481.33 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528b4867-1834-4f86-ab5e-2f459eeb1802")
+	)
+	(wire
+		(pts
 			(xy 266.7 581.66) (xy 266.7 579.12)
 		)
 		(stroke
@@ -7418,6 +7942,16 @@
 			(type default)
 		)
 		(uuid "54c4d505-455d-4e4f-bccd-aa42b16898b6")
+	)
+	(wire
+		(pts
+			(xy 90.17 361.95) (xy 90.17 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5528351b-8467-454b-b2e8-137e7141962e")
 	)
 	(wire
 		(pts
@@ -7441,6 +7975,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 331.47) (xy 293.37 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565340f3-93dd-4fe8-8466-5f7be647703c")
+	)
+	(wire
+		(pts
+			(xy 481.33 336.55) (xy 491.49 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575a33ae-185e-4bd1-9bc8-4fe1dd0f9862")
+	)
+	(wire
+		(pts
 			(xy 450.85 654.05) (xy 445.77 654.05)
 		)
 		(stroke
@@ -7448,6 +8002,26 @@
 			(type default)
 		)
 		(uuid "57785825-b645-45af-bafc-e02433144887")
+	)
+	(wire
+		(pts
+			(xy 74.93 316.23) (xy 74.93 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5780aedb-1210-497b-8755-fc0df169e0dd")
+	)
+	(wire
+		(pts
+			(xy 278.13 361.95) (xy 278.13 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bcc5e0-c47b-44c4-8d5d-81a8eaffd380")
 	)
 	(wire
 		(pts
@@ -7461,6 +8035,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 361.95) (xy 191.77 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5847e86e-63f8-4d92-9d4d-9671dd9ed976")
+	)
+	(wire
+		(pts
 			(xy 391.16 76.2) (xy 398.78 76.2)
 		)
 		(stroke
@@ -7471,6 +8055,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 346.71) (xy 77.47 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5918a698-eccb-4839-9316-9ca3e8e6df34")
+	)
+	(wire
+		(pts
 			(xy 374.65 581.66) (xy 374.65 579.12)
 		)
 		(stroke
@@ -7478,6 +8072,16 @@
 			(type default)
 		)
 		(uuid "59c0dd37-d10f-4ff7-9e32-403905380a1a")
+	)
+	(wire
+		(pts
+			(xy 293.37 285.75) (xy 293.37 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59eb86b2-bc7d-4c3a-8561-d2b86e4606fc")
 	)
 	(wire
 		(pts
@@ -7531,6 +8135,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 326.39) (xy 186.69 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d23d30f-a541-4a9e-8be3-f3babbe8721f")
+	)
+	(wire
+		(pts
+			(xy 191.77 285.75) (xy 191.77 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6bb050-2486-4c04-9916-1772f8f7273f")
+	)
+	(wire
+		(pts
 			(xy 130.81 285.75) (xy 176.53 285.75)
 		)
 		(stroke
@@ -7538,6 +8162,16 @@
 			(type default)
 		)
 		(uuid "5eb7aa50-6ba0-4b4d-8522-b7d28cdedab6")
+	)
+	(wire
+		(pts
+			(xy 74.93 331.47) (xy 74.93 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f57879a-cb06-4a37-b4e0-40fb4030e794")
 	)
 	(wire
 		(pts
@@ -7561,6 +8195,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 321.31) (xy 186.69 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62088bef-2ecf-4a9d-b972-3d367794c46a")
+	)
+	(wire
+		(pts
 			(xy 208.28 530.86) (xy 203.2 530.86)
 		)
 		(stroke
@@ -7569,7 +8213,16 @@
 		)
 		(uuid "6287aff9-9251-4a3a-94b9-96e79e7d2325")
 	)
-	
+	(wire
+		(pts
+			(xy 496.57 300.99) (xy 496.57 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634a92ec-1ca9-4349-a645-48ae8e712b16")
+	)
 	(wire
 		(pts
 			(xy 391.16 157.48) (xy 398.78 157.48)
@@ -7602,6 +8255,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 285.75) (xy 278.13 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65428881-c516-4283-afe3-d39b7bef0f64")
+	)
+	(wire
+		(pts
 			(xy 391.16 66.04) (xy 398.78 66.04)
 		)
 		(stroke
@@ -7629,6 +8292,26 @@
 			(type default)
 		)
 		(uuid "672e5141-d38c-48f1-84b3-bda5885a36d1")
+	)
+	(wire
+		(pts
+			(xy 90.17 311.15) (xy 85.09 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a805b3-ce53-4e40-ae11-1150f3aab378")
+	)
+	(wire
+		(pts
+			(xy 382.27 285.75) (xy 382.27 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680ceb71-a2af-4f8f-8b86-db0dd78b28ef")
 	)
 	(wire
 		(pts
@@ -7672,6 +8355,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 300.99) (xy 394.97 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1cb84d-01bd-47e1-97a7-98d101b9465b")
+	)
+	(wire
+		(pts
 			(xy 400.05 581.66) (xy 400.05 579.12)
 		)
 		(stroke
@@ -7679,6 +8372,16 @@
 			(type default)
 		)
 		(uuid "6a32dac2-7e7f-48b9-96e4-87bfd3f6d54e")
+	)
+	(wire
+		(pts
+			(xy 278.13 290.83) (xy 288.29 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7615f2-fc47-4211-b5eb-b1af41247262")
 	)
 	(wire
 		(pts
@@ -7739,6 +8442,16 @@
 			(type default)
 		)
 		(uuid "6cfe6686-40c1-48d0-a9c7-4d63b5d98815")
+	)
+	(wire
+		(pts
+			(xy 74.93 361.95) (xy 74.93 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e108b43-25cc-4bb4-a580-633e665bc275")
 	)
 	(wire
 		(pts
@@ -7812,6 +8525,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 326.39) (xy 389.89 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a755e0-4325-453a-a35e-5399ca6f87c6")
+	)
+	(wire
+		(pts
 			(xy 257.81 172.72) (xy 250.19 172.72)
 		)
 		(stroke
@@ -7819,6 +8542,16 @@
 			(type default)
 		)
 		(uuid "71cac34c-2d87-480c-b661-2112bb7dd766")
+	)
+	(wire
+		(pts
+			(xy 90.17 326.39) (xy 85.09 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b696ea-b405-46ff-aeba-eb51b1f186f9")
 	)
 	(wire
 		(pts
@@ -7832,6 +8565,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 300.99) (xy 90.17 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d04483-cfac-43c8-897c-1fae45226cae")
+	)
+	(wire
+		(pts
 			(xy 69.85 165.1) (xy 77.47 165.1)
 		)
 		(stroke
@@ -7839,6 +8582,16 @@
 			(type default)
 		)
 		(uuid "72f57dc7-dafb-4a39-893d-9a1838d1bfa5")
+	)
+	(wire
+		(pts
+			(xy 278.13 331.47) (xy 278.13 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73421136-4f88-4c8a-9030-1f9d01b3ba83")
 	)
 	(wire
 		(pts
@@ -7852,6 +8605,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 285.75) (xy 176.53 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739e9056-f9e0-477a-aa33-59adf4809cd7")
+	)
+	(wire
+		(pts
 			(xy 172.72 525.78) (xy 167.64 525.78)
 		)
 		(stroke
@@ -7860,7 +8623,6 @@
 		)
 		(uuid "73b19440-7690-4836-980e-142e97f60a57")
 	)
-	
 	(wire
 		(pts
 			(xy 450.85 631.19) (xy 445.77 631.19)
@@ -7873,6 +8635,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 342.9) (xy 491.49 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75352d9f-a687-4c18-975f-f049748eb12d")
+	)
+	(wire
+		(pts
 			(xy 515.62 613.41) (xy 508 613.41)
 		)
 		(stroke
@@ -7880,6 +8652,16 @@
 			(type default)
 		)
 		(uuid "758eae19-f178-4176-8189-3a56aaeb52e1")
+	)
+	(wire
+		(pts
+			(xy 176.53 351.79) (xy 186.69 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7655f8d0-8281-4e9c-8e75-f11e86450b46")
 	)
 	(wire
 		(pts
@@ -7943,6 +8725,26 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 367.03) (xy 288.29 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7917171e-97ea-430b-bd2f-5f35f6263f83")
+	)
+	(wire
+		(pts
+			(xy 394.97 311.15) (xy 389.89 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7938df9d-254e-435a-959e-9a3218694676")
+	)
+	(wire
+		(pts
 			(xy 46.99 205.74) (xy 52.07 205.74)
 		)
 		(stroke
@@ -7960,6 +8762,16 @@
 			(type default)
 		)
 		(uuid "79f04e29-aab7-437d-9a0b-57bc67a9df5d")
+	)
+	(wire
+		(pts
+			(xy 496.57 276.86) (xy 491.49 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6e5927-56c4-4cd6-83ba-799b85703243")
 	)
 	(wire
 		(pts
@@ -8023,6 +8835,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 367.03) (xy 85.09 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e95fae0-27dc-4c4d-87a5-9e0ce71f6844")
+	)
+	(wire
+		(pts
+			(xy 74.93 300.99) (xy 74.93 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4aa0cc-0695-4a6c-9fc0-0e20cb9de4bb")
+	)
+	(wire
+		(pts
 			(xy 44.45 66.04) (xy 36.83 66.04)
 		)
 		(stroke
@@ -8031,7 +8863,16 @@
 		)
 		(uuid "7f4ad48d-3fa9-4449-b6cb-b545e0bf1de9")
 	)
-	
+	(wire
+		(pts
+			(xy 483.87 281.94) (xy 483.87 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ef5d5a-6c15-451e-80f3-b3f18ee33220")
+	)
 	(wire
 		(pts
 			(xy 458.47 623.57) (xy 463.55 623.57)
@@ -8051,6 +8892,16 @@
 			(type default)
 		)
 		(uuid "8293adfa-5197-4f7e-8106-b9e57884b29f")
+	)
+	(wire
+		(pts
+			(xy 278.13 346.71) (xy 278.13 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ef6066-254d-49a0-8892-d71c93b28989")
 	)
 	(wire
 		(pts
@@ -8124,6 +8975,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 300.99) (xy 280.67 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860808b9-7361-412a-8d2e-c89c5f4799c2")
+	)
+	(wire
+		(pts
 			(xy 278.13 581.66) (xy 278.13 579.12)
 		)
 		(stroke
@@ -8164,6 +9025,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 316.23) (xy 90.17 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88683738-26d8-4159-8ff5-bade7bd74aa8")
+	)
+	(wire
+		(pts
 			(xy 151.13 165.1) (xy 143.51 165.1)
 		)
 		(stroke
@@ -8184,6 +9055,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 351.79) (xy 85.09 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896e80e0-6fe5-40c5-b2f7-d49099d83760")
+	)
+	(wire
+		(pts
 			(xy 365.76 68.58) (xy 358.14 68.58)
 		)
 		(stroke
@@ -8191,6 +9072,16 @@
 			(type default)
 		)
 		(uuid "8a67aa81-e7f3-457c-bd28-114f047d7312")
+	)
+	(wire
+		(pts
+			(xy 481.33 281.94) (xy 481.33 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b39a124-5dd0-41cc-8d7e-2c7d6ff16244")
 	)
 	(wire
 		(pts
@@ -8241,6 +9132,16 @@
 			(type default)
 		)
 		(uuid "8d2da79b-3497-43fc-a271-1e8a9a06369c")
+	)
+	(wire
+		(pts
+			(xy 481.33 287.02) (xy 491.49 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7fd6b0-1f44-4e7d-85aa-fc342f135952")
 	)
 	(wire
 		(pts
@@ -8372,7 +9273,6 @@
 		)
 		(uuid "9257be06-401d-4b6f-9f0d-67b54c96de7a")
 	)
-	
 	(wire
 		(pts
 			(xy 257.81 83.82) (xy 250.19 83.82)
@@ -8412,6 +9312,16 @@
 			(type default)
 		)
 		(uuid "975aa790-fcdf-433e-8901-1fe5efec1f08")
+	)
+	(wire
+		(pts
+			(xy 191.77 356.87) (xy 186.69 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9822a4d3-5431-460c-a072-6155f922b669")
 	)
 	(wire
 		(pts
@@ -8485,6 +9395,36 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 316.23) (xy 394.97 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2e2c3f-64c0-43f9-a1a8-a4f990209c47")
+	)
+	(wire
+		(pts
+			(xy 481.33 306.07) (xy 491.49 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b97d540-15ba-401d-b7a0-4e3dbcdb610a")
+	)
+	(wire
+		(pts
+			(xy 191.77 295.91) (xy 186.69 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb02849-e600-4879-99f2-b8e07cc98432")
+	)
+	(wire
+		(pts
 			(xy 391.16 78.74) (xy 398.78 78.74)
 		)
 		(stroke
@@ -8532,6 +9472,16 @@
 			(type default)
 		)
 		(uuid "9d757218-f77f-4aad-b1aa-d4ba21111f44")
+	)
+	(wire
+		(pts
+			(xy 278.13 351.79) (xy 288.29 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db08d30-f1a4-4cf0-9429-3fb007dbdbb8")
 	)
 	(wire
 		(pts
@@ -8595,6 +9545,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 285.75) (xy 90.17 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0410cec-4954-4aa4-afb4-07234ed35f29")
+	)
+	(wire
+		(pts
 			(xy 515.62 598.17) (xy 508 598.17)
 		)
 		(stroke
@@ -8642,6 +9602,16 @@
 			(type default)
 		)
 		(uuid "a3d544f6-e64f-4149-b2dc-9c04e7e3fae3")
+	)
+	(wire
+		(pts
+			(xy 293.37 326.39) (xy 288.29 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f7ef2a-8298-4bbb-965b-ff8f52d857af")
 	)
 	(wire
 		(pts
@@ -8705,6 +9675,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 300.99) (xy 293.37 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7916b82-713a-456e-a283-2c5fc748d913")
+	)
+	(wire
+		(pts
 			(xy 232.41 257.81) (xy 232.41 252.73)
 		)
 		(stroke
@@ -8745,6 +9725,16 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 331.47) (xy 483.87 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8da9074-0a4f-4d3f-8c94-9520dc7f58af")
+	)
+	(wire
+		(pts
 			(xy 283.21 162.56) (xy 290.83 162.56)
 		)
 		(stroke
@@ -8762,6 +9752,16 @@
 			(type default)
 		)
 		(uuid "a950975c-b324-472f-9fde-bb2acb933c49")
+	)
+	(wire
+		(pts
+			(xy 191.77 331.47) (xy 191.77 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdaa372-d732-4b5b-92c0-1e8d7b69d06a")
 	)
 	(wire
 		(pts
@@ -8785,6 +9785,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 336.55) (xy 85.09 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3f9857-389b-40dc-9f26-b32994e906a3")
+	)
+	(wire
+		(pts
 			(xy 69.85 83.82) (xy 77.47 83.82)
 		)
 		(stroke
@@ -8792,6 +9802,16 @@
 			(type default)
 		)
 		(uuid "ac53f8ca-7f84-4dd7-b147-ce4e05168fde")
+	)
+	(wire
+		(pts
+			(xy 496.57 314.96) (xy 496.57 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea893fd-f5cd-41ab-9b9f-6f9cf28ee0bf")
 	)
 	(wire
 		(pts
@@ -8815,6 +9835,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 314.96) (xy 481.33 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af72be79-cc02-4645-af0a-f4a7482ccbd1")
+	)
+	(wire
+		(pts
 			(xy 346.71 267.97) (xy 346.71 361.95)
 		)
 		(stroke
@@ -8822,6 +9852,16 @@
 			(type default)
 		)
 		(uuid "b06f56fb-1491-443f-a758-206b37d8ffc4")
+	)
+	(wire
+		(pts
+			(xy 179.07 346.71) (xy 179.07 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18f2aef-7e58-4e2b-82cb-25522379e0f4")
 	)
 	(wire
 		(pts
@@ -8845,6 +9885,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 321.31) (xy 288.29 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31303ff-c14f-4e09-a307-f2e648558a32")
+	)
+	(wire
+		(pts
 			(xy 257.81 71.12) (xy 250.19 71.12)
 		)
 		(stroke
@@ -8863,7 +9913,16 @@
 		)
 		(uuid "b3791de8-5fee-4e81-be56-c0130c0dace5")
 	)
-	
+	(wire
+		(pts
+			(xy 191.77 316.23) (xy 191.77 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44b6bbc-6e2a-4e58-9b17-5d35a28c9f3e")
+	)
 	(wire
 		(pts
 			(xy 378.46 187.96) (xy 378.46 193.04)
@@ -8873,6 +9932,16 @@
 			(type default)
 		)
 		(uuid "b4a613e8-0050-4c76-8da3-fe3b85304be2")
+	)
+	(wire
+		(pts
+			(xy 278.13 300.99) (xy 278.13 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d2e7e5-d046-4f05-9a22-196e12b1ddd5")
 	)
 	(wire
 		(pts
@@ -8886,6 +9955,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 331.47) (xy 379.73 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6054ca9-0328-4ade-b907-a1c1e2bf4c15")
+	)
+	(wire
+		(pts
 			(xy 497.84 154.94) (xy 505.46 154.94)
 		)
 		(stroke
@@ -8893,6 +9972,16 @@
 			(type default)
 		)
 		(uuid "b6794410-abbc-4d76-b661-8259adceaf0a")
+	)
+	(wire
+		(pts
+			(xy 191.77 346.71) (xy 191.77 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71dc915-8f5d-4f70-80da-285aa1d89a02")
 	)
 	(wire
 		(pts
@@ -8994,7 +10083,16 @@
 		)
 		(uuid "bc48fdde-9884-4a78-b54e-e1a790bdaa14")
 	)
-	
+	(wire
+		(pts
+			(xy 293.37 311.15) (xy 288.29 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce88b9d-af90-4548-965f-6868521a2ce8")
+	)
 	(wire
 		(pts
 			(xy 69.85 68.58) (xy 77.47 68.58)
@@ -9004,6 +10102,16 @@
 			(type default)
 		)
 		(uuid "be0b0b25-4548-4d5f-9243-fae10cbfc70d")
+	)
+	(wire
+		(pts
+			(xy 496.57 331.47) (xy 496.57 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6352c1-a72b-4d76-bf78-cf3d41d12489")
 	)
 	(wire
 		(pts
@@ -9057,6 +10165,26 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 341.63) (xy 389.89 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a3059f-2023-4a2a-9117-c7ae475e7fc7")
+	)
+	(wire
+		(pts
+			(xy 379.73 321.31) (xy 389.89 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23e145c-1ab7-4223-b9f5-31117b21cfb5")
+	)
+	(wire
+		(pts
 			(xy 440.69 300.99) (xy 481.33 300.99)
 		)
 		(stroke
@@ -9064,6 +10192,26 @@
 			(type default)
 		)
 		(uuid "c26d1cf3-ac81-446b-84a9-cbfb3e5b8feb")
+	)
+	(wire
+		(pts
+			(xy 394.97 331.47) (xy 394.97 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3035f57-fcd3-4d9d-b978-5a76b326804d")
+	)
+	(wire
+		(pts
+			(xy 179.07 361.95) (xy 179.07 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30f9ba5-f762-4cca-8284-8f6e97c269ce")
 	)
 	(wire
 		(pts
@@ -9097,6 +10245,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 290.83) (xy 85.09 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c451ceae-d2b5-4bc1-9fd3-946de50828f6")
+	)
+	(wire
+		(pts
 			(xy 283.21 160.02) (xy 290.83 160.02)
 		)
 		(stroke
@@ -9104,6 +10262,16 @@
 			(type default)
 		)
 		(uuid "c496dc69-08a1-48fc-8ba4-2bfe8a619a2a")
+	)
+	(wire
+		(pts
+			(xy 293.37 341.63) (xy 288.29 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c532a0db-de83-4a6f-b06d-cbb2602810ef")
 	)
 	(wire
 		(pts
@@ -9155,7 +10323,6 @@
 		)
 		(uuid "c9405e34-bdcb-493d-8288-957bf8fd196f")
 	)
-	
 	(wire
 		(pts
 			(xy 293.37 300.99) (xy 298.45 300.99)
@@ -9198,6 +10365,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 300.99) (xy 379.73 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc85d93-5db0-425e-9b26-b20f3d4ee8ce")
+	)
+	(wire
+		(pts
 			(xy 365.76 66.04) (xy 358.14 66.04)
 		)
 		(stroke
@@ -9215,6 +10392,16 @@
 			(type default)
 		)
 		(uuid "ce271ed5-004a-4c14-a0a2-d4ced903b18d")
+	)
+	(wire
+		(pts
+			(xy 191.77 300.99) (xy 191.77 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce49bb3f-8f1a-46ca-b4da-7786f7965687")
 	)
 	(wire
 		(pts
@@ -9245,6 +10432,16 @@
 			(type default)
 		)
 		(uuid "cf14ede7-f02b-402e-bd45-2f34e91aca87")
+	)
+	(wire
+		(pts
+			(xy 191.77 311.15) (xy 186.69 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7e95ef-f48c-4937-ad89-9fbea51c57dd")
 	)
 	(wire
 		(pts
@@ -9338,6 +10535,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 295.91) (xy 288.29 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44bedad-6b2c-4b84-aa0f-05b2991cb77e")
+	)
+	(wire
+		(pts
 			(xy 497.84 157.48) (xy 505.46 157.48)
 		)
 		(stroke
@@ -9345,6 +10552,26 @@
 			(type default)
 		)
 		(uuid "d4cb27e7-d6a0-4c0a-9b8a-45e67882abc3")
+	)
+	(wire
+		(pts
+			(xy 293.37 356.87) (xy 288.29 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5161b45-7e5e-4847-8b04-d672a524d4b3")
+	)
+	(wire
+		(pts
+			(xy 176.53 367.03) (xy 186.69 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a289c3-8a64-4e05-b782-2d09bea3640a")
 	)
 	(wire
 		(pts
@@ -9378,6 +10605,26 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 346.71) (xy 379.73 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c585aa-fb17-4ff8-b129-d8c2c23a59de")
+	)
+	(wire
+		(pts
+			(xy 278.13 336.55) (xy 288.29 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d747ffe2-2b0f-4ca2-a84f-bfdf38067dd9")
+	)
+	(wire
+		(pts
 			(xy 365.76 165.1) (xy 358.14 165.1)
 		)
 		(stroke
@@ -9385,6 +10632,16 @@
 			(type default)
 		)
 		(uuid "d8a3f201-be09-431f-ad64-1bfc65f1e2fe")
+	)
+	(wire
+		(pts
+			(xy 77.47 316.23) (xy 77.47 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92b85a5-8d5b-4082-8a9e-5688c7b0df4b")
 	)
 	(wire
 		(pts
@@ -9438,6 +10695,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 285.75) (xy 280.67 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1db555-a013-40db-a936-abaf94894487")
+	)
+	(wire
+		(pts
 			(xy 313.69 581.66) (xy 313.69 579.12)
 		)
 		(stroke
@@ -9468,6 +10735,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 316.23) (xy 382.27 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddda11be-187b-4c61-86d4-dcff268ee777")
+	)
+	(wire
+		(pts
 			(xy 312.42 530.86) (xy 312.42 535.94)
 		)
 		(stroke
@@ -9485,6 +10762,16 @@
 			(type default)
 		)
 		(uuid "de6fb9e0-bc01-4fe3-bed5-90dd33284f40")
+	)
+	(wire
+		(pts
+			(xy 394.97 346.71) (xy 394.97 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debd9ff9-ad7e-4406-8a99-dae678157d3c")
 	)
 	(wire
 		(pts
@@ -9588,6 +10875,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 285.75) (xy 379.73 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27481dd-df3a-4015-b7a1-c33c6fd362cb")
+	)
+	(wire
+		(pts
 			(xy 283.21 66.04) (xy 290.83 66.04)
 		)
 		(stroke
@@ -9605,6 +10902,16 @@
 			(type default)
 		)
 		(uuid "e3ce6085-41d0-4b5b-9e73-04a1e883ee9d")
+	)
+	(wire
+		(pts
+			(xy 483.87 314.96) (xy 483.87 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40823a9-1697-4441-87e3-f12f9b05f8a7")
 	)
 	(wire
 		(pts
@@ -9678,6 +10985,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 331.47) (xy 176.53 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e739eabd-ede9-4fa8-b40e-d64d28ed7e99")
+	)
+	(wire
+		(pts
 			(xy 57.15 58.42) (xy 57.15 53.34)
 		)
 		(stroke
@@ -9685,6 +11002,16 @@
 			(type default)
 		)
 		(uuid "e742d58d-0dc9-4996-b8d1-71f9632a1595")
+	)
+	(wire
+		(pts
+			(xy 293.37 280.67) (xy 288.29 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c92520-574e-468c-890e-1cc21b985e60")
 	)
 	(wire
 		(pts
@@ -9728,6 +11055,26 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 300.99) (xy 483.87 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1dd69d-9703-4995-9cea-3d315b4956f4")
+	)
+	(wire
+		(pts
+			(xy 293.37 361.95) (xy 293.37 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebde22c6-a20a-4dad-b495-c1c14afffb0e")
+	)
+	(wire
+		(pts
 			(xy 67.31 581.66) (xy 72.39 581.66)
 		)
 		(stroke
@@ -9755,6 +11102,16 @@
 			(type default)
 		)
 		(uuid "efcbcaf2-73d8-4b5c-9a9e-50aa9796fe22")
+	)
+	(wire
+		(pts
+			(xy 481.33 347.98) (xy 481.33 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd0a998-382b-49b8-a618-5fd672dd2db4")
 	)
 	(wire
 		(pts
@@ -9848,6 +11205,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 281.94) (xy 496.57 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40cccf6-cd4e-4ef6-842e-dc20c49ce145")
+	)
+	(wire
+		(pts
 			(xy 176.53 154.94) (xy 184.15 154.94)
 		)
 		(stroke
@@ -9885,6 +11252,16 @@
 			(type default)
 		)
 		(uuid "f5c2feba-444f-458b-a5e2-8e8760faaeec")
+	)
+	(wire
+		(pts
+			(xy 90.17 295.91) (xy 85.09 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dead13-e1c1-4e14-98e0-04779550f54e")
 	)
 	(wire
 		(pts
@@ -9948,6 +11325,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 316.23) (xy 280.67 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8290cbb-1cc5-4f08-a92e-91e7db949d7f")
+	)
+	(wire
+		(pts
 			(xy 90.17 538.48) (xy 90.17 533.4)
 		)
 		(stroke
@@ -9965,6 +11352,16 @@
 			(type default)
 		)
 		(uuid "f84c7658-3757-4881-b27a-de0af2bbbacb")
+	)
+	(wire
+		(pts
+			(xy 379.73 290.83) (xy 389.89 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89caa60-cce5-46e7-826d-6886771943c1")
 	)
 	(wire
 		(pts
@@ -9998,6 +11395,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 346.71) (xy 280.67 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a8273a-3c0e-47ca-9f35-cbb1f5922435")
+	)
+	(wire
+		(pts
 			(xy 176.53 160.02) (xy 184.15 160.02)
 		)
 		(stroke
@@ -10025,6 +11432,26 @@
 			(type default)
 		)
 		(uuid "fa7f0b8a-ba68-41fd-ab12-8848fe8555a8")
+	)
+	(wire
+		(pts
+			(xy 394.97 295.91) (xy 389.89 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf50583-3843-4de0-bd21-90768cb221cc")
+	)
+	(wire
+		(pts
+			(xy 90.17 356.87) (xy 85.09 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb800720-7710-4f28-888d-16419697eb8f")
 	)
 	(wire
 		(pts
@@ -10065,6 +11492,16 @@
 			(type default)
 		)
 		(uuid "fdccf1a9-5a36-44ab-967a-5b1d1d4f70eb")
+	)
+	(wire
+		(pts
+			(xy 74.93 321.31) (xy 85.09 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff38b10a-11c2-48a5-89cb-7ee2c4dc8879")
 	)
 	(wire
 		(pts
@@ -10560,6 +11997,30 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
+		(at 179.07 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0203386b-4006-4051-b024-ff8d007a4c31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
 		(at 54.61 596.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10798,7 +12259,30 @@
 			)
 		)
 	)
-	
+	(global_label "+3.3V"
+		(shape input)
+		(at 179.07 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0900e236-cfbd-4c99-a704-28e99cbe9b40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_D5"
 		(shape bidirectional)
 		(at 464.82 167.64 180)
@@ -10871,7 +12355,6 @@
 			)
 		)
 	)
-	
 	(global_label "0V"
 		(shape input)
 		(at 383.54 530.86 180)
@@ -11064,7 +12547,6 @@
 			)
 		)
 	)
-	
 	(global_label "0V"
 		(shape input)
 		(at 361.95 591.82 270)
@@ -11257,6 +12739,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 179.07 281.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "152baf8d-c614-4229-bb73-a4c44fc6161e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_CLOCK"
 		(shape bidirectional)
 		(at 36.83 162.56 180)
@@ -11318,6 +12824,30 @@
 		(uuid "19dfe734-2353-43a0-adbe-4fcece263664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 323.85 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 382.27 358.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a70b764-327d-4af5-9945-52fcb2c71329")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11833,7 +13363,6 @@
 			)
 		)
 	)
-	
 	(global_label "0V"
 		(shape input)
 		(at 533.4 613.41 0)
@@ -11954,6 +13483,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 382.27 342.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d54c4d6-e729-48a0-9f6f-6dce03c23148")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_D6"
 		(shape bidirectional)
 		(at 358.14 170.18 180)
@@ -11975,6 +13528,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 280.67 342.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e077e7d-ee50-47c0-bca0-7fe6477764e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -12098,7 +13675,6 @@
 			)
 		)
 	)
-	
 	(global_label "+5V"
 		(shape input)
 		(at 36.83 88.9 180)
@@ -12459,6 +14035,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 77.47 358.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ebb13fe-e99a-4866-bd09-88a752d463f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0V"
 		(shape input)
 		(at 313.69 591.82 270)
@@ -12627,6 +14227,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 179.07 342.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4360b115-d021-488a-80cf-cd0fc4865d4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_PWAIT"
 		(shape bidirectional)
 		(at 121.92 205.74 0)
@@ -12672,6 +14296,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 483.87 311.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4486229e-5fd3-4635-b366-273f0ccd6d74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 483.87 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -12723,6 +14371,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 179.07 312.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45f495b9-9708-43fa-a56e-942f739ade62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DO4"
 		(shape bidirectional)
 		(at 184.15 165.1 0)
@@ -12771,7 +14443,6 @@
 			)
 		)
 	)
-	
 	(global_label "ERROR*"
 		(shape bidirectional)
 		(at 196.85 300.99 0)
@@ -13049,6 +14720,30 @@
 		(uuid "4dfb4e31-c6e3-4b51-bf7a-38e8e67f1100")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 398.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 280.67 312.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ee2637e-c68c-4610-b79b-adcd6cf07e94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13433,6 +15128,30 @@
 		(uuid "56a2dda4-4874-44a4-b6f1-a2ff3cdc3d54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.47 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 179.07 358.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "589374b4-e322-4434-a212-4d4d4903cf75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,6 +15667,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 483.87 278.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65d49413-0fdf-495b-8100-0bee923cc00d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 483.87 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_SSW_DSB*"
 		(shape bidirectional)
 		(at 473.71 347.98 90)
@@ -14356,7 +16099,6 @@
 			)
 		)
 	)
-	
 	(global_label "+5V"
 		(shape input)
 		(at 36.83 177.8 180)
@@ -14861,6 +16603,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 382.27 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8455cf1c-e6a3-47bd-a69a-1d4260af05bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0V"
 		(shape input)
 		(at 533.4 605.79 0)
@@ -14874,6 +16640,54 @@
 		(uuid "845de569-27d1-4e13-8dbd-4292bee648c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 533.4 605.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 280.67 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84690fa2-4456-4949-b774-412acc512c22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 77.47 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85c8b290-6e7b-462c-b736-e21e8fdd3106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14930,6 +16744,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 280.67 358.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86789bfd-d2a1-48b4-8cc7-97fb3ae4ea72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 280.67 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88d6a936-bbd7-473a-a6ae-e660248ce82e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15221,7 +17083,6 @@
 			)
 		)
 	)
-	
 	(global_label "+5V"
 		(shape input)
 		(at 313.69 579.12 90)
@@ -15235,6 +17096,30 @@
 		(uuid "9143849c-233e-4131-b970-ce59ed65469d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 313.69 579.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 77.47 281.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91e0fa0d-7e49-4b6d-814c-a4d7f0e546fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15294,7 +17179,6 @@
 			)
 		)
 	)
-	
 	(global_label "0V"
 		(shape input)
 		(at 203.2 525.78 180)
@@ -15484,6 +17368,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 483.87 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98e0d57d-dc5c-47d3-b19b-9f3d5ce80ff3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 483.87 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -16111,6 +18019,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 483.87 344.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8a28a83-a13f-405e-a253-a02ee63a9a1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 483.87 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_D3"
 		(shape bidirectional)
 		(at 464.82 162.56 180)
@@ -16228,6 +18160,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 382.27 281.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9ffab40-02e8-464b-ae47-6faf801a7f40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -16447,6 +18403,30 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 77.47 312.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afc20bfe-ac99-442e-b5db-e1888dfbe7a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 445.77 646.43 180)
@@ -16580,6 +18560,30 @@
 		(uuid "b59d5da8-206c-4444-8774-e5d127a1c89e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.51 350.9256 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 382.27 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b710325d-7383-4a95-83d7-0fd2375ab0d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16756,6 +18760,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 77.47 342.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc83fe45-9748-4528-9245-b327d0d15b62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 280.67 281.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bca81b3f-4411-4651-9655-f20d1396da0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -17287,7 +19339,6 @@
 			)
 		)
 	)
-	
 	(global_label "F_VI4*"
 		(shape bidirectional)
 		(at 270.51 285.75 90)
@@ -17792,6 +19843,54 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 382.27 312.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc0e13e3-79bf-40c6-b6cb-a397ed99c68c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 483.87 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc5c1188-8ae2-4ea5-993a-95e9f22fb091")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 483.87 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "F_TMA0*"
 		(shape bidirectional)
 		(at 270.51 346.71 90)
@@ -18080,7 +20179,6 @@
 			)
 		)
 	)
-	
 	(global_label "F_PWAIT"
 		(shape bidirectional)
 		(at 36.83 160.02 180)
@@ -18390,6 +20488,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 77.47 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4f95402-ef16-487c-9043-a45eacab840c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -18705,8 +20827,6 @@
 			)
 		)
 	)
-	
-	
 	(symbol
 		(lib_id "74xx:74HCT04")
 		(at 194.31 483.87 0)
@@ -18823,7 +20943,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "Device:R_Network06")
 		(at 240.03 262.89 0)
@@ -18919,7 +21038,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "Device:R")
 		(at 63.5 612.14 90)
@@ -19320,7 +21438,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "74xx:74HC245")
 		(at 57.15 167.64 0)
@@ -19455,7 +21572,93 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 285.75 316.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ae0622b-9898-4e2f-a032-fe28c5069128")
+		(property "Reference" "Q15"
+			(at 279.25 314.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 291.25 323.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 285.75 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 285.75 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 285.75 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9967adf8-2a97-4ca0-a60d-aa3110f653d4")
+		)
+		(pin "2"
+			(uuid "c3a6cdcf-5c83-47db-b6e5-708b0d3eed82")
+		)
+		(pin "3"
+			(uuid "5e08a2ca-e101-4de5-bcd6-b2ecf944b3c9")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "74xx:74HCT04")
 		(at 110.49 483.87 0)
@@ -19652,7 +21855,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "74xx:74HCT04")
 		(at 138.43 483.87 0)
@@ -19960,6 +22162,93 @@
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 387.35 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25050cac-9055-4eb2-be5c-44cfba2ec257")
+		(property "Reference" "Q19"
+			(at 380.85 283.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 392.85 292.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 387.35 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 387.35 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 387.35 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "79d2185d-7b97-4e6e-9c07-dd2c6281eaf1")
+		)
+		(pin "2"
+			(uuid "3f92a789-1675-426b-a10e-0a1302f6a78f")
+		)
+		(pin "3"
+			(uuid "30f1332c-48d1-49ca-aa93-d8b4f5393aed")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -20412,6 +22701,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 488.95 347.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34af3b2c-541a-4652-976f-a70b7f94894a")
+		(property "Reference" "Q29"
+			(at 482.45 345.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 494.45 355.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 488.95 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 488.95 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 488.95 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "04278283-3f45-41b5-ad1f-9ec09e213b4d")
+		)
+		(pin "2"
+			(uuid "f19e3422-9eee-431b-946e-71bf71f2ae17")
+		)
+		(pin "3"
+			(uuid "cb730871-2e90-4077-baf8-15e1207fd2a0")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Network06")
 		(at 36.83 262.89 0)
 		(unit 1)
@@ -20831,6 +23207,93 @@
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 184.15 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b26ee2f-a7ec-4e2a-8d6f-256e1eba4d3f")
+		(property "Reference" "Q8"
+			(at 177.65 298.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 189.65 308.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 184.15 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 184.15 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 184.15 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "27ef8f88-8ba6-4778-a436-a5992e3c020d")
+		)
+		(pin "2"
+			(uuid "6a966d7d-fbbf-440b-bc11-0628b6dc9125")
+		)
+		(pin "3"
+			(uuid "f4f8434c-59a0-4623-aca5-fbf1eaf46e1b")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -21444,7 +23907,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "74xx:74HC245")
 		(at 163.83 167.64 0)
@@ -21579,8 +24041,6 @@
 			)
 		)
 	)
-	
-	
 	(symbol
 		(lib_id "74xx:74HC245")
 		(at 485.14 78.74 0)
@@ -22259,12 +24719,93 @@
 			)
 		)
 	)
-	
-	
-	
-	
-	
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 387.35 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e718f4c-650c-47c8-b9c4-9bcadc7a3466")
+		(property "Reference" "Q22"
+			(at 380.85 329.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 392.85 338.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 387.35 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 387.35 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 387.35 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fe3f6e03-41e9-4432-a30e-90e3d5f719ee")
+		)
+		(pin "2"
+			(uuid "6aff2243-4f34-438f-9303-453a0745c7d5")
+		)
+		(pin "3"
+			(uuid "1363c1d4-a4dd-481f-80e8-2ac6a4ecb9be")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q22")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 313.69 585.47 0)
@@ -22345,7 +24886,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "Device:C")
 		(at 438.15 585.47 0)
@@ -22587,6 +25127,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 82.55 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a8e12e8-585e-4a64-b33e-ef6413876f29")
+		(property "Reference" "Q1"
+			(at 76.05 283.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 88.05 292.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 82.55 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 82.55 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 82.55 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6182614d-cf19-4ae6-8b21-5ec452beaeaa")
+		)
+		(pin "2"
+			(uuid "04494bce-cb43-417d-80ba-d7ace4d8495c")
+		)
+		(pin "3"
+			(uuid "a3125904-ad16-4f28-933b-737cfaecb355")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 387.35 585.47 0)
 		(unit 1)
@@ -22800,7 +25427,93 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 488.95 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8081108e-b6c6-40a8-a68a-1cdfe67f392e")
+		(property "Reference" "Q27"
+			(at 482.45 312.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 494.45 322.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 488.95 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 488.95 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 488.95 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0c3c027c-52d9-4909-ab99-87bc2ba01f9a")
+		)
+		(pin "2"
+			(uuid "cfcffbbe-9be8-4cca-bf0d-2283696874eb")
+		)
+		(pin "3"
+			(uuid "80ffffde-98d2-448a-8a9f-2b866852c648")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q27")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "74xx:74HCT02")
 		(at 431.8 528.32 0)
@@ -22997,9 +25710,93 @@
 			)
 		)
 	)
-	
-	
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 184.15 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94c994a8-636b-43ee-9506-522411a65796")
+		(property "Reference" "Q10"
+			(at 177.65 329.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 189.65 338.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 184.15 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 184.15 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 184.15 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f3983dd7-c23d-4e2f-ae44-bfaf37b72002")
+		)
+		(pin "2"
+			(uuid "5f219637-de4f-465a-a7c9-2608e9285d11")
+		)
+		(pin "3"
+			(uuid "31a16ade-a2f6-477e-aad5-0a9c4d55c966")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 454.66 676.91 90)
@@ -23080,7 +25877,354 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 184.15 361.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "953226cc-5920-4855-8b7a-a321c77ee727")
+		(property "Reference" "Q12"
+			(at 177.65 359.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 189.65 369.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 184.15 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 184.15 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 184.15 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a9683243-beb9-42f5-a100-d83282cd66e6")
+		)
+		(pin "2"
+			(uuid "1f3b3296-792d-4ff5-b179-5b9f1438deed")
+		)
+		(pin "3"
+			(uuid "fc2eb7af-c142-4138-a63f-01eb3a20a742")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 82.55 361.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "979b35ee-6bfe-4c5a-ba2c-98a500fee3e2")
+		(property "Reference" "Q6"
+			(at 76.05 359.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 88.05 369.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 82.55 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 82.55 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 82.55 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "607a647c-0274-43ed-9215-1a8e14ae24f3")
+		)
+		(pin "2"
+			(uuid "5d644c72-0a60-487e-9f1d-69e60729d1a4")
+		)
+		(pin "3"
+			(uuid "48ad0b46-14ff-4009-865d-03894b7ef4df")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 387.35 316.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97da6545-357c-40e9-bead-9b1b8b9968eb")
+		(property "Reference" "Q21"
+			(at 380.85 314.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 392.85 323.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 387.35 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 387.35 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 387.35 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "918404f6-30db-4af3-83dd-6dc4e5b11c09")
+		)
+		(pin "2"
+			(uuid "788f386c-f7f5-4a91-ba88-39eaf948ae41")
+		)
+		(pin "3"
+			(uuid "85cef652-68b3-4433-8b47-47c26db853f7")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 285.75 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a3ef677-5d75-492d-9187-597ea47a2c23")
+		(property "Reference" "Q16"
+			(at 279.25 329.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 291.25 338.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 285.75 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 285.75 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 285.75 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "98898cec-eb62-4be5-bdaa-ce2ade50d7c3")
+		)
+		(pin "2"
+			(uuid "a9d77ec3-57c1-4a5d-91ac-220ef9d8ee51")
+		)
+		(pin "3"
+			(uuid "ea1ca6a9-39c9-4909-ac72-657572ca8f12")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "74xx:74HC245")
 		(at 378.46 78.74 0)
@@ -23215,7 +26359,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "Device:C")
 		(at 374.65 585.47 0)
@@ -23376,7 +26519,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "74xx:74HC245")
 		(at 270.51 167.64 0)
@@ -23591,8 +26733,6 @@
 			)
 		)
 	)
-	
-	
 	(symbol
 		(lib_id "74xx:74HCT04")
 		(at 222.25 483.87 0)
@@ -23709,7 +26849,93 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 82.55 316.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afb90a16-c0b8-4a18-96ad-6c986e963acb")
+		(property "Reference" "Q3"
+			(at 76.05 314.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 88.05 323.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 82.55 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 82.55 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 82.55 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3d3a86b5-023a-42aa-9f0e-cb9ff14dffc5")
+		)
+		(pin "2"
+			(uuid "d34149c1-d69b-4af2-9aa8-12d40876aaa9")
+		)
+		(pin "3"
+			(uuid "22113963-2b77-45c2-823f-e6dab6959100")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "74xx:74LS32")
 		(at 90.17 551.18 0)
@@ -23827,6 +27053,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 184.15 316.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b52f06e3-1386-44e1-a7a3-32c065d6354c")
+		(property "Reference" "Q9"
+			(at 177.65 314.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 189.65 323.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 184.15 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 184.15 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 184.15 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4e1b8d4d-98b3-4b5d-9bd6-95ca70937900")
+		)
+		(pin "2"
+			(uuid "7f9d73c8-aa97-4915-aaca-3e6a176ec4fb")
+		)
+		(pin "3"
+			(uuid "0f1414cb-6a75-4587-942d-d6e75c285656")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 215.9 528.32 0)
 		(unit 4)
@@ -23938,6 +27251,93 @@
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
 					(reference "U16")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 184.15 346.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6954158-ce55-40d7-8e30-d1927911473c")
+		(property "Reference" "Q11"
+			(at 177.65 344.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 189.65 353.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 184.15 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 184.15 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 184.15 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e90de65b-f152-4426-a61b-e44f7c04f00e")
+		)
+		(pin "2"
+			(uuid "29e214ce-375d-43d1-b3e9-7e2ddccf226c")
+		)
+		(pin "3"
+			(uuid "6cad5c4b-e3ac-41f2-acbd-192ded73da48")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q11")
+					(unit 1)
 				)
 			)
 		)
@@ -24138,8 +27538,6 @@
 			)
 		)
 	)
-	
-	
 	(symbol
 		(lib_id "Device:R_Network06")
 		(at 138.43 262.89 0)
@@ -24235,7 +27633,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "74xx:74HCT04")
 		(at 166.37 483.87 0)
@@ -24352,9 +27749,180 @@
 			)
 		)
 	)
-	
-	
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 488.95 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c00d019b-0392-4480-9b82-c7396922f997")
+		(property "Reference" "Q25"
+			(at 482.45 279.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 494.45 289.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 488.95 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 488.95 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 488.95 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "12f7444a-946e-43f7-946b-c2f43dd01fb1")
+		)
+		(pin "2"
+			(uuid "c4979efe-f481-4e8d-b891-3ca3c7e42d8d")
+		)
+		(pin "3"
+			(uuid "5cc727f1-586f-4209-bb02-159de809f355")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 285.75 346.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3b43270-f3f1-4598-bc01-e9afd5aeaaae")
+		(property "Reference" "Q17"
+			(at 279.25 344.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 291.25 353.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 285.75 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 285.75 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 285.75 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0c238715-5874-4a16-8751-a59aa7087634")
+		)
+		(pin "2"
+			(uuid "0d80eae2-c039-419a-81e7-01ece79c934a")
+		)
+		(pin "3"
+			(uuid "52630e21-2be6-43a0-b450-c2922aea489d")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "74xx:74HCT02")
 		(at 360.68 528.32 0)
@@ -24588,6 +28156,180 @@
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 488.95 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c61cea4b-cbfa-4e2e-ac4b-b13cc31cd3b1")
+		(property "Reference" "Q28"
+			(at 482.45 329.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 494.45 338.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 488.95 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 488.95 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 488.95 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d63ada49-796a-4753-8bfa-42ca57ddf65a")
+		)
+		(pin "2"
+			(uuid "92f576ed-2a7c-4b45-b9a3-8a180e5a92c9")
+		)
+		(pin "3"
+			(uuid "d4069c52-9de7-427e-8665-fbcaf8f72345")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 285.75 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c71d5153-24fa-4ceb-9def-8e799a96e8d8")
+		(property "Reference" "Q13"
+			(at 279.25 283.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 291.25 292.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 285.75 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 285.75 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 285.75 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3a1f8ca2-cd2b-4542-8c73-7d66476b70f4")
+		)
+		(pin "2"
+			(uuid "4b38f812-cf13-4458-95eb-eabbef62a34b")
+		)
+		(pin "3"
+			(uuid "f9b856b2-a4f2-42a7-90d8-eb46cbb277e5")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -25205,6 +28947,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 387.35 361.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d461fb6c-5f1f-4d29-9c47-67a4cf8d2c8e")
+		(property "Reference" "Q24"
+			(at 380.85 359.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 392.85 369.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 387.35 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 387.35 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 387.35 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d9a83a0e-e57a-4f92-a10e-2b754632dcd8")
+		)
+		(pin "2"
+			(uuid "d56a68da-9ec1-4d08-8bdc-ca5f78a74ac3")
+		)
+		(pin "3"
+			(uuid "8cc8b6a6-f574-4b08-9758-c1d3e6da3691")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 266.7 585.47 0)
 		(unit 1)
@@ -25279,6 +29108,93 @@
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 387.35 346.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da18cc72-7008-42d4-98b6-44d86a0c8aa8")
+		(property "Reference" "Q23"
+			(at 380.85 344.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 392.85 353.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 387.35 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 387.35 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 387.35 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9fb75bd5-2bdc-4883-815c-0cc0445a25cc")
+		)
+		(pin "2"
+			(uuid "7d699cfc-5128-4adb-bc73-8bb20bfbc010")
+		)
+		(pin "3"
+			(uuid "182e38eb-2b24-4f59-84ff-15e7218f1df1")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -25364,7 +29280,441 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 488.95 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1095244-aecb-43f4-836a-42da9ebdecef")
+		(property "Reference" "Q26"
+			(at 482.45 298.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 494.45 308.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 488.95 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 488.95 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 488.95 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b439d520-692e-429c-818b-1fac3f8e5e48")
+		)
+		(pin "2"
+			(uuid "19dd1401-3274-4405-9ed1-7e3a75a25b6b")
+		)
+		(pin "3"
+			(uuid "9fc7e713-3927-46b6-88c1-620ebaafd639")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 387.35 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2166166-b8d0-4471-ac02-d8af8fc57b74")
+		(property "Reference" "Q20"
+			(at 380.85 298.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 392.85 308.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 387.35 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 387.35 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 387.35 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "25119caf-bb1c-4065-887c-eb697d7ae9ff")
+		)
+		(pin "2"
+			(uuid "70270575-98d1-4204-8558-b53ecdb39897")
+		)
+		(pin "3"
+			(uuid "78f56918-ed38-49a2-91fd-533b85360ee9")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 82.55 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e98eea56-0e53-4161-a955-38534694e8b7")
+		(property "Reference" "Q2"
+			(at 76.05 298.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 88.05 308.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 82.55 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 82.55 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 82.55 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ba2ac942-09db-4984-8fa1-b126272b7bd5")
+		)
+		(pin "2"
+			(uuid "22673720-02e7-4dc7-a029-2e62d7313ef9")
+		)
+		(pin "3"
+			(uuid "f61ec80e-22dc-42f8-9024-e8660cc06792")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 285.75 361.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec586a65-74db-4322-bc51-a0f1a88a52d4")
+		(property "Reference" "Q18"
+			(at 279.25 359.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 291.25 369.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 285.75 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 285.75 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 285.75 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "75c00972-bd9a-4d7f-b35c-76bd80756637")
+		)
+		(pin "2"
+			(uuid "44377703-2411-456a-aacd-910e0b49e0e2")
+		)
+		(pin "3"
+			(uuid "4175436c-9bca-43d3-82f3-78d9c87f7ecd")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 82.55 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee730ae5-6dcb-49fb-8065-98c44cc5760d")
+		(property "Reference" "Q4"
+			(at 76.05 329.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 88.05 338.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 82.55 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 82.55 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 82.55 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fd5f92b9-1d31-40bd-9d9f-ae55de5dce46")
+		)
+		(pin "2"
+			(uuid "1f9fa23c-50da-4b55-9d6d-22f555544525")
+		)
+		(pin "3"
+			(uuid "9737542d-4368-4376-af10-d6ea1ae81d3f")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 425.45 585.47 0)
@@ -25445,7 +29795,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "Device:R")
 		(at 63.5 596.9 90)
@@ -25521,6 +29870,93 @@
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 285.75 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2928c41-4589-41dd-b7af-a3dd0bc40e90")
+		(property "Reference" "Q14"
+			(at 279.25 298.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN0702N3-G"
+			(at 291.25 308.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 285.75 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
+			(at 285.75 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
+			(at 285.75 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7c56f744-9626-4751-bab7-b8376ff26b28")
+		)
+		(pin "2"
+			(uuid "55a43f8e-f668-4959-8e79-f6cafb4fc9bc")
+		)
+		(pin "3"
+			(uuid "746ec834-995a-47e9-ad1a-319f121ff229")
+		)
+		(instances
+			(project "s100-template"
+				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -25767,731 +30203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 74.93 205.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7236385-68b6-443f-832b-76e4bb0e5799")
-		(property "Reference" "R10"
-			(at 70.255 202.7 270)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 75.335 202.7 270)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 74.93 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f55ae30-e0bb-492e-9baa-b1a48e7ca913")
-		)
-		(pin "2"
-			(uuid "3ee525f1-ceca-476b-b11c-fca48990592f")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 82.55 285.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a8e12e8-585e-4a64-b33e-ef6413876f29")
-		(property "Reference" "Q1"
-			(at 76.05 283.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 88.05 292.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 82.55 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 82.55 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 82.55 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "6182614d-cf19-4ae6-8b21-5ec452beaeaa")
-		)
-		(pin "2"
-			(uuid "04494bce-cb43-417d-80ba-d7ace4d8495c")
-		)
-		(pin "3"
-			(uuid "a3125904-ad16-4f28-933b-737cfaecb355")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 74.93 285.75) (xy 74.93 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f016b81-a736-493f-9a49-97fe12d831e0")
-	)
-	(wire
-		(pts
-			(xy 74.93 290.83) (xy 85.09 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c451ceae-d2b5-4bc1-9fd3-946de50828f6")
-	)
-	(wire
-		(pts
-			(xy 90.17 285.75) (xy 90.17 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0410cec-4954-4aa4-afb4-07234ed35f29")
-	)
-	(wire
-		(pts
-			(xy 90.17 280.67) (xy 85.09 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7051c0-397e-41c8-ba3d-535d57e07e55")
-	)
-	(wire
-		(pts
-			(xy 77.47 285.75) (xy 77.47 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481d0a24-8c4b-4629-9492-0009d11160bc")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 281.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91e0fa0d-7e49-4b6d-814c-a4d7f0e546fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 82.55 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e98eea56-0e53-4161-a955-38534694e8b7")
-		(property "Reference" "Q2"
-			(at 76.05 298.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 88.05 308.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 82.55 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 82.55 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 82.55 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "ba2ac942-09db-4984-8fa1-b126272b7bd5")
-		)
-		(pin "2"
-			(uuid "22673720-02e7-4dc7-a029-2e62d7313ef9")
-		)
-		(pin "3"
-			(uuid "f61ec80e-22dc-42f8-9024-e8660cc06792")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 74.93 300.99) (xy 74.93 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f4aa0cc-0695-4a6c-9fc0-0e20cb9de4bb")
-	)
-	(wire
-		(pts
-			(xy 74.93 306.07) (xy 85.09 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9d0992-ec42-49fb-94e4-75ccc58c108b")
-	)
-	(wire
-		(pts
-			(xy 90.17 300.99) (xy 90.17 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d04483-cfac-43c8-897c-1fae45226cae")
-	)
-	(wire
-		(pts
-			(xy 90.17 295.91) (xy 85.09 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5dead13-e1c1-4e14-98e0-04779550f54e")
-	)
-	(wire
-		(pts
-			(xy 77.47 300.99) (xy 77.47 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4c503c-e3ee-4882-bc99-7f3096caff03")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 297.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4f95402-ef16-487c-9043-a45eacab840c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 82.55 316.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afb90a16-c0b8-4a18-96ad-6c986e963acb")
-		(property "Reference" "Q3"
-			(at 76.05 314.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 88.05 323.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 82.55 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 82.55 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 82.55 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "3d3a86b5-023a-42aa-9f0e-cb9ff14dffc5")
-		)
-		(pin "2"
-			(uuid "d34149c1-d69b-4af2-9aa8-12d40876aaa9")
-		)
-		(pin "3"
-			(uuid "22113963-2b77-45c2-823f-e6dab6959100")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 74.93 316.23) (xy 74.93 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5780aedb-1210-497b-8755-fc0df169e0dd")
-	)
-	(wire
-		(pts
-			(xy 74.93 321.31) (xy 85.09 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff38b10a-11c2-48a5-89cb-7ee2c4dc8879")
-	)
-	(wire
-		(pts
-			(xy 90.17 316.23) (xy 90.17 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88683738-26d8-4159-8ff5-bade7bd74aa8")
-	)
-	(wire
-		(pts
-			(xy 90.17 311.15) (xy 85.09 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a805b3-ce53-4e40-ae11-1150f3aab378")
-	)
-	(wire
-		(pts
-			(xy 77.47 316.23) (xy 77.47 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92b85a5-8d5b-4082-8a9e-5688c7b0df4b")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 312.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "afc20bfe-ac99-442e-b5db-e1888dfbe7a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 82.55 331.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee730ae5-6dcb-49fb-8065-98c44cc5760d")
-		(property "Reference" "Q4"
-			(at 76.05 329.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 88.05 338.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 82.55 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 82.55 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 82.55 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "fd5f92b9-1d31-40bd-9d9f-ae55de5dce46")
-		)
-		(pin "2"
-			(uuid "1f9fa23c-50da-4b55-9d6d-22f555544525")
-		)
-		(pin "3"
-			(uuid "9737542d-4368-4376-af10-d6ea1ae81d3f")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 74.93 331.47) (xy 74.93 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f57879a-cb06-4a37-b4e0-40fb4030e794")
-	)
-	(wire
-		(pts
-			(xy 74.93 336.55) (xy 85.09 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac3f9857-389b-40dc-9f26-b32994e906a3")
-	)
-	(wire
-		(pts
-			(xy 90.17 331.47) (xy 90.17 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "401402de-cb5c-432a-914b-dbd9108f4d03")
-	)
-	(wire
-		(pts
-			(xy 90.17 326.39) (xy 85.09 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b696ea-b405-46ff-aeba-eb51b1f186f9")
-	)
-	(wire
-		(pts
-			(xy 77.47 331.47) (xy 77.47 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4edd34f7-4781-4907-9a22-38e2a3d2a77f")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 327.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85c8b290-6e7b-462c-b736-e21e8fdd3106")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:2N7000")
 		(at 82.55 346.71 0)
 		(unit 1)
@@ -26578,83 +30289,9 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 74.93 346.71) (xy 74.93 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0f408b-7941-4776-991d-3810efd84041")
-	)
-	(wire
-		(pts
-			(xy 74.93 351.79) (xy 85.09 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896e80e0-6fe5-40c5-b2f7-d49099d83760")
-	)
-	(wire
-		(pts
-			(xy 90.17 346.71) (xy 90.17 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f9d594-5d9e-4d51-a952-490d2c04b0d0")
-	)
-	(wire
-		(pts
-			(xy 90.17 341.63) (xy 85.09 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "483da486-e590-454f-b3f7-1cc7244fee3e")
-	)
-	(wire
-		(pts
-			(xy 77.47 346.71) (xy 77.47 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5918a698-eccb-4839-9316-9ca3e8e6df34")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 342.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc83fe45-9748-4528-9245-b327d0d15b62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 82.55 361.95 0)
+		(lib_id "Device:R")
+		(at 74.93 205.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26662,9 +30299,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "979b35ee-6bfe-4c5a-ba2c-98a500fee3e2")
-		(property "Reference" "Q6"
-			(at 76.05 359.75 0)
+		(uuid "f7236385-68b6-443f-832b-76e4bb0e5799")
+		(property "Reference" "R10"
+			(at 70.255 202.7 270)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26674,8 +30311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TN0702N3-G"
-			(at 88.05 369.15 0)
+		(property "Value" "10k"
+			(at 75.335 202.7 270)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26685,8 +30322,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 82.55 361.95 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 74.93 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26694,11 +30331,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 82.55 361.95 0)
+		(property "Datasheet" ""
+			(at 74.93 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26706,110 +30342,30 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 82.55 361.95 0)
-			(hide yes)
+		(property "Description" ""
+			(at 74.93 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "607a647c-0274-43ed-9215-1a8e14ae24f3")
+			(uuid "9f55ae30-e0bb-492e-9baa-b1a48e7ca913")
 		)
 		(pin "2"
-			(uuid "5d644c72-0a60-487e-9f1d-69e60729d1a4")
-		)
-		(pin "3"
-			(uuid "48ad0b46-14ff-4009-865d-03894b7ef4df")
+			(uuid "3ee525f1-ceca-476b-b11c-fca48990592f")
 		)
 		(instances
 			(project "s100-template"
 				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q6")
+					(reference "R10")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 74.93 361.95) (xy 74.93 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e108b43-25cc-4bb4-a580-633e665bc275")
-	)
-	(wire
-		(pts
-			(xy 74.93 367.03) (xy 85.09 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e95fae0-27dc-4c4d-87a5-9e0ce71f6844")
-	)
-	(wire
-		(pts
-			(xy 90.17 361.95) (xy 90.17 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5528351b-8467-454b-b2e8-137e7141962e")
-	)
-	(wire
-		(pts
-			(xy 90.17 356.87) (xy 85.09 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb800720-7710-4f28-888d-16419697eb8f")
-	)
-	(wire
-		(pts
-			(xy 77.47 361.95) (xy 77.47 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aca33ed-97a5-4fe0-8767-1be299d1f03d")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 358.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ebb13fe-e99a-4866-bd09-88a752d463f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -26897,3622 +30453,6 @@
 					(reference "Q7")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 176.53 285.75) (xy 176.53 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739e9056-f9e0-477a-aa33-59adf4809cd7")
-	)
-	(wire
-		(pts
-			(xy 176.53 290.83) (xy 186.69 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b144f4-de46-49f2-94c0-9b7c49af936e")
-	)
-	(wire
-		(pts
-			(xy 191.77 285.75) (xy 191.77 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6bb050-2486-4c04-9916-1772f8f7273f")
-	)
-	(wire
-		(pts
-			(xy 191.77 280.67) (xy 186.69 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cbd19c4-d73c-4d90-adaa-30a1ff584710")
-	)
-	(wire
-		(pts
-			(xy 179.07 285.75) (xy 179.07 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1da270-9347-4ab6-b164-3bf810ae4dfa")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 179.07 281.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "152baf8d-c614-4229-bb73-a4c44fc6161e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 184.15 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b26ee2f-a7ec-4e2a-8d6f-256e1eba4d3f")
-		(property "Reference" "Q8"
-			(at 177.65 298.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 189.65 308.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 184.15 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 184.15 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 184.15 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "27ef8f88-8ba6-4778-a436-a5992e3c020d")
-		)
-		(pin "2"
-			(uuid "6a966d7d-fbbf-440b-bc11-0628b6dc9125")
-		)
-		(pin "3"
-			(uuid "f4f8434c-59a0-4623-aca5-fbf1eaf46e1b")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 176.53 300.99) (xy 176.53 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c011d9e-8d31-4ef7-a3e6-99aa50387ce3")
-	)
-	(wire
-		(pts
-			(xy 176.53 306.07) (xy 186.69 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c9c391d-7a79-48a9-af9e-89cca436a5a9")
-	)
-	(wire
-		(pts
-			(xy 191.77 300.99) (xy 191.77 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce49bb3f-8f1a-46ca-b4da-7786f7965687")
-	)
-	(wire
-		(pts
-			(xy 191.77 295.91) (xy 186.69 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb02849-e600-4879-99f2-b8e07cc98432")
-	)
-	(wire
-		(pts
-			(xy 179.07 300.99) (xy 179.07 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a17feca-ae9c-4237-b4ce-d3556fbe04cf")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 179.07 297.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0203386b-4006-4051-b024-ff8d007a4c31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 184.15 316.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b52f06e3-1386-44e1-a7a3-32c065d6354c")
-		(property "Reference" "Q9"
-			(at 177.65 314.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 189.65 323.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 184.15 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 184.15 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 184.15 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "4e1b8d4d-98b3-4b5d-9bd6-95ca70937900")
-		)
-		(pin "2"
-			(uuid "7f9d73c8-aa97-4915-aaca-3e6a176ec4fb")
-		)
-		(pin "3"
-			(uuid "0f1414cb-6a75-4587-942d-d6e75c285656")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 176.53 316.23) (xy 176.53 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb9e170-10d4-4783-aabb-2a8d05e416a4")
-	)
-	(wire
-		(pts
-			(xy 176.53 321.31) (xy 186.69 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62088bef-2ecf-4a9d-b972-3d367794c46a")
-	)
-	(wire
-		(pts
-			(xy 191.77 316.23) (xy 191.77 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b44b6bbc-6e2a-4e58-9b17-5d35a28c9f3e")
-	)
-	(wire
-		(pts
-			(xy 191.77 311.15) (xy 186.69 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7e95ef-f48c-4937-ad89-9fbea51c57dd")
-	)
-	(wire
-		(pts
-			(xy 179.07 316.23) (xy 179.07 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208d364d-2a69-4194-ab10-741831d9982c")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 179.07 312.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45f495b9-9708-43fa-a56e-942f739ade62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 184.15 331.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "94c994a8-636b-43ee-9506-522411a65796")
-		(property "Reference" "Q10"
-			(at 177.65 329.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 189.65 338.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 184.15 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 184.15 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 184.15 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "f3983dd7-c23d-4e2f-ae44-bfaf37b72002")
-		)
-		(pin "2"
-			(uuid "5f219637-de4f-465a-a7c9-2608e9285d11")
-		)
-		(pin "3"
-			(uuid "31a16ade-a2f6-477e-aad5-0a9c4d55c966")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 176.53 331.47) (xy 176.53 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e739eabd-ede9-4fa8-b40e-d64d28ed7e99")
-	)
-	(wire
-		(pts
-			(xy 176.53 336.55) (xy 186.69 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0441c9e6-579b-4511-ab69-704baf3211a8")
-	)
-	(wire
-		(pts
-			(xy 191.77 331.47) (xy 191.77 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abdaa372-d732-4b5b-92c0-1e8d7b69d06a")
-	)
-	(wire
-		(pts
-			(xy 191.77 326.39) (xy 186.69 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d23d30f-a541-4a9e-8be3-f3babbe8721f")
-	)
-	(wire
-		(pts
-			(xy 179.07 331.47) (xy 179.07 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cee0621-a6ff-4e8a-bbbe-157c08b4f21b")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 179.07 327.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0900e236-cfbd-4c99-a704-28e99cbe9b40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 184.15 346.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6954158-ce55-40d7-8e30-d1927911473c")
-		(property "Reference" "Q11"
-			(at 177.65 344.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 189.65 353.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 184.15 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 184.15 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 184.15 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e90de65b-f152-4426-a61b-e44f7c04f00e")
-		)
-		(pin "2"
-			(uuid "29e214ce-375d-43d1-b3e9-7e2ddccf226c")
-		)
-		(pin "3"
-			(uuid "6cad5c4b-e3ac-41f2-acbd-192ded73da48")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 176.53 346.71) (xy 176.53 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c4f794a-26f3-4793-8af0-44ddd784649e")
-	)
-	(wire
-		(pts
-			(xy 176.53 351.79) (xy 186.69 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7655f8d0-8281-4e9c-8e75-f11e86450b46")
-	)
-	(wire
-		(pts
-			(xy 191.77 346.71) (xy 191.77 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71dc915-8f5d-4f70-80da-285aa1d89a02")
-	)
-	(wire
-		(pts
-			(xy 191.77 341.63) (xy 186.69 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2233b8f6-c454-4a98-b88b-c1d3b91fa819")
-	)
-	(wire
-		(pts
-			(xy 179.07 346.71) (xy 179.07 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18f2aef-7e58-4e2b-82cb-25522379e0f4")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 179.07 342.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4360b115-d021-488a-80cf-cd0fc4865d4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 184.15 361.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "953226cc-5920-4855-8b7a-a321c77ee727")
-		(property "Reference" "Q12"
-			(at 177.65 359.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 189.65 369.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 184.15 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 184.15 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 184.15 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "a9683243-beb9-42f5-a100-d83282cd66e6")
-		)
-		(pin "2"
-			(uuid "1f3b3296-792d-4ff5-b179-5b9f1438deed")
-		)
-		(pin "3"
-			(uuid "fc2eb7af-c142-4138-a63f-01eb3a20a742")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 176.53 361.95) (xy 176.53 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8e4239-9975-452e-a6e9-09721065af9a")
-	)
-	(wire
-		(pts
-			(xy 176.53 367.03) (xy 186.69 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a289c3-8a64-4e05-b782-2d09bea3640a")
-	)
-	(wire
-		(pts
-			(xy 191.77 361.95) (xy 191.77 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5847e86e-63f8-4d92-9d4d-9671dd9ed976")
-	)
-	(wire
-		(pts
-			(xy 191.77 356.87) (xy 186.69 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9822a4d3-5431-460c-a072-6155f922b669")
-	)
-	(wire
-		(pts
-			(xy 179.07 361.95) (xy 179.07 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30f9ba5-f762-4cca-8284-8f6e97c269ce")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 179.07 358.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "589374b4-e322-4434-a212-4d4d4903cf75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 285.75 285.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c71d5153-24fa-4ceb-9def-8e799a96e8d8")
-		(property "Reference" "Q13"
-			(at 279.25 283.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 291.25 292.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 285.75 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 285.75 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 285.75 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "3a1f8ca2-cd2b-4542-8c73-7d66476b70f4")
-		)
-		(pin "2"
-			(uuid "4b38f812-cf13-4458-95eb-eabbef62a34b")
-		)
-		(pin "3"
-			(uuid "f9b856b2-a4f2-42a7-90d8-eb46cbb277e5")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 278.13 285.75) (xy 278.13 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65428881-c516-4283-afe3-d39b7bef0f64")
-	)
-	(wire
-		(pts
-			(xy 278.13 290.83) (xy 288.29 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a7615f2-fc47-4211-b5eb-b1af41247262")
-	)
-	(wire
-		(pts
-			(xy 293.37 285.75) (xy 293.37 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59eb86b2-bc7d-4c3a-8561-d2b86e4606fc")
-	)
-	(wire
-		(pts
-			(xy 293.37 280.67) (xy 288.29 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c92520-574e-468c-890e-1cc21b985e60")
-	)
-	(wire
-		(pts
-			(xy 280.67 285.75) (xy 280.67 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1db555-a013-40db-a936-abaf94894487")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 280.67 281.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bca81b3f-4411-4651-9655-f20d1396da0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 285.75 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f2928c41-4589-41dd-b7af-a3dd0bc40e90")
-		(property "Reference" "Q14"
-			(at 279.25 298.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 291.25 308.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 285.75 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 285.75 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 285.75 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "7c56f744-9626-4751-bab7-b8376ff26b28")
-		)
-		(pin "2"
-			(uuid "55a43f8e-f668-4959-8e79-f6cafb4fc9bc")
-		)
-		(pin "3"
-			(uuid "746ec834-995a-47e9-ad1a-319f121ff229")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 278.13 300.99) (xy 278.13 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4d2e7e5-d046-4f05-9a22-196e12b1ddd5")
-	)
-	(wire
-		(pts
-			(xy 278.13 306.07) (xy 288.29 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e03b654-c273-4164-bd5a-c60e6c0f80eb")
-	)
-	(wire
-		(pts
-			(xy 293.37 300.99) (xy 293.37 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7916b82-713a-456e-a283-2c5fc748d913")
-	)
-	(wire
-		(pts
-			(xy 293.37 295.91) (xy 288.29 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44bedad-6b2c-4b84-aa0f-05b2991cb77e")
-	)
-	(wire
-		(pts
-			(xy 280.67 300.99) (xy 280.67 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860808b9-7361-412a-8d2e-c89c5f4799c2")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 280.67 297.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88d6a936-bbd7-473a-a6ae-e660248ce82e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 285.75 316.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ae0622b-9898-4e2f-a032-fe28c5069128")
-		(property "Reference" "Q15"
-			(at 279.25 314.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 291.25 323.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 285.75 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 285.75 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 285.75 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "9967adf8-2a97-4ca0-a60d-aa3110f653d4")
-		)
-		(pin "2"
-			(uuid "c3a6cdcf-5c83-47db-b6e5-708b0d3eed82")
-		)
-		(pin "3"
-			(uuid "5e08a2ca-e101-4de5-bcd6-b2ecf944b3c9")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 278.13 316.23) (xy 278.13 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b315de7-e4a8-45c8-bf02-6011688d267c")
-	)
-	(wire
-		(pts
-			(xy 278.13 321.31) (xy 288.29 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b31303ff-c14f-4e09-a307-f2e648558a32")
-	)
-	(wire
-		(pts
-			(xy 293.37 316.23) (xy 293.37 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22202a29-ecac-4554-bb52-ca04ab226156")
-	)
-	(wire
-		(pts
-			(xy 293.37 311.15) (xy 288.29 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce88b9d-af90-4548-965f-6868521a2ce8")
-	)
-	(wire
-		(pts
-			(xy 280.67 316.23) (xy 280.67 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8290cbb-1cc5-4f08-a92e-91e7db949d7f")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 280.67 312.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ee2637e-c68c-4610-b79b-adcd6cf07e94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 285.75 331.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a3ef677-5d75-492d-9187-597ea47a2c23")
-		(property "Reference" "Q16"
-			(at 279.25 329.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 291.25 338.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 285.75 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 285.75 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 285.75 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "98898cec-eb62-4be5-bdaa-ce2ade50d7c3")
-		)
-		(pin "2"
-			(uuid "a9d77ec3-57c1-4a5d-91ac-220ef9d8ee51")
-		)
-		(pin "3"
-			(uuid "ea1ca6a9-39c9-4909-ac72-657572ca8f12")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 278.13 331.47) (xy 278.13 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73421136-4f88-4c8a-9030-1f9d01b3ba83")
-	)
-	(wire
-		(pts
-			(xy 278.13 336.55) (xy 288.29 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d747ffe2-2b0f-4ca2-a84f-bfdf38067dd9")
-	)
-	(wire
-		(pts
-			(xy 293.37 331.47) (xy 293.37 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "565340f3-93dd-4fe8-8466-5f7be647703c")
-	)
-	(wire
-		(pts
-			(xy 293.37 326.39) (xy 288.29 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f7ef2a-8298-4bbb-965b-ff8f52d857af")
-	)
-	(wire
-		(pts
-			(xy 280.67 331.47) (xy 280.67 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23768b92-6141-4951-8f6a-823fe60a7c20")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 280.67 327.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84690fa2-4456-4949-b774-412acc512c22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 285.75 346.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c3b43270-f3f1-4598-bc01-e9afd5aeaaae")
-		(property "Reference" "Q17"
-			(at 279.25 344.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 291.25 353.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 285.75 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 285.75 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 285.75 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "0c238715-5874-4a16-8751-a59aa7087634")
-		)
-		(pin "2"
-			(uuid "0d80eae2-c039-419a-81e7-01ece79c934a")
-		)
-		(pin "3"
-			(uuid "52630e21-2be6-43a0-b450-c2922aea489d")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 278.13 346.71) (xy 278.13 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ef6066-254d-49a0-8892-d71c93b28989")
-	)
-	(wire
-		(pts
-			(xy 278.13 351.79) (xy 288.29 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db08d30-f1a4-4cf0-9429-3fb007dbdbb8")
-	)
-	(wire
-		(pts
-			(xy 293.37 346.71) (xy 293.37 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1cd105-8325-4871-8183-4bd14ffc2a3d")
-	)
-	(wire
-		(pts
-			(xy 293.37 341.63) (xy 288.29 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c532a0db-de83-4a6f-b06d-cbb2602810ef")
-	)
-	(wire
-		(pts
-			(xy 280.67 346.71) (xy 280.67 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9a8273a-3c0e-47ca-9f35-cbb1f5922435")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 280.67 342.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e077e7d-ee50-47c0-bca0-7fe6477764e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 285.75 361.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec586a65-74db-4322-bc51-a0f1a88a52d4")
-		(property "Reference" "Q18"
-			(at 279.25 359.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 291.25 369.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 285.75 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 285.75 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 285.75 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "75c00972-bd9a-4d7f-b35c-76bd80756637")
-		)
-		(pin "2"
-			(uuid "44377703-2411-456a-aacd-910e0b49e0e2")
-		)
-		(pin "3"
-			(uuid "4175436c-9bca-43d3-82f3-78d9c87f7ecd")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 278.13 361.95) (xy 278.13 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bcc5e0-c47b-44c4-8d5d-81a8eaffd380")
-	)
-	(wire
-		(pts
-			(xy 278.13 367.03) (xy 288.29 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7917171e-97ea-430b-bd2f-5f35f6263f83")
-	)
-	(wire
-		(pts
-			(xy 293.37 361.95) (xy 293.37 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebde22c6-a20a-4dad-b495-c1c14afffb0e")
-	)
-	(wire
-		(pts
-			(xy 293.37 356.87) (xy 288.29 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5161b45-7e5e-4847-8b04-d672a524d4b3")
-	)
-	(wire
-		(pts
-			(xy 280.67 361.95) (xy 280.67 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0018d90e-a8a2-4759-97cc-61be570bb9be")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 280.67 358.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86789bfd-d2a1-48b4-8cc7-97fb3ae4ea72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 387.35 285.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25050cac-9055-4eb2-be5c-44cfba2ec257")
-		(property "Reference" "Q19"
-			(at 380.85 283.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 392.85 292.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 387.35 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 387.35 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 387.35 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "79d2185d-7b97-4e6e-9c07-dd2c6281eaf1")
-		)
-		(pin "2"
-			(uuid "3f92a789-1675-426b-a10e-0a1302f6a78f")
-		)
-		(pin "3"
-			(uuid "30f1332c-48d1-49ca-aa93-d8b4f5393aed")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 379.73 285.75) (xy 379.73 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27481dd-df3a-4015-b7a1-c33c6fd362cb")
-	)
-	(wire
-		(pts
-			(xy 379.73 290.83) (xy 389.89 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f89caa60-cce5-46e7-826d-6886771943c1")
-	)
-	(wire
-		(pts
-			(xy 394.97 285.75) (xy 394.97 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09160790-7c04-4539-afc0-9cff096c874a")
-	)
-	(wire
-		(pts
-			(xy 394.97 280.67) (xy 389.89 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b730c8-7382-443b-9d7f-61233191ffc1")
-	)
-	(wire
-		(pts
-			(xy 382.27 285.75) (xy 382.27 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "680ceb71-a2af-4f8f-8b86-db0dd78b28ef")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 382.27 281.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9ffab40-02e8-464b-ae47-6faf801a7f40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 387.35 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2166166-b8d0-4471-ac02-d8af8fc57b74")
-		(property "Reference" "Q20"
-			(at 380.85 298.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 392.85 308.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 387.35 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 387.35 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 387.35 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "25119caf-bb1c-4065-887c-eb697d7ae9ff")
-		)
-		(pin "2"
-			(uuid "70270575-98d1-4204-8558-b53ecdb39897")
-		)
-		(pin "3"
-			(uuid "78f56918-ed38-49a2-91fd-533b85360ee9")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 379.73 300.99) (xy 379.73 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc85d93-5db0-425e-9b26-b20f3d4ee8ce")
-	)
-	(wire
-		(pts
-			(xy 379.73 306.07) (xy 389.89 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9ffd71-b606-4102-a13f-13c4b86e4748")
-	)
-	(wire
-		(pts
-			(xy 394.97 300.99) (xy 394.97 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a1cb84d-01bd-47e1-97a7-98d101b9465b")
-	)
-	(wire
-		(pts
-			(xy 394.97 295.91) (xy 389.89 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf50583-3843-4de0-bd21-90768cb221cc")
-	)
-	(wire
-		(pts
-			(xy 382.27 300.99) (xy 382.27 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d55b6ff-45dd-41e7-953a-c9aa06c91cf9")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 382.27 297.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8455cf1c-e6a3-47bd-a69a-1d4260af05bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 387.35 316.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97da6545-357c-40e9-bead-9b1b8b9968eb")
-		(property "Reference" "Q21"
-			(at 380.85 314.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 392.85 323.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 387.35 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 387.35 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 387.35 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "918404f6-30db-4af3-83dd-6dc4e5b11c09")
-		)
-		(pin "2"
-			(uuid "788f386c-f7f5-4a91-ba88-39eaf948ae41")
-		)
-		(pin "3"
-			(uuid "85cef652-68b3-4433-8b47-47c26db853f7")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 379.73 316.23) (xy 379.73 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e56cf2-d562-4051-ab6f-df5fefac9d5a")
-	)
-	(wire
-		(pts
-			(xy 379.73 321.31) (xy 389.89 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23e145c-1ab7-4223-b9f5-31117b21cfb5")
-	)
-	(wire
-		(pts
-			(xy 394.97 316.23) (xy 394.97 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b2e2c3f-64c0-43f9-a1a8-a4f990209c47")
-	)
-	(wire
-		(pts
-			(xy 394.97 311.15) (xy 389.89 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7938df9d-254e-435a-959e-9a3218694676")
-	)
-	(wire
-		(pts
-			(xy 382.27 316.23) (xy 382.27 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddda11be-187b-4c61-86d4-dcff268ee777")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 382.27 312.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc0e13e3-79bf-40c6-b6cb-a397ed99c68c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 387.35 331.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e718f4c-650c-47c8-b9c4-9bcadc7a3466")
-		(property "Reference" "Q22"
-			(at 380.85 329.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 392.85 338.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 387.35 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 387.35 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 387.35 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "fe3f6e03-41e9-4432-a30e-90e3d5f719ee")
-		)
-		(pin "2"
-			(uuid "6aff2243-4f34-438f-9303-453a0745c7d5")
-		)
-		(pin "3"
-			(uuid "1363c1d4-a4dd-481f-80e8-2ac6a4ecb9be")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 379.73 331.47) (xy 379.73 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6054ca9-0328-4ade-b907-a1c1e2bf4c15")
-	)
-	(wire
-		(pts
-			(xy 379.73 336.55) (xy 389.89 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4242f617-9a7c-45ba-ad6c-a6e607126b47")
-	)
-	(wire
-		(pts
-			(xy 394.97 331.47) (xy 394.97 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3035f57-fcd3-4d9d-b978-5a76b326804d")
-	)
-	(wire
-		(pts
-			(xy 394.97 326.39) (xy 389.89 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a755e0-4325-453a-a35e-5399ca6f87c6")
-	)
-	(wire
-		(pts
-			(xy 382.27 331.47) (xy 382.27 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2319ee16-e425-4cd4-8f18-6592c6dfd388")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 382.27 327.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b710325d-7383-4a95-83d7-0fd2375ab0d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 387.35 346.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da18cc72-7008-42d4-98b6-44d86a0c8aa8")
-		(property "Reference" "Q23"
-			(at 380.85 344.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 392.85 353.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 387.35 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 387.35 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 387.35 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "9fb75bd5-2bdc-4883-815c-0cc0445a25cc")
-		)
-		(pin "2"
-			(uuid "7d699cfc-5128-4adb-bc73-8bb20bfbc010")
-		)
-		(pin "3"
-			(uuid "182e38eb-2b24-4f59-84ff-15e7218f1df1")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 379.73 346.71) (xy 379.73 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c585aa-fb17-4ff8-b129-d8c2c23a59de")
-	)
-	(wire
-		(pts
-			(xy 379.73 351.79) (xy 389.89 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3190be94-4546-4e61-9571-036b3220a73f")
-	)
-	(wire
-		(pts
-			(xy 394.97 346.71) (xy 394.97 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debd9ff9-ad7e-4406-8a99-dae678157d3c")
-	)
-	(wire
-		(pts
-			(xy 394.97 341.63) (xy 389.89 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a3059f-2023-4a2a-9117-c7ae475e7fc7")
-	)
-	(wire
-		(pts
-			(xy 382.27 346.71) (xy 382.27 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc1eb4a-798a-4abd-81a1-fc220b221592")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 382.27 342.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d54c4d6-e729-48a0-9f6f-6dce03c23148")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 387.35 361.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d461fb6c-5f1f-4d29-9c47-67a4cf8d2c8e")
-		(property "Reference" "Q24"
-			(at 380.85 359.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 392.85 369.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 387.35 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 387.35 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 387.35 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d9a83a0e-e57a-4f92-a10e-2b754632dcd8")
-		)
-		(pin "2"
-			(uuid "d56a68da-9ec1-4d08-8bdc-ca5f78a74ac3")
-		)
-		(pin "3"
-			(uuid "8cc8b6a6-f574-4b08-9758-c1d3e6da3691")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 379.73 361.95) (xy 379.73 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "044c505d-baa3-4d99-ade7-2bdca74b2444")
-	)
-	(wire
-		(pts
-			(xy 379.73 367.03) (xy 389.89 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e9639a-903f-4c85-9eae-08bf00a53406")
-	)
-	(wire
-		(pts
-			(xy 394.97 361.95) (xy 394.97 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a72500-8625-4bfe-ac21-be00f91c9be9")
-	)
-	(wire
-		(pts
-			(xy 394.97 356.87) (xy 389.89 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdd8af9-0f2c-49fb-ab4b-cc3a0e0dbb73")
-	)
-	(wire
-		(pts
-			(xy 382.27 361.95) (xy 382.27 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "014a239f-7b74-4248-8cb9-e5c5beb69edc")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 382.27 358.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a70b764-327d-4af5-9945-52fcb2c71329")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 488.95 281.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c00d019b-0392-4480-9b82-c7396922f997")
-		(property "Reference" "Q25"
-			(at 482.45 279.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 494.45 289.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 488.95 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 488.95 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 488.95 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "12f7444a-946e-43f7-946b-c2f43dd01fb1")
-		)
-		(pin "2"
-			(uuid "c4979efe-f481-4e8d-b891-3ca3c7e42d8d")
-		)
-		(pin "3"
-			(uuid "5cc727f1-586f-4209-bb02-159de809f355")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 481.33 281.94) (xy 481.33 287.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b39a124-5dd0-41cc-8d7e-2c7d6ff16244")
-	)
-	(wire
-		(pts
-			(xy 481.33 287.02) (xy 491.49 287.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7fd6b0-1f44-4e7d-85aa-fc342f135952")
-	)
-	(wire
-		(pts
-			(xy 496.57 281.94) (xy 496.57 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40cccf6-cd4e-4ef6-842e-dc20c49ce145")
-	)
-	(wire
-		(pts
-			(xy 496.57 276.86) (xy 491.49 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6e5927-56c4-4cd6-83ba-799b85703243")
-	)
-	(wire
-		(pts
-			(xy 483.87 281.94) (xy 483.87 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ef5d5a-6c15-451e-80f3-b3f18ee33220")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 483.87 278.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65d49413-0fdf-495b-8100-0bee923cc00d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.87 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 488.95 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1095244-aecb-43f4-836a-42da9ebdecef")
-		(property "Reference" "Q26"
-			(at 482.45 298.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 494.45 308.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 488.95 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 488.95 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 488.95 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "b439d520-692e-429c-818b-1fac3f8e5e48")
-		)
-		(pin "2"
-			(uuid "19dd1401-3274-4405-9ed1-7e3a75a25b6b")
-		)
-		(pin "3"
-			(uuid "9fc7e713-3927-46b6-88c1-620ebaafd639")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 481.33 300.99) (xy 481.33 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6c074f-933e-485e-85ad-2661f8295b0c")
-	)
-	(wire
-		(pts
-			(xy 481.33 306.07) (xy 491.49 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b97d540-15ba-401d-b7a0-4e3dbcdb610a")
-	)
-	(wire
-		(pts
-			(xy 496.57 300.99) (xy 496.57 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634a92ec-1ca9-4349-a645-48ae8e712b16")
-	)
-	(wire
-		(pts
-			(xy 496.57 295.91) (xy 491.49 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2326c298-dadd-405c-b7c2-65de99d70749")
-	)
-	(wire
-		(pts
-			(xy 483.87 300.99) (xy 483.87 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1dd69d-9703-4995-9cea-3d315b4956f4")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 483.87 297.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc5c1188-8ae2-4ea5-993a-95e9f22fb091")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.87 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 488.95 314.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8081108e-b6c6-40a8-a68a-1cdfe67f392e")
-		(property "Reference" "Q27"
-			(at 482.45 312.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 494.45 322.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 488.95 314.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 488.95 314.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 488.95 314.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "0c3c027c-52d9-4909-ab99-87bc2ba01f9a")
-		)
-		(pin "2"
-			(uuid "cfcffbbe-9be8-4cca-bf0d-2283696874eb")
-		)
-		(pin "3"
-			(uuid "80ffffde-98d2-448a-8a9f-2b866852c648")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 481.33 314.96) (xy 481.33 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af72be79-cc02-4645-af0a-f4a7482ccbd1")
-	)
-	(wire
-		(pts
-			(xy 481.33 320.04) (xy 491.49 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d7823bf-bc4c-447b-94ce-33c9965f6b8b")
-	)
-	(wire
-		(pts
-			(xy 496.57 314.96) (xy 496.57 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aea893fd-f5cd-41ab-9b9f-6f9cf28ee0bf")
-	)
-	(wire
-		(pts
-			(xy 496.57 309.88) (xy 491.49 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bb879c-f4b4-473d-b8aa-034634a3b1ec")
-	)
-	(wire
-		(pts
-			(xy 483.87 314.96) (xy 483.87 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e40823a9-1697-4441-87e3-f12f9b05f8a7")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 483.87 311.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4486229e-5fd3-4635-b366-273f0ccd6d74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.87 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 488.95 331.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c61cea4b-cbfa-4e2e-ac4b-b13cc31cd3b1")
-		(property "Reference" "Q28"
-			(at 482.45 329.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 494.45 338.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 488.95 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 488.95 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 488.95 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d63ada49-796a-4753-8bfa-42ca57ddf65a")
-		)
-		(pin "2"
-			(uuid "92f576ed-2a7c-4b45-b9a3-8a180e5a92c9")
-		)
-		(pin "3"
-			(uuid "d4069c52-9de7-427e-8665-fbcaf8f72345")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 481.33 331.47) (xy 481.33 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528b4867-1834-4f86-ab5e-2f459eeb1802")
-	)
-	(wire
-		(pts
-			(xy 481.33 336.55) (xy 491.49 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "575a33ae-185e-4bd1-9bc8-4fe1dd0f9862")
-	)
-	(wire
-		(pts
-			(xy 496.57 331.47) (xy 496.57 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6352c1-a72b-4d76-bf78-cf3d41d12489")
-	)
-	(wire
-		(pts
-			(xy 496.57 326.39) (xy 491.49 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315652f3-4778-4c0b-9ecb-f7884cd417f1")
-	)
-	(wire
-		(pts
-			(xy 483.87 331.47) (xy 483.87 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8da9074-0a4f-4d3f-8c94-9520dc7f58af")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 483.87 327.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98e0d57d-dc5c-47d3-b19b-9f3d5ce80ff3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.87 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 488.95 347.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34af3b2c-541a-4652-976f-a70b7f94894a")
-		(property "Reference" "Q29"
-			(at 482.45 345.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TN0702N3-G"
-			(at 494.45 355.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 488.95 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/en-us/product/tn0702"
-			(at 488.95 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Bidirectional open-collector translator, gate at 3.3 V"
-			(at 488.95 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "04278283-3f45-41b5-ad1f-9ec09e213b4d")
-		)
-		(pin "2"
-			(uuid "f19e3422-9eee-431b-946e-71bf71f2ae17")
-		)
-		(pin "3"
-			(uuid "cb730871-2e90-4077-baf8-15e1207fd2a0")
-		)
-		(instances
-			(project "s100-template"
-				(path "/0bcf097f-e9dd-4041-8820-e1a815acf624/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55"
-					(reference "Q29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 481.33 347.98) (xy 481.33 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd0a998-382b-49b8-a618-5fd672dd2db4")
-	)
-	(wire
-		(pts
-			(xy 481.33 353.06) (xy 491.49 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3149f5d1-b342-4daf-9868-bbcdd61371f3")
-	)
-	(wire
-		(pts
-			(xy 496.57 347.98) (xy 496.57 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bfe88e2-533a-4dc0-b1f2-0379d8e71aee")
-	)
-	(wire
-		(pts
-			(xy 496.57 342.9) (xy 491.49 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75352d9f-a687-4c18-975f-f049748eb12d")
-	)
-	(wire
-		(pts
-			(xy 483.87 347.98) (xy 483.87 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b38213a-6c09-4cf4-8a2f-80337a1e6dca")
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 483.87 344.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8a28a83-a13f-405e-a253-a02ee63a9a1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.87 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
