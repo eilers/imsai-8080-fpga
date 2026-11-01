@@ -1,0 +1,7355 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/stefan/Developer/imsai/s100-bus-client/s100-bus-client.kicad_sch")
+		(date "2026-10-30T14:23:30")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "S100 Bus Client (Slave) Board")
+				(company)
+				(rev "0")
+				(date "2026-10-30")
+				(source "s100-bus-client.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/FPGA/")
+			(tstamps "/b2d1c4d7-cad5-44a3-8613-241e176da4d9/")
+			(title_block
+				(title "S100 Bus Client (Slave) Board")
+				(company)
+				(rev "0")
+				(date "2026-10-30")
+				(source "fpga.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/Power Delivery/")
+			(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			(title_block
+				(title "S100 Bus Client (Slave) Board")
+				(company)
+				(rev "0")
+				(date "2026-10-30")
+				(source "power.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "4")
+			(name "/Level Shifter/")
+			(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			(title_block
+				(title "S100 Bus Client (Slave) Board")
+				(company)
+				(rev "0")
+				(date "2026-10-30")
+				(source "level_shifter.kicad_sch")
+				(comment
+					(number "1")
+					(value "Level shifters, slave direction")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "H1")
+			(value "Ejector")
+			(footprint "mals-library-pcb:s100-ejector")
+			(fields
+				(field
+					(name "Footprint") "mals-library-pcb:s100-ejector")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "s100-template-rescue")
+				(part "CONN_1")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "s100-bus-client")
+			)
+			(property
+				(name "Sheetfile")
+				(value "s100-bus-client.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00000000-0000-0000-0000-00005ad75e41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "Ejector")
+			(footprint "mals-library-pcb:s100-ejector")
+			(fields
+				(field
+					(name "Footprint") "mals-library-pcb:s100-ejector")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "s100-template-rescue")
+				(part "CONN_1")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "s100-bus-client")
+			)
+			(property
+				(name "Sheetfile")
+				(value "s100-bus-client.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00000000-0000-0000-0000-00005ad75f28")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P1")
+			(value "S100_MALE")
+			(footprint "mals-library-pcb:s100-edge-connector-male")
+			(fields
+				(field
+					(name "Footprint") "mals-library-pcb:s100-edge-connector-male")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "s100-template-rescue")
+				(part "S100_MALE")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "s100-bus-client")
+			)
+			(property
+				(name "Sheetfile")
+				(value "s100-bus-client.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00000000-0000-0000-0000-00004a06e881")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "50")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "58")
+						)
+						(pin
+							(num "59")
+						)
+						(pin
+							(num "60")
+						)
+						(pin
+							(num "61")
+						)
+						(pin
+							(num "62")
+						)
+						(pin
+							(num "63")
+						)
+						(pin
+							(num "64")
+						)
+						(pin
+							(num "65")
+						)
+						(pin
+							(num "66")
+						)
+						(pin
+							(num "67")
+						)
+						(pin
+							(num "68")
+						)
+						(pin
+							(num "69")
+						)
+						(pin
+							(num "70")
+						)
+						(pin
+							(num "71")
+						)
+						(pin
+							(num "72")
+						)
+						(pin
+							(num "73")
+						)
+						(pin
+							(num "74")
+						)
+						(pin
+							(num "75")
+						)
+						(pin
+							(num "76")
+						)
+						(pin
+							(num "77")
+						)
+						(pin
+							(num "78")
+						)
+						(pin
+							(num "79")
+						)
+						(pin
+							(num "80")
+						)
+						(pin
+							(num "81")
+						)
+						(pin
+							(num "82")
+						)
+						(pin
+							(num "83")
+						)
+						(pin
+							(num "84")
+						)
+						(pin
+							(num "85")
+						)
+						(pin
+							(num "86")
+						)
+						(pin
+							(num "87")
+						)
+						(pin
+							(num "88")
+						)
+						(pin
+							(num "89")
+						)
+						(pin
+							(num "90")
+						)
+						(pin
+							(num "91")
+						)
+						(pin
+							(num "92")
+						)
+						(pin
+							(num "93")
+						)
+						(pin
+							(num "94")
+						)
+						(pin
+							(num "95")
+						)
+						(pin
+							(num "96")
+						)
+						(pin
+							(num "97")
+						)
+						(pin
+							(num "98")
+						)
+						(pin
+							(num "99")
+						)
+						(pin
+							(num "100")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Precision Female Header 2.54mm 50pol.")
+			(footprint "s100:PinSocket_2x25_TE_North")
+			(description "Buchsenleiste 2 reihig präz. 50pol.")
+			(fields
+				(field
+					(name "AN") "28028")
+				(field
+					(name "MIXED") "THT")
+				(field
+					(name "HELPURL") "B~{:}A~{D}adli~{b}datashee~{t}153")
+				(field
+					(name "H-ART") "153-050-2-50-00")
+				(field
+					(name "Footprint") "s100:PinSocket_2x25_TE_North")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buchsenleiste 2 reihig präz. 50pol.")
+			)
+			(libsource
+				(lib "TE")
+				(part "CON-50")
+				(description "Buchsenleiste 2 reihig präz. 50pol.")
+			)
+			(property
+				(name "AN")
+				(value "28028")
+			)
+			(property
+				(name "MIXED")
+				(value "THT")
+			)
+			(property
+				(name "HELPURL")
+				(value "B~{:}A~{D}adli~{b}datashee~{t}153")
+			)
+			(property
+				(name "H-ART")
+				(value "153-050-2-50-00")
+			)
+			(property
+				(name "Sheetname")
+				(value "FPGA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fpga.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BUCHSENLEISTE-2.54-25-2R*")
+			)
+			(sheetpath
+				(names "/FPGA/")
+				(tstamps "/b2d1c4d7-cad5-44a3-8613-241e176da4d9/")
+			)
+			(tstamps "799ecd77-3036-4c0b-9f53-a967de06f595")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "50")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Precision Female Header 2.54mm 50pol.")
+			(footprint "s100:PinSocket_2x25_TE_North")
+			(description "Buchsenleiste 2 reihig präz. 50pol.")
+			(fields
+				(field
+					(name "AN") "28028")
+				(field
+					(name "MIXED") "THT")
+				(field
+					(name "HELPURL") "B~{:}A~{D}adli~{b}datashee~{t}153")
+				(field
+					(name "H-ART") "153-050-2-50-00")
+				(field
+					(name "Footprint") "s100:PinSocket_2x25_TE_North")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buchsenleiste 2 reihig präz. 50pol.")
+			)
+			(libsource
+				(lib "TE")
+				(part "CON-50")
+				(description "Buchsenleiste 2 reihig präz. 50pol.")
+			)
+			(property
+				(name "AN")
+				(value "28028")
+			)
+			(property
+				(name "MIXED")
+				(value "THT")
+			)
+			(property
+				(name "HELPURL")
+				(value "B~{:}A~{D}adli~{b}datashee~{t}153")
+			)
+			(property
+				(name "H-ART")
+				(value "153-050-2-50-00")
+			)
+			(property
+				(name "Sheetname")
+				(value "FPGA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fpga.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BUCHSENLEISTE-2.54-25-2R*")
+			)
+			(sheetpath
+				(names "/FPGA/")
+				(tstamps "/b2d1c4d7-cad5-44a3-8613-241e176da4d9/")
+			)
+			(tstamps "b81d3628-1d35-4074-b394-a5ba75550a4f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "50")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "SNAP for TE0725 (73x35 mm)")
+			(footprint "s100:TE0725_Snap")
+			(description "Snap for TE0725 (73x35mm)")
+			(fields
+				(field
+					(name "AN") "27270")
+				(field
+					(name "MIXED") "SMT")
+				(field
+					(name "Footprint") "s100:TE0725_Snap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Snap for TE0725 (73x35mm)")
+			)
+			(libsource
+				(lib "TE")
+				(part "TE_Snap_2N")
+				(description "Snap for TE0725 (73x35mm)")
+			)
+			(property
+				(name "AN")
+				(value "27270")
+			)
+			(property
+				(name "MIXED")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "FPGA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fpga.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*TE_73x35mm_Snap*")
+			)
+			(sheetpath
+				(names "/FPGA/")
+				(tstamps "/b2d1c4d7-cad5-44a3-8613-241e176da4d9/")
+			)
+			(tstamps "c657510f-3e95-480f-84de-0e9b39f581e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "100uF")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "53eea06a-8e5a-4e52-b68d-ebd982d6b78c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "929d3f2a-8794-433f-833d-9fb25db008e9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10uF")
+			(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "c0067727-b812-4243-9b51-6fe603afac61")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "ed86a8ba-efbb-4191-9187-10bc77438782")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "10uF")
+			(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "cb23df91-0c36-465c-be37-006d2a0575cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "8a99b5e8-d780-4812-9f66-e487949fa318")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "3A")
+			(footprint "Fuse:Fuse_Bourns_MF-RHT300")
+			(fields
+				(field
+					(name "Footprint") "Fuse:Fuse_Bourns_MF-RHT300")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "Polyfuse")
+				(description "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resettable fuse PTC PPTC polyfuse polyswitch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*polyfuse* *PTC*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "1f17a3aa-da61-4740-9278-b50068263cea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "L7805")
+			(footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-220-3_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "L7805")
+				(description "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 1.5A Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?252* TO?263* TO?220*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "275ffaf2-3b73-4ff7-9a0f-19d785d97884")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "LM1117T-3.3")
+			(footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-220-3_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "LM1117T-3.3")
+				(description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power Delivery")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "linear regulator ldo fixed positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?220*")
+			)
+			(sheetpath
+				(names "/Power Delivery/")
+				(tstamps "/ee30b60f-12df-439d-bb0a-e7baa278a1a8/")
+			)
+			(tstamps "0fc2fcd6-1e3d-4d41-afcb-e06b15932513")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Decoupling capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Decoupling capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "d15ec194-ebb0-4c5e-8de4-47ad32f26125")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Decoupling capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Decoupling capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "e70fb9da-3fb6-45ea-86f9-306653bb4f9a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Decoupling capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Decoupling capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "b30a55d8-723c-4bfc-ac86-899e86b5c806")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Decoupling capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Decoupling capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "e90ee145-a851-4a89-88ca-3aa8863df3ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Decoupling capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Decoupling capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "4e6f95b1-905b-4b30-9db3-816b03c7ab4a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Decoupling capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Decoupling capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "1e215814-0678-469c-bd19-42a07dfa7422")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "TN0702N3-G")
+			(footprint "Package_TO_SOT_THT:TO-92")
+			(datasheet "https://www.microchip.com/en-us/product/tn0702")
+			(description "N-channel MOSFET, gate held at 3.3 V, FPGA listens only")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-92")
+				(field
+					(name "Datasheet") "https://www.microchip.com/en-us/product/tn0702")
+				(field
+					(name "Description") "N-channel MOSFET, gate held at 3.3 V, FPGA listens only")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "2N7000")
+				(description "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET Logic-Level")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?92*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "b2e5d509-377f-4cd6-943c-68e0a945c404")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "TN0702N3-G")
+			(footprint "Package_TO_SOT_THT:TO-92")
+			(datasheet "https://www.microchip.com/en-us/product/tn0702")
+			(description "N-channel MOSFET, gate held at 3.3 V, FPGA listens only")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-92")
+				(field
+					(name "Datasheet") "https://www.microchip.com/en-us/product/tn0702")
+				(field
+					(name "Description") "N-channel MOSFET, gate held at 3.3 V, FPGA listens only")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "2N7000")
+				(description "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET Logic-Level")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?92*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "4aed1815-db9b-4397-8c88-52beaf864a53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "10k")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(description "Pull-up resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Pull-up resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "03af5e99-cc42-4f75-8ed9-c2bb1d9bc6cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "10k")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(description "Pull-up resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Pull-up resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "023da9ca-3784-4324-be12-c5e0a321530a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10k")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(description "Pull-up resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Pull-up resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "6a94d1e3-d1e5-4aa0-8bc9-b8292328bcd9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "10k")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(description "Pull-up resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Pull-up resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "352f081d-f7cc-4bc3-83c1-bbcbea7d4174")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U10")
+			(value "74LVC245A")
+			(footprint "Package_DIP:DIP-20_W7.62mm")
+			(datasheet "https://www.ti.com/lit/gpn/SN74LVC245A")
+			(description "Address A0-A7 receiver, bus B side to FPGA A side")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-20_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/SN74LVC245A")
+				(field
+					(name "Description") "Address A0-A7 receiver, bus B side to FPGA A side")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC245")
+				(description "Octal BUS Transceivers, 3-State outputs")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS BUS 3State")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP?20*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "f4672a5c-5848-41a9-83b2-2f8e8bc22205")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U11")
+			(value "74LVC245A")
+			(footprint "Package_DIP:DIP-20_W7.62mm")
+			(datasheet "https://www.ti.com/lit/gpn/SN74LVC245A")
+			(description "Address A8-A15 receiver, bus B side to FPGA A side")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-20_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/SN74LVC245A")
+				(field
+					(name "Description") "Address A8-A15 receiver, bus B side to FPGA A side")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC245")
+				(description "Octal BUS Transceivers, 3-State outputs")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS BUS 3State")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP?20*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "4ba9f2ec-5975-477d-aabb-ebbd3e8a2d6d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U12")
+			(value "74LVC245A")
+			(footprint "Package_DIP:DIP-20_W7.62mm")
+			(datasheet "https://www.ti.com/lit/gpn/SN74LVC245A")
+			(description "Address A16-A23 receiver, bus B side to FPGA A side")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-20_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/SN74LVC245A")
+				(field
+					(name "Description") "Address A16-A23 receiver, bus B side to FPGA A side")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC245")
+				(description "Octal BUS Transceivers, 3-State outputs")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS BUS 3State")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP?20*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "34432d1e-fc65-488f-8903-7f3d4c2e9000")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U13")
+			(value "74LVC245A")
+			(footprint "Package_DIP:DIP-20_W7.62mm")
+			(datasheet "https://www.ti.com/lit/gpn/SN74LVC245A")
+			(description "Strobe receiver, bus B side to FPGA A side")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-20_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/SN74LVC245A")
+				(field
+					(name "Description") "Strobe receiver, bus B side to FPGA A side")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC245")
+				(description "Octal BUS Transceivers, 3-State outputs")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS BUS 3State")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP?20*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "80f21cbd-bbce-4a34-b946-12fa55bd47d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U14")
+			(value "74LVC245A")
+			(footprint "Package_DIP:DIP-20_W7.62mm")
+			(datasheet "https://www.ti.com/lit/gpn/SN74LVC245A")
+			(description "Data-out receiver, bus DO on B, shared FPGA data on A")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-20_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/SN74LVC245A")
+				(field
+					(name "Description") "Data-out receiver, bus DO on B, shared FPGA data on A")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC245")
+				(description "Octal BUS Transceivers, 3-State outputs")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS BUS 3State")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP?20*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "71377e17-777b-4a97-bea8-9343705cfebd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U15")
+			(value "74ACT245")
+			(footprint "Package_DIP:DIP-20_W7.62mm")
+			(datasheet "https://www.ti.com/lit/gpn/SN74ACT245")
+			(description "Data-in driver, shared FPGA data on A, bus DI on B")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-20_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/SN74ACT245")
+				(field
+					(name "Description") "Data-in driver, shared FPGA data on A, bus DI on B")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC245")
+				(description "Octal BUS Transceivers, 3-State outputs")
+			)
+			(property
+				(name "Sheetname")
+				(value "Level Shifter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "level_shifter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS BUS 3State")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP?20*")
+			)
+			(sheetpath
+				(names "/Level Shifter/")
+				(tstamps "/5a1c7d3e-8b2f-4c61-9e47-2d9f0b6a1c55/")
+			)
+			(tstamps "6b5ccf32-52b7-489c-a826-b717ec728956")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "74xx")
+			(part "74HC245")
+			(description "Octal BUS Transceivers, 3-State outputs")
+			(docs "http://www.ti.com/lit/gpn/sn74HC245")
+			(footprints
+				(fp "DIP?20*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74HC245")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/gpn/sn74HC245")
+				(field
+					(name "Description") "Octal BUS Transceivers, 3-State outputs")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A->B")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "A0")
+					(type "tri_state")
+				)
+				(pin
+					(num "3")
+					(name "A1")
+					(type "tri_state")
+				)
+				(pin
+					(num "4")
+					(name "A2")
+					(type "tri_state")
+				)
+				(pin
+					(num "5")
+					(name "A3")
+					(type "tri_state")
+				)
+				(pin
+					(num "6")
+					(name "A4")
+					(type "tri_state")
+				)
+				(pin
+					(num "7")
+					(name "A5")
+					(type "tri_state")
+				)
+				(pin
+					(num "8")
+					(name "A6")
+					(type "tri_state")
+				)
+				(pin
+					(num "9")
+					(name "A7")
+					(type "tri_state")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "B7")
+					(type "tri_state")
+				)
+				(pin
+					(num "12")
+					(name "B6")
+					(type "tri_state")
+				)
+				(pin
+					(num "13")
+					(name "B5")
+					(type "tri_state")
+				)
+				(pin
+					(num "14")
+					(name "B4")
+					(type "tri_state")
+				)
+				(pin
+					(num "15")
+					(name "B3")
+					(type "tri_state")
+				)
+				(pin
+					(num "16")
+					(name "B2")
+					(type "tri_state")
+				)
+				(pin
+					(num "17")
+					(name "B1")
+					(type "tri_state")
+				)
+				(pin
+					(num "18")
+					(name "B0")
+					(type "tri_state")
+				)
+				(pin
+					(num "19")
+					(name "CE")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Polyfuse")
+			(description "Resettable fuse, polymeric positive temperature coefficient")
+			(footprints
+				(fp "*polyfuse*")
+				(fp "*PTC*")
+			)
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "Polyfuse")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "Heatsink")
+			(description "Heatsink")
+			(fields
+				(field
+					(name "Reference") "HS")
+				(field
+					(name "Value") "Heatsink")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Heatsink")
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "L7805")
+			(description "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			(docs "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+			(footprints
+				(fp "TO?252*")
+				(fp "TO?263*")
+				(fp "TO?220*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "L7805")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+				(field
+					(name "Description") "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "LM1117T-3.3")
+			(description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220")
+			(docs "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
+			(footprints
+				(fp "TO?220*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LM1117T-3.3")
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
+				(field
+					(name "Description") "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VO")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "VI")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "TE")
+			(part "CON-50")
+			(description "Buchsenleiste 2 reihig präz. 50pol.")
+			(footprints
+				(fp "*BUCHSENLEISTE-2.54-25-2R*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buchsenleiste 2 reihig präz. 50pol.")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "20")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "21")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "22")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "23")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "24")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "25")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "26")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "27")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "28")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "29")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "30")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "31")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "32")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "33")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "34")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "35")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "36")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "37")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "38")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "39")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "40")
+					(type "passive")
+				)
+				(pin
+					(num "41")
+					(name "41")
+					(type "passive")
+				)
+				(pin
+					(num "42")
+					(name "42")
+					(type "passive")
+				)
+				(pin
+					(num "43")
+					(name "43")
+					(type "passive")
+				)
+				(pin
+					(num "44")
+					(name "44")
+					(type "passive")
+				)
+				(pin
+					(num "45")
+					(name "45")
+					(type "passive")
+				)
+				(pin
+					(num "46")
+					(name "46")
+					(type "passive")
+				)
+				(pin
+					(num "47")
+					(name "47")
+					(type "passive")
+				)
+				(pin
+					(num "48")
+					(name "48")
+					(type "passive")
+				)
+				(pin
+					(num "49")
+					(name "49")
+					(type "passive")
+				)
+				(pin
+					(num "50")
+					(name "50")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "TE")
+			(part "TE_Snap_2N")
+			(description "Snap for TE0725 (73x35mm)")
+			(footprints
+				(fp "*TE_73x35mm_Snap*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Snap for TE0725 (73x35mm)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PAD1")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "PAD2")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "2N7000")
+			(description "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92")
+			(docs "https://www.vishay.com/docs/70226/70226.pdf")
+			(footprints
+				(fp "TO?92*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N7000")
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/70226/70226.pdf")
+				(field
+					(name "Description") "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "s100-template-rescue")
+			(part "CONN_1")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "CONN_1")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "Field42")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "s100-template-rescue")
+			(part "S100_MALE")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "S100_MALE")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "Field42")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+8_V")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "+16_V")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "XRDY")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "VIO*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "VI1*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "VI2*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "VI3*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "VI4*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "VI5*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "VI6*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "VI7*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "NMI*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "PWRFAIL*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "TMA3*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "A18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "A16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "A17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "SDSB*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "CDSB*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "0_V1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "NDEF1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "ADSB*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "DODSB*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "PHI")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "pSTVAL*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "pHDLA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "RFU_1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "RFU_2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "A5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "A4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "31")
+					(name "A3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "A15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "A12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "A9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "DO1_ED1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "DO0_ED0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "A10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "DO4_ED4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "DO5_ED5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "DO6_ED6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "41")
+					(name "D12_OD2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "42")
+					(name "D13_OD3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "43")
+					(name "D17_OD7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "44")
+					(name "sM1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "45")
+					(name "sOUT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "46")
+					(name "sINP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "47")
+					(name "sMEMR")
+					(type "bidirectional")
+				)
+				(pin
+					(num "48")
+					(name "sHLTA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "49")
+					(name "CLOCK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "50")
+					(name "0_V2")
+					(type "power_in")
+				)
+				(pin
+					(num "51")
+					(name "+8_V")
+					(type "power_in")
+				)
+				(pin
+					(num "52")
+					(name "-16_V")
+					(type "power_in")
+				)
+				(pin
+					(num "53")
+					(name "0_V3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "54")
+					(name "SLAVE_CLR*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "55")
+					(name "TMA0*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "56")
+					(name "TMA1*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "57")
+					(name "TMA2*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "58")
+					(name "sXTRQ*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "59")
+					(name "A19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "60")
+					(name "SIXTN*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "61")
+					(name "A20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "62")
+					(name "A21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "63")
+					(name "A22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "64")
+					(name "A23")
+					(type "bidirectional")
+				)
+				(pin
+					(num "65")
+					(name "NDEF2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "66")
+					(name "NDEF3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "67")
+					(name "PHANTOM*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "68")
+					(name "MWRT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "69")
+					(name "RFU3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "70")
+					(name "0_V4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "71")
+					(name "RFU4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "72")
+					(name "RDY")
+					(type "bidirectional")
+				)
+				(pin
+					(num "73")
+					(name "INT*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "74")
+					(name "HOLD*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "75")
+					(name "RESET*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "76")
+					(name "pSYNC")
+					(type "bidirectional")
+				)
+				(pin
+					(num "77")
+					(name "pWR*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "78")
+					(name "pDBIN")
+					(type "bidirectional")
+				)
+				(pin
+					(num "79")
+					(name "A0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "80")
+					(name "A1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "81")
+					(name "A2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "82")
+					(name "A6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "83")
+					(name "A7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "84")
+					(name "A8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "85")
+					(name "A13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "86")
+					(name "A14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "87")
+					(name "A11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "88")
+					(name "DO2_ED2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "89")
+					(name "DO3_ED3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "90")
+					(name "DO7_ED7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "91")
+					(name "DI4_OD4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "92")
+					(name "DI5_OD5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "93")
+					(name "DI6_OD6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "94")
+					(name "DI1_OD1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "95")
+					(name "DI1_OD1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "96")
+					(name "sINTA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "97")
+					(name "sWO*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "98")
+					(name "ERROR*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "99")
+					(name "POC*")
+					(type "bidirectional")
+				)
+				(pin
+					(num "100")
+					(name "0_V5")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "74xx")
+			(uri "${KICAD10_SYMBOL_DIR}/74xx.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Linear")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+		)
+		(library
+			(logical "Transistor_FET")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym")
+		)
+		(library
+			(logical "s100-template-rescue")
+			(uri "${KIPRJMOD}/s100-template-rescue.lib")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "45")
+				(pinfunction "45_45")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "46")
+				(pinfunction "46_46")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "45")
+				(pinfunction "45_45")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "46")
+				(pinfunction "46_46")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "input")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U12")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U13")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U14")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "VO_2")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U15")
+				(pin "1")
+				(pinfunction "A->B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U15")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "VI_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "+8V")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P1")
+				(pin "1")
+				(pinfunction "+8_V_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "P1")
+				(pin "51")
+				(pinfunction "+8_V_51")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "4")
+			(name "+16V")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "2")
+				(pinfunction "+16_V_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "5")
+			(name "-16V")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "52")
+				(pinfunction "-16_V_52")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "6")
+			(name "0V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "49")
+				(pinfunction "49_49")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "50")
+				(pinfunction "50_50")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "49")
+				(pinfunction "49_49")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "50")
+				(pinfunction "50_50")
+				(pintype "passive")
+			)
+			(node
+				(ref "P1")
+				(pin "100")
+				(pinfunction "0_V5_100")
+				(pintype "power_in")
+			)
+			(node
+				(ref "P1")
+				(pin "50")
+				(pinfunction "0_V2_50")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "1")
+				(pinfunction "A->B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U10")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "19")
+				(pinfunction "CE_19")
+				(pintype "input")
+			)
+			(node
+				(ref "U11")
+				(pin "1")
+				(pinfunction "A->B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U11")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "19")
+				(pinfunction "CE_19")
+				(pintype "input")
+			)
+			(node
+				(ref "U12")
+				(pin "1")
+				(pinfunction "A->B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U12")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U12")
+				(pin "19")
+				(pinfunction "CE_19")
+				(pintype "input")
+			)
+			(node
+				(ref "U13")
+				(pin "1")
+				(pinfunction "A->B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U13")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U13")
+				(pin "11")
+				(pinfunction "B7_11")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U13")
+				(pin "12")
+				(pinfunction "B6_12")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U13")
+				(pin "13")
+				(pinfunction "B5_13")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U13")
+				(pin "14")
+				(pinfunction "B4_14")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U13")
+				(pin "19")
+				(pinfunction "CE_19")
+				(pintype "input")
+			)
+			(node
+				(ref "U14")
+				(pin "1")
+				(pinfunction "A->B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U14")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U15")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "PAD1_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "PAD2_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "7")
+			(name "A0")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "79")
+				(pinfunction "A0_79")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "18")
+				(pinfunction "B0_18")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "8")
+			(name "A1")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "80")
+				(pinfunction "A1_80")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "17")
+				(pinfunction "B1_17")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "9")
+			(name "A2")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "81")
+				(pinfunction "A2_81")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "16")
+				(pinfunction "B2_16")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "10")
+			(name "A3")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "31")
+				(pinfunction "A3_31")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "15")
+				(pinfunction "B3_15")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "11")
+			(name "A4")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "30")
+				(pinfunction "A4_30")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "14")
+				(pinfunction "B4_14")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "12")
+			(name "A5")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "29")
+				(pinfunction "A5_29")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "13")
+				(pinfunction "B5_13")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "13")
+			(name "A6")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "82")
+				(pinfunction "A6_82")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "12")
+				(pinfunction "B6_12")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "14")
+			(name "A7")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "83")
+				(pinfunction "A7_83")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U10")
+				(pin "11")
+				(pinfunction "B7_11")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "15")
+			(name "A8")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "84")
+				(pinfunction "A8_84")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "18")
+				(pinfunction "B0_18")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "16")
+			(name "A9")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "34")
+				(pinfunction "A9_34")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "17")
+				(pinfunction "B1_17")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "17")
+			(name "A10")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "37")
+				(pinfunction "A10_37")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "16")
+				(pinfunction "B2_16")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "18")
+			(name "A11")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "87")
+				(pinfunction "A11_87")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "15")
+				(pinfunction "B3_15")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "19")
+			(name "A12")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "33")
+				(pinfunction "A12_33")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "14")
+				(pinfunction "B4_14")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "20")
+			(name "A13")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "85")
+				(pinfunction "A13_85")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "13")
+				(pinfunction "B5_13")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "21")
+			(name "A14")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "86")
+				(pinfunction "A14_86")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "12")
+				(pinfunction "B6_12")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "22")
+			(name "A15")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "32")
+				(pinfunction "A15_32")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U11")
+				(pin "11")
+				(pinfunction "B7_11")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "23")
+			(name "A16")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "16")
+				(pinfunction "A16_16")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "18")
+				(pinfunction "B0_18")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "24")
+			(name "A17")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "17")
+				(pinfunction "A17_17")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "17")
+				(pinfunction "B1_17")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "25")
+			(name "A18")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "15")
+				(pinfunction "A18_15")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "16")
+				(pinfunction "B2_16")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "26")
+			(name "A19")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "59")
+				(pinfunction "A19_59")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "15")
+				(pinfunction "B3_15")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "27")
+			(name "A20")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "61")
+				(pinfunction "A20_61")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "14")
+				(pinfunction "B4_14")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "28")
+			(name "A21")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "62")
+				(pinfunction "A21_62")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "13")
+				(pinfunction "B5_13")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "29")
+			(name "A22")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "63")
+				(pinfunction "A22_63")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "12")
+				(pinfunction "B6_12")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "30")
+			(name "A23")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "64")
+				(pinfunction "A23_64")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U12")
+				(pin "11")
+				(pinfunction "B7_11")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "31")
+			(name "ADSB*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "22")
+				(pinfunction "ADSB*_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "CDSB*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "19")
+				(pinfunction "CDSB*_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "CLOCK")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "49")
+				(pinfunction "CLOCK_49")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "34")
+			(name "DI0")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "95")
+				(pinfunction "DI1_OD1_95")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "18")
+				(pinfunction "B0_18")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "35")
+			(name "DI1")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "94")
+				(pinfunction "DI1_OD1_94")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "17")
+				(pinfunction "B1_17")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "36")
+			(name "DI2")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "41")
+				(pinfunction "D12_OD2_41")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "16")
+				(pinfunction "B2_16")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "37")
+			(name "DI3")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "42")
+				(pinfunction "D13_OD3_42")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "15")
+				(pinfunction "B3_15")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "38")
+			(name "DI4")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "91")
+				(pinfunction "DI4_OD4_91")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "14")
+				(pinfunction "B4_14")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "39")
+			(name "DI5")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "92")
+				(pinfunction "DI5_OD5_92")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "13")
+				(pinfunction "B5_13")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "40")
+			(name "DI6")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "93")
+				(pinfunction "DI6_OD6_93")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "12")
+				(pinfunction "B6_12")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "41")
+			(name "DI7")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "43")
+				(pinfunction "D17_OD7_43")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U15")
+				(pin "11")
+				(pinfunction "B7_11")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "42")
+			(name "DO0")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "36")
+				(pinfunction "DO0_ED0_36")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "18")
+				(pinfunction "B0_18")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "43")
+			(name "DO1")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "35")
+				(pinfunction "DO1_ED1_35")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "17")
+				(pinfunction "B1_17")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "44")
+			(name "DO2")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "88")
+				(pinfunction "DO2_ED2_88")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "16")
+				(pinfunction "B2_16")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "45")
+			(name "DO3")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "89")
+				(pinfunction "DO3_ED3_89")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "15")
+				(pinfunction "B3_15")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "46")
+			(name "DO4")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "38")
+				(pinfunction "DO4_ED4_38")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "14")
+				(pinfunction "B4_14")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "47")
+			(name "DO5")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "39")
+				(pinfunction "DO5_ED5_39")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "13")
+				(pinfunction "B5_13")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "48")
+			(name "DO6")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "40")
+				(pinfunction "DO6_ED6_40")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "12")
+				(pinfunction "B6_12")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "49")
+			(name "DO7")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "90")
+				(pinfunction "DO7_ED7_90")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U14")
+				(pin "11")
+				(pinfunction "B7_11")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "50")
+			(name "DODSB*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "23")
+				(pinfunction "DODSB*_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "ERROR*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "98")
+				(pinfunction "ERROR*_98")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "52")
+			(name "F_A0")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "53")
+			(name "F_A1")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "54")
+			(name "F_A2")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "55")
+			(name "F_A3")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "56")
+			(name "F_A4")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "57")
+			(name "F_A5")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "7")
+				(pinfunction "A5_7")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "58")
+			(name "F_A6")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "8")
+				(pinfunction "A6_8")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "59")
+			(name "F_A7")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "9")
+				(pinfunction "A7_9")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "60")
+			(name "F_A8")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "61")
+			(name "F_A9")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "62")
+			(name "F_A10")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "15")
+				(pinfunction "15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "63")
+			(name "F_A11")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "16")
+				(pinfunction "16_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "64")
+			(name "F_A12")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "17")
+				(pinfunction "17_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "65")
+			(name "F_A13")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "18")
+				(pinfunction "18_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "7")
+				(pinfunction "A5_7")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "66")
+			(name "F_A14")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "19")
+				(pinfunction "19_19")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "8")
+				(pinfunction "A6_8")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "67")
+			(name "F_A15")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "20")
+				(pinfunction "20_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "9")
+				(pinfunction "A7_9")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "68")
+			(name "F_A16")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "21")
+				(pinfunction "21_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "69")
+			(name "F_A17")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "22")
+				(pinfunction "22_22")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "70")
+			(name "F_A18")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "23")
+				(pinfunction "23_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "71")
+			(name "F_A19")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "24")
+				(pinfunction "24_24")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "72")
+			(name "F_A20")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "25")
+				(pinfunction "25_25")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "73")
+			(name "F_A21")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "26")
+				(pinfunction "26_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "7")
+				(pinfunction "A5_7")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "74")
+			(name "F_A22")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "27")
+				(pinfunction "27_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "8")
+				(pinfunction "A6_8")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "75")
+			(name "F_A23")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "28")
+				(pinfunction "28_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "9")
+				(pinfunction "A7_9")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "76")
+			(name "F_ADSB*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "35")
+				(pinfunction "35_35")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "77")
+			(name "F_CDSB*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "34")
+				(pinfunction "34_34")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "78")
+			(name "F_CLOCK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "32")
+				(pinfunction "32_32")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "79")
+			(name "F_D0")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "80")
+			(name "F_D1")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "81")
+			(name "F_D2")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "82")
+			(name "F_D3")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "83")
+			(name "F_D4")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "84")
+			(name "F_D5")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "7")
+				(pinfunction "A5_7")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "7")
+				(pinfunction "A5_7")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "85")
+			(name "F_D6")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "8")
+				(pinfunction "A6_8")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "8")
+				(pinfunction "A6_8")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "86")
+			(name "F_D7")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "9")
+				(pinfunction "A7_9")
+				(pintype "tri_state")
+			)
+			(node
+				(ref "U15")
+				(pin "9")
+				(pinfunction "A7_9")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "87")
+			(name "F_DODSB*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "36")
+				(pinfunction "36_36")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "88")
+			(name "F_ERROR*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "20")
+				(pinfunction "20_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "89")
+			(name "F_HOLD*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "17")
+				(pinfunction "17_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "90")
+			(name "F_INT*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "15")
+				(pinfunction "15_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "91")
+			(name "F_MWRT")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "18")
+				(pinfunction "18_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "92")
+			(name "F_NMI*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "16")
+				(pinfunction "16_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "93")
+			(name "F_PHANTOM*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "40")
+				(pinfunction "40_40")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "94")
+			(name "F_PHI")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "29")
+				(pinfunction "29_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "95")
+			(name "F_PINTE")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "33")
+				(pinfunction "33_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "96")
+			(name "F_POC*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "39")
+				(pinfunction "39_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "S_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "97")
+			(name "F_PWAIT")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "31")
+				(pinfunction "31_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "98")
+			(name "F_PWRFAIL*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "19")
+				(pinfunction "19_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "99")
+			(name "F_RDY")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "100")
+			(name "F_RESET*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "37")
+				(pinfunction "37_37")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "S_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "101")
+			(name "F_SDSB*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "33")
+				(pinfunction "33_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "102")
+			(name "F_SLAVE_CLR*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "38")
+				(pinfunction "38_38")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "103")
+			(name "F_SSW_DSB*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "47")
+				(pinfunction "47_47")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "104")
+			(name "F_TMA0*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "29")
+				(pinfunction "29_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "105")
+			(name "F_TMA1*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "30")
+				(pinfunction "30_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "106")
+			(name "F_TMA2*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "31")
+				(pinfunction "31_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "107")
+			(name "F_TMA3*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "32")
+				(pinfunction "32_32")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "108")
+			(name "F_VI0*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "21")
+				(pinfunction "21_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "109")
+			(name "F_VI1*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "22")
+				(pinfunction "22_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "110")
+			(name "F_VI2*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "23")
+				(pinfunction "23_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "111")
+			(name "F_VI3*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "24")
+				(pinfunction "24_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "112")
+			(name "F_VI4*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "25")
+				(pinfunction "25_25")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "113")
+			(name "F_VI5*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "26")
+				(pinfunction "26_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "114")
+			(name "F_VI6*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "27")
+				(pinfunction "27_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "115")
+			(name "F_VI7*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "28")
+				(pinfunction "28_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "116")
+			(name "F_XRDY")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "117")
+			(name "F_pDBIN")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "36")
+				(pinfunction "36_36")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "118")
+			(name "F_pHLDA")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "30")
+				(pinfunction "30_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "119")
+			(name "F_pSTVAL*")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "35")
+				(pinfunction "35_35")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "120")
+			(name "F_pSYNC")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "34")
+				(pinfunction "34_34")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "121")
+			(name "F_pWR*")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "37")
+				(pinfunction "37_37")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "122")
+			(name "F_sHLTA")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "42")
+				(pinfunction "42_42")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "123")
+			(name "F_sINP")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "40")
+				(pinfunction "40_40")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "124")
+			(name "F_sINTA")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "43")
+				(pinfunction "43_43")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "125")
+			(name "F_sM1")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "38")
+				(pinfunction "38_38")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "126")
+			(name "F_sMEMR")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "41")
+				(pinfunction "41_41")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "127")
+			(name "F_sOUT")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "39")
+				(pinfunction "39_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "128")
+			(name "F_sWO*")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "44")
+				(pinfunction "44_44")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "129")
+			(name "HOLD*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "74")
+				(pinfunction "HOLD*_74")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "130")
+			(name "INT*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "73")
+				(pinfunction "INT*_73")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "131")
+			(name "LS_BUS_DIR")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "47")
+				(pinfunction "47_47")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "132")
+			(name "LS_BUS_OE*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "44")
+				(pinfunction "44_44")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "133")
+			(name "LS_DATA_DIR")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "41")
+				(pinfunction "41_41")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "134")
+			(name "LS_DI_OE*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "42")
+				(pinfunction "42_42")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "19")
+				(pinfunction "CE_19")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "135")
+			(name "LS_DO_OE*")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "43")
+				(pinfunction "43_43")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "19")
+				(pinfunction "CE_19")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "136")
+			(name "MWRT")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "68")
+				(pinfunction "MWRT_68")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "137")
+			(name "NDEF2")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "65")
+				(pinfunction "NDEF2_65")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "138")
+			(name "NDEF3")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "66")
+				(pinfunction "NDEF3_66")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "139")
+			(name "NMI*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "12")
+				(pinfunction "NMI*_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "140")
+			(name "Net-(U1-IN)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "141")
+			(name "PHANTOM*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "67")
+				(pinfunction "PHANTOM*_67")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "142")
+			(name "PHI")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "24")
+				(pinfunction "PHI_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "143")
+			(name "PINTE")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "28")
+				(pinfunction "RFU_2_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "144")
+			(name "POC*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "99")
+				(pinfunction "POC*_99")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "145")
+			(name "PROT")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "70")
+				(pinfunction "0_V4_70")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "146")
+			(name "PS")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "69")
+				(pinfunction "RFU3_69")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "147")
+			(name "PWAIT")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "27")
+				(pinfunction "RFU_1_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "148")
+			(name "PWRFAIL*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "13")
+				(pinfunction "PWRFAIL*_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "149")
+			(name "RDY")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "72")
+				(pinfunction "RDY_72")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "150")
+			(name "RESET*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "75")
+				(pinfunction "RESET*_75")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "151")
+			(name "RUN")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "71")
+				(pinfunction "RFU4_71")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "152")
+			(name "SDSB*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "18")
+				(pinfunction "SDSB*_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "153")
+			(name "SIXTN*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "60")
+				(pinfunction "SIXTN*_60")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "154")
+			(name "SLAVE_CLR*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "54")
+				(pinfunction "SLAVE_CLR*_54")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "155")
+			(name "SPARE0")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "48")
+				(pinfunction "48_48")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "156")
+			(name "SPARE1")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "48")
+				(pinfunction "48_48")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "157")
+			(name "SS")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "21")
+				(pinfunction "NDEF1_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "158")
+			(name "SSW_DSB*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "53")
+				(pinfunction "0_V3_53")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "159")
+			(name "TMA0*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "55")
+				(pinfunction "TMA0*_55")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "160")
+			(name "TMA1*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "56")
+				(pinfunction "TMA1*_56")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "161")
+			(name "TMA2*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "57")
+				(pinfunction "TMA2*_57")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "162")
+			(name "TMA3*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "14")
+				(pinfunction "TMA3*_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "163")
+			(name "UNPROT")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "20")
+				(pinfunction "0_V1_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "164")
+			(name "VI0*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "4")
+				(pinfunction "VIO*_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "165")
+			(name "VI1*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "5")
+				(pinfunction "VI1*_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "166")
+			(name "VI2*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "6")
+				(pinfunction "VI2*_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "167")
+			(name "VI3*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "7")
+				(pinfunction "VI3*_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "168")
+			(name "VI4*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "8")
+				(pinfunction "VI4*_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "169")
+			(name "VI5*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "9")
+				(pinfunction "VI5*_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "170")
+			(name "VI6*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "10")
+				(pinfunction "VI6*_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "171")
+			(name "VI7*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "11")
+				(pinfunction "VI7*_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "172")
+			(name "XRDY")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "3")
+				(pinfunction "XRDY_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "173")
+			(name "pDBIN")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "78")
+				(pinfunction "pDBIN_78")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U13")
+				(pin "18")
+				(pinfunction "B0_18")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "174")
+			(name "pHLDA")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "26")
+				(pinfunction "pHDLA_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "175")
+			(name "pSTVAL*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "25")
+				(pinfunction "pSTVAL*_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "176")
+			(name "pSYNC")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "76")
+				(pinfunction "pSYNC_76")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "177")
+			(name "pWR*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "77")
+				(pinfunction "pWR*_77")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U13")
+				(pin "17")
+				(pinfunction "B1_17")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "178")
+			(name "sHLTA")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "48")
+				(pinfunction "sHLTA_48")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "179")
+			(name "sINP")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "46")
+				(pinfunction "sINP_46")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "180")
+			(name "sINTA")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "96")
+				(pinfunction "sINTA_96")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "181")
+			(name "sM1")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "44")
+				(pinfunction "sM1_44")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "182")
+			(name "sMEMR")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "47")
+				(pinfunction "sMEMR_47")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U13")
+				(pin "16")
+				(pinfunction "B2_16")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "183")
+			(name "sOUT")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "45")
+				(pinfunction "sOUT_45")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U13")
+				(pin "15")
+				(pinfunction "B3_15")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "184")
+			(name "sWO*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "97")
+				(pinfunction "sWO*_97")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "185")
+			(name "sXTRQ*")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "58")
+				(pinfunction "sXTRQ*_58")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "186")
+			(name "unconnected-(H1-Pad1)")
+			(class "Default")
+			(node
+				(ref "H1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "187")
+			(name "unconnected-(H2-Pad1)")
+			(class "Default")
+			(node
+				(ref "H2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "188")
+			(name "unconnected-(U13-A4-Pad6)")
+			(class "Default")
+			(node
+				(ref "U13")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state+no_connect")
+			)
+		)
+		(net
+			(code "189")
+			(name "unconnected-(U13-A5-Pad7)")
+			(class "Default")
+			(node
+				(ref "U13")
+				(pin "7")
+				(pinfunction "A5_7")
+				(pintype "tri_state+no_connect")
+			)
+		)
+		(net
+			(code "190")
+			(name "unconnected-(U13-A6-Pad8)")
+			(class "Default")
+			(node
+				(ref "U13")
+				(pin "8")
+				(pinfunction "A6_8")
+				(pintype "tri_state+no_connect")
+			)
+		)
+		(net
+			(code "191")
+			(name "unconnected-(U13-A7-Pad9)")
+			(class "Default")
+			(node
+				(ref "U13")
+				(pin "9")
+				(pinfunction "A7_9")
+				(pintype "tri_state+no_connect")
+			)
+		)
+	)
+)

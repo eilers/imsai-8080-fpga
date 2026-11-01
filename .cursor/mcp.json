@@ -4,7 +4,7 @@
       "command": "/opt/homebrew/bin/uvx",
       "args": ["kicad-mcp-pro"],
       "env": {
-        "KICAD_MCP_PROJECT_DIR": "/Users/stefan/Developer/imsai/s100-bus-master",
+        "KICAD_MCP_PROJECT_DIR": "/Users/stefan/Developer/imsai/s100-bus-client",
         "KICAD_MCP_PROFILE": "pcb_layout",
         "KICAD_MCP_OPERATING_MODE": "write",
         "KICAD_MCP_KICAD_CLI": "/opt/homebrew/bin/kicad-cli"

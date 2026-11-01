@@ -227,7 +227,7 @@ There is no through-hole version of a single chip that translates both ways betw
 
 A 74ACT245 is powered from 5 V. A 3.3 V high from the FPGA is a valid high for it, and its outputs are 5 V, which is what the S-100 bus expects. Each pin is specified to sink 24 mA, and the ground pin is rated for 200 mA, so a byte of all zeros (about 70 mA through the backplane terminator) stays inside the rating. The part to order is SN74ACT245N. Its direction pin is tied to 5 V, so it always drives from the FPGA side toward the bus. A 74LVC245 is powered from 3.3 V. Its inputs accept 5 V from the bus, and its outputs are 3.3 V, which is what the FPGA accepts. Its direction pin is tied to ground, so it always drives from the bus toward the FPGA.
 
-The direction is strapped with a wire and cannot be turned around. Turning a 74ACT245 around would drive 5 V into an FPGA pin. The two FPGA pins `LS_BUS_DIR` and `LS_DATA_DIR` are still on the connector, with pull-ups, so the pin plan does not change. They are not wired to a direction pin.
+The direction is strapped with a wire and cannot be turned around. Turning a 74ACT245 around would drive 5 V into an FPGA pin. The two FPGA pins `LS_BUS_DIR` and `LS_DATA_DIR` are still on the connector but unused after the board was redesigned. But I decided to keep them for a possible revision later.
 
 | Chip | Part     | What it carries                                 | Output enable                                                     |
 |------|----------|-------------------------------------------------|-------------------------------------------------------------------|
@@ -235,7 +235,7 @@ The direction is strapped with a wire and cannot be turned around. Turning a 74A
 | U6   | 74ACT245 | Address A8–A15, toward the bus                  | `LS_BUS_OE*`                                                      |
 | U7   | 74ACT245 | Address A16–A23, toward the bus                 | `LS_BUS_OE*`                                                      |
 | U8   | 74ACT245 | The seven status lines, toward the bus          | `LS_BUS_OE*`                                                      |
-| U9   | 74ACT245 | pSYNC, pSTVAL*, pDBIN, pWR*, toward the bus     | `LS_BUS_OE*`                                                      |
+| U9   | 74ACT245 | pSYNC, pSTVAL*, pDBIN, pWR*, toward the bus     | `LS_BUS_OE`*                                                      |
 | U10  | 74ACT245 | PHI, pHLDA, PWAIT, CLOCK, PINTE, toward the bus | Tied on. Inputs pulled down.                                      |
 | U11  | 74ACT245 | Data out, DO0–DO7, toward the bus               | `LS_DO_OE*`                                                       |
 | U12  | 74ACT245 | FPGA toward the front-panel cable               | Off while the panel is active, and until the FPGA enables the bus |
@@ -252,7 +252,7 @@ U15, U16, and U17 make the front-panel steering and the memory-write pulse. They
 
 - U15 is a 74HCT04 inverter. One gate turns SSW DSB* into the opposite sense. A 3.3 V high is a valid high for this gate.
 - U16 is a 74HCT32, two OR gates. While the front panel pulls SSW DSB* low, one gate forces the DI chip off and the other forces the cable driver off, even if the FPGA is asking to read. The cable driver is also held off until the FPGA enables the bus, so it stays quiet during configuration.
-- U17 is a 74HCT02 NOR gate. Its output is high only when pWR* is low and sOUT is low, which is exactly a memory write. Header **JP1** connects that output to MWRT. **Leave the jumper off.** In an IMSAI the CP-A drives MWRT, and two drivers on that wire would fight. Fit the jumper only in a chassis that has no front panel and whose memory cards expect the processor card to create MWRT. U17 is a small gate (about 4 mA). That is enough for a short bus; a chassis with many memory cards may want a stronger driver later.
+- U17 is a 74HCT02 NOR gate. Its output is high only when pWR* is low and sOUT is low, which is exactly a memory write. Header **JP1** connects that output to MWRT. **Leave the jumper off.** In an IMSAI the CP-A drives MWRT, and two drivers on that wire would fight. Fit the jumper only in a chassis *that has no front panel* and whose memory cards expect the processor card to create MWRT. U17 is a small gate (about 4 mA). That is enough for a short bus; a chassis with many memory cards may want a stronger driver later.
 
 ### The open-collector translators
 
@@ -327,27 +327,27 @@ Watch the bus with the front panel first. A logic analyser on pSYNC, PHI, pDBIN,
 
 ### The cable and deposit
 
- 1. Unplug the ribbon cable, leave RUN on, and confirm the count still runs. Plug it back.
- 2. STOP the machine. Set the data switches to a recognisable pattern such as A5 hex (1010 0101). Press DEPOSIT, with a memory card in the machine at the address shown on the lamps. MWRT (pin 68) must pulse once, and it must come from the front panel: JP1 is open, so this board is not driving it. EXAMINE will not bring that address back (see above), so check the stored byte by reading that memory another way, or by stopping at the same address again and looking at the data lamps.
- 3. During that deposit, SSW DSB* goes low, the DI transceiver is off, and the byte on DO matches the data switches. This is the check that U9, U12, and the data-out repeater are wired the right way.
- 4. Press EXAMINE. The address lamps will step, not jump to the address switches. On a logic analyser you should still see the panel pull SSW DSB* low and place `C3`, then the low address byte, then the high address byte, on the cable. Seeing those bytes proves the cable and the transceiver. The lamps not jumping proves only that the demo is not a processor, which is expected.
+1. Unplug the ribbon cable, leave RUN on, and confirm the count still runs. Plug it back.
+2. STOP the machine. Set the data switches to a recognisable pattern such as A5 hex (1010 0101). Press DEPOSIT, with a memory card in the machine at the address shown on the lamps. MWRT (pin 68) must pulse once, and it must come from the front panel: JP1 is open, so this board is not driving it. EXAMINE will not bring that address back (see above), so check the stored byte by reading that memory another way, or by stopping at the same address again and looking at the data lamps.
+3. During that deposit, SSW DSB* goes low, the DI transceiver is off, and the byte on DO matches the data switches. This is the check that U9, U12, and the data-out repeater are wired the right way.
+4. Press EXAMINE. The address lamps will step, not jump to the address switches. On a logic analyser you should still see the panel pull SSW DSB* low and place `C3`, then the low address byte, then the high address byte, on the cable. Seeing those bytes proves the cable and the transceiver. The lamps not jumping proves only that the demo is not a processor, which is expected.
 
 ### Wait from a memory card, and bus borrowing
 
- 1. If you have a card that pulls RDY (pin 72) low to ask for wait states, confirm that PWAIT lights for those cycles and that the cycle completes once RDY is released. The demo treats RDY and XRDY the same way.
- 2. If you have a direct-memory-access card, confirm that HOLD*low makes this board raise pHLDA, release the address, status, strobe, and data-out wires, and keep PHI, CLOCK, PWAIT, and PINTE running. When HOLD* is released, the count resumes. This is optional; the demo itself never generates a hold.
+1. If you have a card that pulls RDY (pin 72) low to ask for wait states, confirm that PWAIT lights for those cycles and that the cycle completes once RDY is released. The demo treats RDY and XRDY the same way.
+2. If you have a direct-memory-access card, confirm that HOLD*low makes this board raise pHLDA, release the address, status, strobe, and data-out wires, and keep PHI, CLOCK, PWAIT, and PINTE running. When HOLD* is released, the count resumes. This is optional; the demo itself never generates a hold.
 
 ### Things the demo will not show
 
- 1. PINTE stays off. INT*and NMI* can be asserted by another card and this board will see them, but the demo does not act on them.
- 2. The halt lamp stays off. The demo never executes HLT.
- 3. EXAMINE, EXAMINE NEXT, and DEPOSIT NEXT do not move the address to the switches or to the next address. That behaviour arrives with the processor core.
- 4. No instruction, no CP/M, and no front-panel program switch will execute.
+1. PINTE stays off. INT*and NMI* can be asserted by another card and this board will see them, but the demo does not act on them.
+2. The halt lamp stays off. The demo never executes HLT.
+3. EXAMINE, EXAMINE NEXT, and DEPOSIT NEXT do not move the address to the switches or to the next address. That behaviour arrives with the processor core.
+4. No instruction, no CP/M, and no front-panel program switch will execute.
 
 ### After the demo looks right
 
- 1. Pin 25 can stay as pSTVAL*. The CP-A revision 4 stop circuit uses pin 24 and data-out bit 5, not pin 25. The pin-25 option in the FPGA program drives Φ1 instead, for a chassis whose front panel was built around that older clock. It is not required for this CP-A.
- 2. Only when this list is green does it make sense to replace the demo with the 8085 and raise the clock. The board is laid out for up to 6 MHz. The backplane terminator is required at that speed. The 8085 program has to use the same request-and-acknowledge handshake as the demo: keep the request stable until the acknowledge, and present the next request within half a tick if cycles should run back to back.
+1. Pin 25 can stay as pSTVAL*. The CP-A revision 4 stop circuit uses pin 24 and data-out bit 5, not pin 25. The pin-25 option in the FPGA program drives Φ1 instead, for a chassis whose front panel was built around that older clock. It is not required for this CP-A.
+2. Only when this list is green does it make sense to replace the demo with the 8085 and raise the clock. The board is laid out for up to 6 MHz. The backplane terminator is required at that speed. The 8085 program has to use the same request-and-acknowledge handshake as the demo: keep the request stable until the acknowledge, and present the next request within half a tick if cycles should run back to back.
 
 ## Before you order the board
 
