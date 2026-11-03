@@ -9,11 +9,10 @@ This project contains the following components:
 
 ## S-100 Backplane (Motherboard)
 
-This design was derived from [s100Computers](https://www.s100computers.com/My%20System%20Pages/S100%20Motherboard/S100%20Motherboard.htm). The KiCad files were cleaned an ported to KiCad V10.
 The PCB here was not tested or used. I just ordered the board from [SmallRun](https://smallrun.net/shop/retrodisks/9-slot-s100-motherboard-with-integrated-power).
 The Source of this version can be found on [GitHub](https://github.com/nullvalue0/S100MotherboardV5)
 
-See folder `./S100_Backplane_V4`
+See folder `./S100MotherboardV5`
 
 ## S-100 Front Panel (CP-A)
 

@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "S100-Footprints")(type "KiCad")(uri "${KIPRJMOD}/S100-Footprints.pretty")(options "")(descr "Footprints for the S-100 backplane"))
-)

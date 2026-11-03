@@ -1,0 +1,3 @@
+[submodule "S100MotherboardV5"]
+	path = S100MotherboardV5
+	url = git@github.com:eilers/S100MotherboardV5.git
