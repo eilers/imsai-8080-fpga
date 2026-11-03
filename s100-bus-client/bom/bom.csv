@@ -1,0 +1,15 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,KiLib_Generator,Description,AN,MIXED,HELPURL,H-ART
+C1,1,100uF,CP_Radial_D10.0mm_P5.00mm,,,,tht,capacitor/THT/other,,,,,
+"C10, C11, C12, C13, C14, C15, C2, C4, C6",9,100nF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,capacitor/THT/other,Decoupling capacitor,,,,
+"C3, C5",2,10uF,CP_Radial_D6.3mm_P2.50mm,,,,tht,capacitor/THT/other,,,,,
+F1,1,3A,Fuse_Bourns_MF-RHT300,,,,tht,fuse,,,,,
+"H1, H2",2,Ejector,s100-ejector,,,,tht,,,,,,
+"J3, J4",2,Precision Female Header 2.54mm 50pol.,PinSocket_2x25_TE_North,,,,tht,,Buchsenleiste 2 reihig präz. 50pol.,28028,THT,B~{:}A~{D}adli~{b}datashee~{t}153,153-050-2-50-00
+P1,1,S100_MALE,s100-edge-connector-male,,,,tht,,,,,,
+"Q1, Q2",2,TN0702N3-G,TO-92,,,,tht,,"N-channel MOSFET, gate held at 3.3 V, FPGA listens only",,,,
+"R10, R11, R12, R13",4,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,,tht,resistor/THT,Pull-up resistor,,,,
+U1,1,L7805,TO-220-3_Vertical,,,,tht,package/TO_SOT/THT,,,,,
+"U10, U11, U12, U13, U14",5,74LVC245A,DIP-20_W7.62mm,,,,tht,package/DIP/legacy,"[U10]Address A0-A7 receiver, bus B side to FPGA A side; [U11]Address A8-A15 receiver, bus B side to FPGA A side; [U12]Address A16-A23 receiver, bus B side to FPGA A side; [U13]Strobe receiver, bus B side to FPGA A side; [U14]Data-out receiver, bus DO on B, shared FPGA data on A",,,,
+U15,1,74ACT245,DIP-20_W7.62mm,,,,tht,package/DIP/legacy,"Data-in driver, shared FPGA data on A, bus DI on B",,,,
+U2,1,LM1117T-3.3,TO-220-3_Vertical,,,,tht,package/TO_SOT/THT,,,,,
+U4,1,SNAP for TE0725 (73x35 mm),TE0725_Snap,,,,tht,,Snap for TE0725 (73x35mm),27270,SMT,,
