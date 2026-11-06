@@ -13719,6 +13719,19 @@
 		(layer "Edge.Cuts")
 		(uuid "0dd3f7fd-ca77-4b4a-a3bd-c2669b39dd5d")
 	)
+	(gr_text "S-100 Bus Client\nby Stefan Eilers\nRev. 0 - 30.10.2026 \nhttps://github.com/eilers/imsai-8080-fpga"
+		(at 217.5 140 0)
+		(layer "F.Cu")
+		(uuid "474ab399-c7a4-4a1d-bca7-2dcbf683415d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 201.7 104.2)
 		(end 201.9 104.4)
